@@ -23,7 +23,7 @@ icon: envelope-circle-check
 * карточка клиента с данными и действиями
 {% endhint %}
 
-### Краткая выжимка по подвкладкам:
+### Краткая выжимка по вкладкам:
 
 {% hint style="info" %}
 <a href="inbox-control.md" class="button secondary" data-icon="inbox-full">Inbox Control</a>
