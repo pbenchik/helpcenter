@@ -164,8 +164,7 @@ icon: user-magnifying-glass
 Особенности:
 
 * имя лида заменяется на `ChatterfyID`
-* фото скрывается
-* `Telegram ID` скрывается
+* &#x20;скрывается `USERNAME`
 {% endhint %}
 
 </details>
