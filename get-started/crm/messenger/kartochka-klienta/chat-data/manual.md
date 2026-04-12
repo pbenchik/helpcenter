@@ -9,7 +9,8 @@ icon: hands
 > * #### Sale stage
 > * #### Status
 > * #### Flow
-> * #### Step Manager
+> * #### Step&#x20;
+> * #### Manager
 > * #### Tags
 
 <div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2238.png" alt=""><figcaption></figcaption></figure></div>
