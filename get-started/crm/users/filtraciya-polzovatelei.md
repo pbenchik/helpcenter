@@ -1,0 +1,47 @@
+---
+icon: filter
+---
+
+# Фильтрация пользователей
+
+> ### Фильтры помогают быстро находить нужных пользователей по заданным параметрам.
+
+### **Чтобы открыть фильтрацию, нажмите Filters**:
+
+{% hint style="info" %}
+*
+
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2206.png" alt=""><figcaption></figcaption></figure></div>
+* #### Настройте нужные вам фильтры что бы отфильтровать пользователей&#x20;
+* <a href="../messenger/custom-filters/kak-ispolzovat-smart-filters.md" class="button secondary">Видео как настроить фильтры</a>&#x20;
+*
+
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2205.png" alt=""><figcaption></figcaption></figure></div>
+{% endhint %}
+
+***
+
+### Доступны следующие параметры:
+
+{% hint style="info" %}
+* **Step** — шаг пользователя
+* **Flow** — текущий флоу
+* **Tags** — <a href="../../bot-settings/crm-nastroiki/tags.md" class="button secondary" data-icon="hashtag">Tags</a>
+* **Custom Fields** — <a href="../../bot-settings/custom-fields.md" class="button secondary" data-icon="braille">Custom Fields</a>
+* **Tracker Field** — <a href="../messenger/kartochka-klienta/chat-data/tracker-data.md" class="button secondary" data-icon="file-shield">Tracker Field</a>
+* **Assign** — <a href="../../bot-settings/crm-nastroiki/assign-manager.md" class="button secondary" data-icon="person-circle-exclamation">Assign</a>
+* **Status** — <a href="../messenger/chat-status.md" class="button secondary" data-icon="chart-simple-horizontal">Chat status</a>
+* **Sale Stage** — <a href="../../bot-settings/sale-status.md" class="button secondary" data-icon="calendar">Sale Status</a>
+* **Events** — <a href="../messenger/kartochka-klienta/events/" class="button secondary" data-icon="calendar-circle-exclamation">Events</a>
+* **Total Deposit** — сумма депозитов
+* **Created At** — дата создания чата
+{% endhint %}
+
+{% hint style="info" %}
+Настроенные фильтры можно сохранить:
+
+* сохранённые варианты доступны в **My Filters**
+* это удобно для регулярной работы и анализа
+{% endhint %}
+
+{% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}
