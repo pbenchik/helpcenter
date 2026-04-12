@@ -150,6 +150,7 @@ icon: user-magnifying-glass
 
 * нет доступа к настройкам ботов
 * нет доступа к скриптам продаж
+*
 {% endhint %}
 
 </details>
