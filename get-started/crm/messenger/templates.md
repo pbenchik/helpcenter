@@ -21,17 +21,16 @@ icon: block
 
 ### Кнопка Import Templates - импорт шаблонов из другого бота:
 
-{% hint style="info" %}
-<img src="../../../.gitbook/assets/Frame 2201.png" alt="" data-size="original">
-{% endhint %}
+<figure><img src="../../../.gitbook/assets/Frame 2201.png" alt=""><figcaption></figcaption></figure>
 
 ### **Создание шаблона**:
 
 {% hint style="info" %}
 * #### Нажмите New Template и заполните:
 * Template ID - Используется для вызова через #
+*
 
-<img src="../../../.gitbook/assets/Frame 2202.png" alt="" data-size="original">
+    <figure><img src="../../../.gitbook/assets/Frame 2202.png" alt=""><figcaption></figcaption></figure>
 {% endhint %}
 
 {% hint style="info" %}
@@ -48,6 +47,12 @@ icon: block
 * Document
 * Video note
 * Voice
+{% endhint %}
+
+### Важно
+
+{% hint style="warning" %}
+**Важно:** Шаблоны (темплейты) создаются в рамках всего бота или личного чата (лички), а не привязываются к отдельному аккаунту сотрудника. Это означает, что доступ к созданным шаблонам будут иметь **все сотрудники**, у которых есть доступ к данному боту или личке. Другими словами, шаблоны являются общими для всей команды, работающей в этом пространстве.
 {% endhint %}
 
 ### Содержание:
