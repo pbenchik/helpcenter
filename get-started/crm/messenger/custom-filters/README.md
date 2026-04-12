@@ -16,6 +16,8 @@ icon: bookmark
 {% step %}
 {% hint style="info" %}
 * #### Откройте Custom Filters
+* Перейдте в Bot Settings  \
+
 * Перейдите в раздел **Custom Filters**.
 *
 
