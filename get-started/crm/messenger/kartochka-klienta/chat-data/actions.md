@@ -20,7 +20,17 @@ icon: cloud-binary
 *
 
     <div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2243.png" alt=""><figcaption></figcaption></figure></div>
+
+
 {% endhint %}
+
+{% hint style="danger" %}
+Важно
+
+* Если **вы не являетесь владельцем (Owner) или администратором (Admin)** — поэтому блок скрыт или недоступен.
+{% endhint %}
+
+<br>
 
 {% include "../../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}
 
