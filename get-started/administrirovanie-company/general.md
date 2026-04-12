@@ -35,7 +35,9 @@ icon: crown
 {% hint style="info" %}
 **Перейдите в раздел General**
 
-* ![](<../../.gitbook/assets/Frame 2169.png>)
+*
+
+    <figure><img src="../../.gitbook/assets/Frame 2169.png" alt=""><figcaption></figcaption></figure>
 {% endhint %}
 {% endstep %}
 {% endstepper %}
@@ -67,7 +69,9 @@ icon: crown
 Оно показывается в интерфейсе платформы.
 {% endhint %}
 
-* ![](<../../.gitbook/assets/image 32562.png>)
+*
+
+    <figure><img src="../../.gitbook/assets/image 32562.png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -87,7 +91,9 @@ icon: crown
 Его можно только скопировать.
 {% endhint %}
 
-* ![](<../../.gitbook/assets/Frame 2100.png>)
+*
+
+    <figure><img src="../../.gitbook/assets/Frame 2100.png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
