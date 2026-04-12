@@ -70,7 +70,7 @@ icon: chart-simple-horizontal
 
     <figure><img src="../../../.gitbook/assets/Frame 2233.png" alt=""><figcaption></figcaption></figure>
 
-Статус присваивается автоматически, если пользователь находился в Manual более 10 минут
+Статус присваивается автоматически, если пользователь находился в Manual.
 {% endhint %}
 
 ### **Blocked**:
