@@ -131,6 +131,11 @@ icon: user-magnifying-glass
 * создание и редактирование скриптов продаж
 {% endhint %}
 
+{% hint style="danger" %}
+* Не имеет доступа к раделу Logs.&#x20;
+* Не может удалять диалоги и не может скачивать диалоги.
+{% endhint %}
+
 </details>
 
 <details>
