@@ -87,7 +87,7 @@ icon: inbox-full
 * **Created At** — дата создания чата
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 1437256012.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 1437256012.png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 ### **Default и Smart Filters**:
@@ -99,7 +99,7 @@ icon: inbox-full
 * Он даёт доступ ко всем доступным параметрам, включая кастомные поля, события, этапы продаж, депозиты и другие данные.
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 1437256012 (1).png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 1437256012 (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 ### **Custom Filters**:
@@ -110,7 +110,7 @@ icon: inbox-full
 * Настройка выполняется в разделе **Bot Settings → Custom Filters**.
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 1437256012 (2).png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 1437256012 (2).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 ### **My Filters**:
@@ -124,7 +124,7 @@ icon: inbox-full
 * После этого фильтр появится в разделе **My Filters**.
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 1437256012 (3).png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 1437256012 (3).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 {% hint style="info" %}
