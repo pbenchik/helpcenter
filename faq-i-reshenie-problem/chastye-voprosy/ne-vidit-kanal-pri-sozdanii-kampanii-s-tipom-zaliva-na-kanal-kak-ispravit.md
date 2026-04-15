@@ -7,7 +7,9 @@
 
 Если ничего из этого нет, удалите бота из канала и добавьте его заново с правами администратора
 
-<img src="../../.gitbook/assets/ezgif-77d8dab17b663f14 (1).gif" alt="Права администратора для бота" data-size="original">
+*
+
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/ezgif-77d8dab17b663f14 (1).gif" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 <a href="./" class="button secondary">Частые вопросы</a>

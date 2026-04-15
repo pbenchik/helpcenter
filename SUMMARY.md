@@ -161,9 +161,14 @@
 ## FAQ и решение проблем
 
 * [Типы ошибок](faq-i-reshenie-problem/tipy-oshibok/README.md)
+  * [Ошибка: fbclid is empty в логах источников](faq-i-reshenie-problem/tipy-oshibok/oshibka-fbclid-is-empty-v-logakh-istochnikov.md)
+  * [Ошибка: Post "https://graph.facebook.com/ ..." в логах источников](faq-i-reshenie-problem/tipy-oshibok/oshibka-post-https-graph.facebook.com-...-v-logakh-istochnikov.md)
   * [Ошибка 400](faq-i-reshenie-problem/tipy-oshibok/oshibka-400.md)
   * [Ошибка 403](faq-i-reshenie-problem/tipy-oshibok/oshibka-403.md)
 * [Частые вопросы](faq-i-reshenie-problem/chastye-voprosy/README.md)
+  * [Бот перестал принимать заявки в канал — в чём причина?](faq-i-reshenie-problem/chastye-voprosy/bot-perestal-prinimat-zayavki-v-kanal-v-chyom-prichina.md)
+  * [Обязательно ли держать баланс выше $100?](faq-i-reshenie-problem/chastye-voprosy/obyazatelno-li-derzhat-balans-vyshe-usd100.md)
+  * [AI долго отвечает / медленно работает](faq-i-reshenie-problem/chastye-voprosy/ai-dolgo-otvechaet-medlenno-rabotaet.md)
   * [Не видит канал при создании кампании с типом залива "На канал", как исправить ?](faq-i-reshenie-problem/chastye-voprosy/ne-vidit-kanal-pri-sozdanii-kampanii-s-tipom-zaliva-na-kanal-kak-ispravit.md)
   * [Сделал импорт флоу, поменял часть шагов, но бот все равно ведет по старой воронке](faq-i-reshenie-problem/chastye-voprosy/sdelal-import-flou-pomenyal-chast-shagov-no-bot-vse-ravno-vedet-po-staroi-voronke.md)
   * [Почему ИИ не пропускает если лид дал ответ](faq-i-reshenie-problem/chastye-voprosy/pochemu-ii-ne-propuskaet-esli-lid-dal-otvet.md)
