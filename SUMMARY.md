@@ -4,6 +4,7 @@
 
 * [Добро пожаловать](README.md)
   * [О продукте](get-started/dobro-pozhalovat/o-produkte/README.md)
+    * [Как пользоваться Help Center](get-started/dobro-pozhalovat/o-produkte/kak-polzovatsya-help-center.md)
     * [Что такое Chatterfy](get-started/dobro-pozhalovat/o-produkte/chto-takoe-chatterfy.md)
     * [Как создать аккаунт](get-started/dobro-pozhalovat/o-produkte/kak-sozdat-akkaunt/README.md)
       * [Тестовый период](get-started/dobro-pozhalovat/o-produkte/kak-sozdat-akkaunt/testovyi-period.md)

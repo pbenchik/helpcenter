@@ -41,7 +41,7 @@ icon: bookmark
 * Нажмите **Add Condition**.
 *
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2235.png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2235 (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 {% endstep %}
 
@@ -62,7 +62,7 @@ icon: bookmark
 * Нажмите **Apply**.
 *
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2235 (1).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2235 (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 {% endstep %}
 {% endstepper %}
