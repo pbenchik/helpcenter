@@ -4,7 +4,9 @@
 Переписка с ботом с самого начала начнется только в том случае, если Вы очистите диалог в CRM. То есть только если Вы предварительно перейдете в карточку клиента, спуститесь вниз до кнопки Clear Chat и нажмете на нее.\
 В ином случае, если человек с неочищенным чатом нажмет /start, то переписка не начнется с первого шага.
 
-<img src="../../.gitbook/assets/ezgif-2439a4f5deae3904.gif" alt="Кнопка Clear Chat" data-size="original">
+*
+
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/ezgif-2439a4f5deae3904.gif" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 <a href="./" class="button secondary">Частые вопросы</a>
