@@ -11,10 +11,10 @@ icon: eye-slash
 
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 2249.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Comp-1_9 (1).gif" alt=""><figcaption></figcaption></figure></div>
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 2248 (49).png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2248 (49).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 {% hint style="info" %}

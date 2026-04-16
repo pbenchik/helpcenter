@@ -1,8 +1,5 @@
 ---
 icon: user-group
-cover: ../../../.gitbook/assets/Frame 2142 (11).png
-coverY: 0
-coverHeight: 260
 ---
 
 # Users

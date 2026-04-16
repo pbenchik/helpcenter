@@ -13,7 +13,7 @@ icon: user-group
 * **Chat ID** - уникальный идентификатор чата
 *
 
-    <figure><img src="../../../../../.gitbook/assets/Frame 2240.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2240.png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 {% include "../../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}
