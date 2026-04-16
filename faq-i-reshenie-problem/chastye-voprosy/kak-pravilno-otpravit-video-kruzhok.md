@@ -5,7 +5,9 @@
 {% hint style="info" %}
 Файлам типа Video note нужно заранее придать форму кружка, использовать кодек h.265, а также вес должен быть до 10 мб.
 
-<img src="../../.gitbook/assets/ezgif-5f44805331d3f6fd.gif" alt="Параметры для video note" data-size="original">
+*
+
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/ezgif-5f44805331d3f6fd.gif" alt=""><figcaption></figcaption></figure></div>
 
 <a href="https://www.freeconvert.com/download" class="button secondary">Сайт для конвертации</a>
 {% endhint %}

@@ -9,7 +9,9 @@
 Мы рекомендуем использовать кодек H.265 - он позволяет значительно уменьшить размер файла без критической потери качества и без дополнительный ресайзов с Вашей стороны.\
 Также на нашей платформе разрешенный размер медиа - **до 20 МБ** при отправке медиафайлов (не распространяется на документы).
 
-<img src="../../.gitbook/assets/ezgif-5f44805331d3f6fd.gif" alt="Рекомендованные параметры видео" data-size="original">
+*
+
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/ezgif-5f44805331d3f6fd.gif" alt=""><figcaption></figcaption></figure></div>
 
 <a href="https://www.freeconvert.com/download" class="button secondary">Сайт для конвертации</a>
 {% endhint %}

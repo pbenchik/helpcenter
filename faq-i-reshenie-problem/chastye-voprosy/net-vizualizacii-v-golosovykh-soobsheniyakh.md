@@ -5,7 +5,9 @@
 {% hint style="info" %}
 Голосовые сообщения необходимо загружать в формате .ogg с кодеком opus
 
-<img src="../../.gitbook/assets/ezgif-43154ed4f3ec136a.gif" alt="Формат голосового сообщения" data-size="original">
+*
+
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/ezgif-43154ed4f3ec136a.gif" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 <a href="./" class="button secondary">Частые вопросы</a>

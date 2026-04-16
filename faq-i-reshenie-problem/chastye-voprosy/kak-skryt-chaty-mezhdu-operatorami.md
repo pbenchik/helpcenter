@@ -10,7 +10,9 @@ Show only assigned chat - тогда обработчики смогут вид�
 \
 Show assigned + unassigned chats - смогут видеть неназначенные чаты и за которыми закреплены.
 
-<img src="../../.gitbook/assets/ezgif-51c6692fdc281770.gif" alt="Настройки Assignment Managers" data-size="original">
+*
+
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/ezgif-51c6692fdc281770.gif" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 Разделять чаты можно как вручную при их выборе во вкладке Users по кнопке Edit Chats, так и с помощью степа Operator.
