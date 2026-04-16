@@ -1,10 +1,8 @@
 # Table of contents
 
-* [Как пользоваться Help Center](README.md)
-
 ## GET STARTED
 
-* [Добро пожаловать](<README (1).md>)
+* [Добро пожаловать](README.md)
   * [О продукте](get-started/dobro-pozhalovat/o-produkte/README.md)
     * [Что такое Chatterfy](get-started/dobro-pozhalovat/o-produkte/chto-takoe-chatterfy.md)
     * [Как создать аккаунт](get-started/dobro-pozhalovat/o-produkte/kak-sozdat-akkaunt/README.md)
@@ -15,6 +13,7 @@
     * [Spaces - рабочие пространства](get-started/dobro-pozhalovat/arkhitektura-sistemy/spaces-rabochie-prostranstva.md)
     * [CRM - работа с клиентами](get-started/dobro-pozhalovat/arkhitektura-sistemy/crm-rabota-s-klientami.md)
     * [Tracker - отслеживание трафика](get-started/dobro-pozhalovat/arkhitektura-sistemy/tracker-otslezhivanie-trafika.md)
+* [Как пользоваться Help Center](get-started/kak-polzovatsya-help-center.md)
 * [Быстрый старт](get-started/bystryi-start/README.md)
   * [Создание Space](get-started/bystryi-start/sozdanie-space.md)
   * [Приглашение сотрудников](get-started/bystryi-start/priglashenie-sotrudnikov/README.md)
