@@ -70,17 +70,17 @@ icon: bookmark
 ### Сейчас доступны следующие переменные для фильтрации:
 
 {% hint style="info" %}
-* Step - шаг, на котором находится пользователь
-* Flow - флоу, в котором находится пользователь
-* Tags - наличие или отсутствие одного или нескольких тегов (\[подробнее про Tags])
-* Custom Fields - значения кастомных полей (\[подробнее про Custom Fields])
-* Tracker Field - значения трекерных полей (\[подробнее про Tracker Fields])
-* Assign - назначенный менеджер (подробнее про Assign)
-* Status - статус пользователя (\[подробнее про Status])
-* Sale Stage - этап продаж (\[подробнее про Sale Status])
-* Events - события (\[подробнее про Events])
-* Total Deposit - сумма депозитов
-* Created At - дата и время создания чата с лидом
+* **Step** — шаг пользователя
+* **Flow** — текущий флоу
+* **Tags** — <a href="../../../bot-settings/crm-nastroiki/tags.md" class="button secondary" data-icon="hashtag">Tags</a>
+* **Custom Fields** — <a href="../../../bot-settings/custom-fields.md" class="button secondary" data-icon="braille">Custom Fields</a>
+* **Tracker Field** — <a href="../kartochka-klienta/chat-data/tracker-data.md" class="button secondary" data-icon="file-shield">Tracker Field</a>
+* **Assign** — <a href="../../../bot-settings/crm-nastroiki/assign-manager.md" class="button secondary" data-icon="person-circle-exclamation">Assign</a>
+* **Status** — <a href="../chat-status.md" class="button secondary" data-icon="chart-simple-horizontal">Chat status</a>
+* **Sale Stage** — <a href="../../../bot-settings/sale-status.md" class="button secondary" data-icon="calendar">Sale Status</a>
+* **Events** — <a href="../kartochka-klienta/events/" class="button secondary" data-icon="calendar-circle-exclamation">Events</a>
+* **Total Deposit** — сумма депозитов
+* **Created At** — дата создания чата
 {% endhint %}
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}
