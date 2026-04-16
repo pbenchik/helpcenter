@@ -76,7 +76,7 @@ layout:
 
 ### С чего начать:
 
-<table data-view="cards"><thead><tr><th>Раздел</th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Быстрый старт</td><td><a href=".gitbook/assets/Frame 2081.png">Frame 2081.png</a></td><td><a href="get-started/bystryi-start/">bystryi-start</a></td></tr><tr><td>Как создать аккаунт</td><td><a href=".gitbook/assets/Frame 2127 (1).png">Frame 2127 (1).png</a></td><td><a href="get-started/dobro-pozhalovat/o-produkte/kak-sozdat-akkaunt/">kak-sozdat-akkaunt</a></td></tr><tr><td>Архитектура системы</td><td><a href=".gitbook/assets/Frame 2128.png">Frame 2128.png</a></td><td><a href="get-started/dobro-pozhalovat/arkhitektura-sistemy/">arkhitektura-sistemy</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th>Раздел</th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Быстрый старт</td><td><a href=".gitbook/assets/Монтажная область – 17.png">Монтажная область – 17.png</a></td><td><a href="get-started/bystryi-start/">bystryi-start</a></td></tr><tr><td>Как создать аккаунт</td><td><a href=".gitbook/assets/Монтажная область – 18.png">Монтажная область – 18.png</a></td><td><a href="get-started/dobro-pozhalovat/o-produkte/kak-sozdat-akkaunt/">kak-sozdat-akkaunt</a></td></tr><tr><td>Архитектура системы</td><td><a href=".gitbook/assets/Монтажная область – 19.png">Монтажная область – 19.png</a></td><td><a href="get-started/dobro-pozhalovat/arkhitektura-sistemy/">arkhitektura-sistemy</a></td></tr></tbody></table>
 
 {% include ".gitbook/includes/start-i-obzoro-produktearkhi....md" %}
 
