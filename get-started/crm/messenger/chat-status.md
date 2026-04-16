@@ -14,7 +14,7 @@ icon: chart-simple-horizontal
 * управления логикой обработки диалогов
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 2137.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2137.png" alt=""><figcaption></figcaption></figure></div>
 
 <mark style="color:$warning;">**Где настраиваются статусы?**</mark>
 
@@ -32,7 +32,7 @@ icon: chart-simple-horizontal
 
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 2226.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2226.png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 ### Manual:
@@ -42,7 +42,7 @@ icon: chart-simple-horizontal
 
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 2225.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2225.png" alt=""><figcaption></figcaption></figure></div>
 
 Например:
 
@@ -58,7 +58,7 @@ icon: chart-simple-horizontal
 
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 2227.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2227.png" alt=""><figcaption></figcaption></figure></div>
 
 Диалог не будет двигаться дальше по воронке, пока пользователь не ответит каким-либо сообщением..
 {% endhint %}
@@ -68,7 +68,7 @@ icon: chart-simple-horizontal
 {% hint style="info" %}
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 2233.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2233.png" alt=""><figcaption></figcaption></figure></div>
 
 Статус присваивается автоматически, если пользователь находился в Manual.
 {% endhint %}
@@ -78,7 +78,7 @@ icon: chart-simple-horizontal
 {% hint style="info" %}
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 2232.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2232.png" alt=""><figcaption></figcaption></figure></div>
 * В этом статусе мы можем отправлять сообщения и пользователь будет их получать. Если пользователь будет нам что-то писать находясь в этом статусе, то мы не будем получать его сообщения
 {% endhint %}
 
@@ -88,7 +88,7 @@ icon: chart-simple-horizontal
 * Чаты с ошибками от ИИ.
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 2228.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2228.png" alt=""><figcaption></figcaption></figure></div>
 * Если вы сталкиваетесь с этим статусом - сначала попробуйте перевести в статус Auto. В случае, если ошибка сохранится - рекомендуется обратиться в технический чат.
 {% endhint %}
 
@@ -98,7 +98,7 @@ icon: chart-simple-horizontal
 * Статус Stopped означает, что бот/личка получил ошибку о том, что он не может больше отправлять сообщения в чат.
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 2229.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2229.png" alt=""><figcaption></figcaption></figure></div>
 * Например, пользователь заблокировал вашего бота/личку и бот/личка больше не может писать ему.&#x20;
 
 То есть, бот/личка получил ошибку о том, что он не может больше отправлять сообщения в чат. Также, это может быть ошибкой от Telegram - например, попадание в лимиты после принятия заявки/открытый канал.
@@ -113,7 +113,7 @@ icon: chart-simple-horizontal
 * В таком случае ИИ больше не будет отвечать, а пуш-уведомления прекратятся.
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 2231.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2231.png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 {% hint style="info" %}

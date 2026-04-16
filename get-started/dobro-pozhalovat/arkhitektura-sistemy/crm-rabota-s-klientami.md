@@ -73,7 +73,7 @@ CRM помогает работать со всей базой пользова�
 * работать с шаблонами и переводчиком
 *
 
-    <figure><img src="../../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 </details>
@@ -93,7 +93,7 @@ CRM помогает работать со всей базой пользова�
 * менять sale status и custom data
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 2170 (1).png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2170 (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 </details>
@@ -112,7 +112,7 @@ CRM помогает работать со всей базой пользова�
 * AI-запросы
 *
 
-    <figure><img src="../../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 </details>
@@ -131,7 +131,7 @@ CRM помогает работать со всей базой пользова�
 * проверять ручную отправку событий
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 2171.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2171.png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 </details>
@@ -151,7 +151,7 @@ CRM помогает работать со всей базой пользова�
 * запускать массовые и AI-рассылки
 *
 
-    <figure><img src="../../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 </details>

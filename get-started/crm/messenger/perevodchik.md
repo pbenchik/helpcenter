@@ -42,7 +42,7 @@ icon: earth-americas
 * Так можно перевести сообщение до отправки пользователю.
 *
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2237.png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Comp-1_8.gif" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 
