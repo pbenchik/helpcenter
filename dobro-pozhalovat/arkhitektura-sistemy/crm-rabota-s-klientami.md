@@ -4,7 +4,7 @@ icon: receipt
 
 # CRM - работа с клиентами
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2112 (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2112 (1).png" alt=""><figcaption></figcaption></figure></div>
 
 **CRM** — это рабочая зона для общения с клиентами и управления лидами.
 
@@ -73,7 +73,7 @@ CRM помогает работать со всей базой пользова�
 * работать с шаблонами и переводчиком
 *
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 </details>
@@ -93,7 +93,7 @@ CRM помогает работать со всей базой пользова�
 * менять sale status и custom data
 *
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2170 (1).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2170 (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 </details>
@@ -112,7 +112,7 @@ CRM помогает работать со всей базой пользова�
 * AI-запросы
 *
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 </details>
@@ -131,7 +131,7 @@ CRM помогает работать со всей базой пользова�
 * проверять ручную отправку событий
 *
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2171.png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2171.png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 </details>
@@ -151,7 +151,7 @@ CRM помогает работать со всей базой пользова�
 * запускать массовые и AI-рассылки
 *
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 </details>
@@ -160,4 +160,4 @@ CRM помогает работать со всей базой пользова�
 Базовая логика CRM простая: **входящие диалоги → обработка лида → анализ данных → работа с базой**.
 {% endhint %}
 
-{% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}
+{% include "../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

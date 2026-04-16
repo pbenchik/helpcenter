@@ -90,7 +90,7 @@ icon: clipboard-list-check
 
 {% hint style="info" %}
 * <a href="kak-sozdat-bota-v-telegram.md" class="button secondary" data-icon="telegram">Как создать бота в Telegram</a><a href="podklyuchenie-bota-ili-lichnyi-akkaunt-k-chatterfy.md" class="button secondary" data-icon="plug">Подключение бота или личного аккаунта</a>
-* <a href="../bazovaya-nastroika-bota.md" class="button secondary" data-icon="sliders">Базовая настройка бота</a><a href="../../dobro-pozhalovat/arkhitektura-sistemy/crm-rabota-s-klientami.md" class="button secondary" data-icon="comments">CRM — работа с клиентами</a>
+* <a href="../bazovaya-nastroika-bota.md" class="button secondary" data-icon="sliders">Базовая настройка бота</a><a href="../../../dobro-pozhalovat/arkhitektura-sistemy/crm-rabota-s-klientami.md" class="button secondary" data-icon="comments">CRM — работа с клиентами</a>
 {% endhint %}
 
 {% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

@@ -1,18 +1,19 @@
 # Table of contents
 
+* [Добро пожаловать](README.md)
+  * [О продукте](dobro-pozhalovat/o-produkte/README.md)
+    * [Что такое Chatterfy](dobro-pozhalovat/o-produkte/chto-takoe-chatterfy.md)
+    * [Как создать аккаунт](dobro-pozhalovat/o-produkte/kak-sozdat-akkaunt/README.md)
+      * [Тестовый период](dobro-pozhalovat/o-produkte/kak-sozdat-akkaunt/testovyi-period.md)
+      * [Как пополнить](dobro-pozhalovat/o-produkte/kak-sozdat-akkaunt/kak-popolnit.md)
+  * [Архитектура системы](dobro-pozhalovat/arkhitektura-sistemy/README.md)
+    * [Company - управление компанией](dobro-pozhalovat/arkhitektura-sistemy/company-upravlenie-kompaniei.md)
+    * [Spaces - рабочие пространства](dobro-pozhalovat/arkhitektura-sistemy/spaces-rabochie-prostranstva.md)
+    * [CRM - работа с клиентами](dobro-pozhalovat/arkhitektura-sistemy/crm-rabota-s-klientami.md)
+    * [Tracker - отслеживание трафика](dobro-pozhalovat/arkhitektura-sistemy/tracker-otslezhivanie-trafika.md)
+
 ## GET STARTED
 
-* [Добро пожаловать](README.md)
-  * [О продукте](get-started/dobro-pozhalovat/o-produkte/README.md)
-    * [Что такое Chatterfy](get-started/dobro-pozhalovat/o-produkte/chto-takoe-chatterfy.md)
-    * [Как создать аккаунт](get-started/dobro-pozhalovat/o-produkte/kak-sozdat-akkaunt/README.md)
-      * [Тестовый период](get-started/dobro-pozhalovat/o-produkte/kak-sozdat-akkaunt/testovyi-period.md)
-      * [Как пополнить](get-started/dobro-pozhalovat/o-produkte/kak-sozdat-akkaunt/kak-popolnit.md)
-  * [Архитектура системы](get-started/dobro-pozhalovat/arkhitektura-sistemy/README.md)
-    * [Company - управление компанией](get-started/dobro-pozhalovat/arkhitektura-sistemy/company-upravlenie-kompaniei.md)
-    * [Spaces - рабочие пространства](get-started/dobro-pozhalovat/arkhitektura-sistemy/spaces-rabochie-prostranstva.md)
-    * [CRM - работа с клиентами](get-started/dobro-pozhalovat/arkhitektura-sistemy/crm-rabota-s-klientami.md)
-    * [Tracker - отслеживание трафика](get-started/dobro-pozhalovat/arkhitektura-sistemy/tracker-otslezhivanie-trafika.md)
 * [Как пользоваться Help Center](get-started/kak-polzovatsya-help-center.md)
 * [Быстрый старт](get-started/bystryi-start/README.md)
   * [Создание Space](get-started/bystryi-start/sozdanie-space.md)

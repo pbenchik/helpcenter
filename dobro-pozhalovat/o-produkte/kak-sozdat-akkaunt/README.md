@@ -40,14 +40,14 @@ icon: rectangle-plus
 * пароль
 {% endhint %}
 
-<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2129.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2129.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 * #### После регистрации на почту придёт код подтверждения.
 * Введите его, чтобы завершить создание аккаунта.
 {% endhint %}
 
-<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2130.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2130.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -103,4 +103,4 @@ icon: rectangle-plus
 Без демо-звонка и первого пополнения компания не активируется.
 {% endhint %}
 
-{% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}
+{% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

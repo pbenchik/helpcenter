@@ -174,8 +174,8 @@ Skip the transition to next step
 {% hint style="info" %}
 **Старт и обзор**
 
-* <a href="../../../dobro-pozhalovat/o-produkte/" class="button secondary" data-icon="table">О продукте</a>
-* <a href="../../../dobro-pozhalovat/arkhitektura-sistemy/" class="button secondary" data-icon="sitemap">Архитектура системы</a>
+* <a href="../../../../dobro-pozhalovat/o-produkte/" class="button secondary" data-icon="table">О продукте</a>
+* <a href="../../../../dobro-pozhalovat/arkhitektura-sistemy/" class="button secondary" data-icon="sitemap">Архитектура системы</a>
 * <a href="../../../bystryi-start/" class="button secondary" data-icon="rocket">Быстрый старт</a>
 {% endhint %}
 

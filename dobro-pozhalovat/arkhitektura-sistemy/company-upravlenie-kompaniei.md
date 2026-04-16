@@ -4,7 +4,7 @@ icon: people-roof
 
 # Company - управление компанией
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2115.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2115.png" alt=""><figcaption></figcaption></figure></div>
 
 **Company** — это раздел для управления компанией на уровне всей платформы.
 
@@ -66,4 +66,4 @@ icon: people-roof
 {% endstep %}
 {% endstepper %}
 
-{% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}
+{% include "../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

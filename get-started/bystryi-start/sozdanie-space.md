@@ -78,7 +78,7 @@ icon: sliders
 После создания Space обычно:
 
 * <a href="priglashenie-sotrudnikov/" class="button secondary" data-icon="users">Добавляют сотрудников</a><a href="../administrirovanie-company/spaces/upravlenie-polzovatelyami-vnutri-space.md" class="button secondary" data-icon="user-lock">Выдают доступы</a><a href="sozdanie-i-podklyuchenie-bota/" class="button secondary" data-icon="robot">Подключают ботов</a>
-* <a href="../dobro-pozhalovat/arkhitektura-sistemy/spaces-rabochie-prostranstva.md" class="button secondary" data-icon="layer-group">Распределяют проекты по рабочим пространствам</a>
+* <a href="../../dobro-pozhalovat/arkhitektura-sistemy/spaces-rabochie-prostranstva.md" class="button secondary" data-icon="layer-group">Распределяют проекты по рабочим пространствам</a>
 {% endhint %}
 
 {% hint style="warning" %}

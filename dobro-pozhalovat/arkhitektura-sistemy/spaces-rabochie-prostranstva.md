@@ -4,7 +4,7 @@ icon: planet-ringed
 
 # Spaces - рабочие пространства
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2070 (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2070 (2).png" alt=""><figcaption></figcaption></figure></div>
 
 **Spaces** — это отдельные рабочие пространства внутри компании.
 
@@ -67,4 +67,4 @@ icon: planet-ringed
 {% endstep %}
 {% endstepper %}
 
-{% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}
+{% include "../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

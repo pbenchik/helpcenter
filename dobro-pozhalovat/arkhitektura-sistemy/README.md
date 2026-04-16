@@ -75,7 +75,7 @@ icon: boxes-stacked
 * Системные логи
 *
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image 32635.png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image 32635.png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 </details>
@@ -94,7 +94,7 @@ icon: boxes-stacked
 * Отдельные источники трафика
 *
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 </details>
@@ -114,7 +114,7 @@ CRM используется для работы с лидами и клиент
 * Смотрит историю и данные по лиду
 *
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 </details>
@@ -133,7 +133,7 @@ Tracker нужен для анализа рекламы и событий.
 * Анализировать эффективность кампаний
 *
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 </details>
@@ -142,4 +142,4 @@ Tracker нужен для анализа рекламы и событий.
 Базовая логика системы простая: **Company → Spaces → работа команды в CRM и Tracker**.
 {% endhint %}
 
-{% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}
+{% include "../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

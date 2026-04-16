@@ -4,7 +4,7 @@ icon: clipboard-list-check
 
 # Tracker - отслеживание трафика
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2114.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2114.png" alt=""><figcaption></figcaption></figure></div>
 
 **Tracker** — это раздел для отслеживания трафика, событий и конверсий.
 
@@ -67,7 +67,7 @@ Tracker нужен, чтобы понимать, какие кампании д�
 
 *
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure></div>
 
 Здесь можно:
 
@@ -88,7 +88,7 @@ Tracker нужен, чтобы понимать, какие кампании д�
 
 *
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure></div>
 
 Здесь команда может:
 
@@ -109,12 +109,12 @@ Tracker нужен, чтобы понимать, какие кампании д�
 
 *
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure></div>
 
 
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 1437255980.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Frame 1437255980.png" alt=""><figcaption></figcaption></figure>
 
 Здесь настраиваются:
 
@@ -135,7 +135,7 @@ Tracker нужен, чтобы понимать, какие кампании д�
 
 *
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure></div>
 
 Он помогает:
 
@@ -156,7 +156,7 @@ Tracker нужен, чтобы понимать, какие кампании д�
 
 *
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure></div>
 
 Он помогает:
 
@@ -174,7 +174,7 @@ Tracker нужен, чтобы понимать, какие кампании д�
 
 *
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 </details>
@@ -188,7 +188,7 @@ Tracker нужен, чтобы понимать, какие кампании д�
 
 *
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 </details>
@@ -202,7 +202,7 @@ Tracker нужен, чтобы понимать, какие кампании д�
 
 *
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 </details>
@@ -211,4 +211,4 @@ Tracker нужен, чтобы понимать, какие кампании д�
 Базовая логика Tracker простая: **источник трафика → переход → событие → конверсия → анализ результата**.
 {% endhint %}
 
-{% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}
+{% include "../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

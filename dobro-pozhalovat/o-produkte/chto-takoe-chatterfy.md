@@ -116,4 +116,4 @@ Chatterfy особенно полезен, если вам нужно:
 Chatterfy подходит как для автоматической обработки, так и для работы команды через CRM.
 {% endhint %}
 
-{% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}
+{% include "../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

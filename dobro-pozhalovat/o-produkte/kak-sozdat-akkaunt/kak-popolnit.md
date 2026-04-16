@@ -20,7 +20,7 @@ icon: money-bills
 * #### Перейдите в раздел Company → Billing
 *
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2050.png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2050.png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 {% endstep %}
 
@@ -29,7 +29,7 @@ icon: money-bills
 * Нажмите кнопку Top up balance
 *
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/image 32540.png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image 32540.png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 {% endstep %}
 
@@ -38,7 +38,7 @@ icon: money-bills
 * #### Выберите сеть для пополнения
 *
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/image 32541.png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image 32541.png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 {% hint style="success" icon="info" %}
@@ -54,7 +54,7 @@ icon: money-bills
 * #### Скопируйте адрес кошелька или используйте QR-код для оплаты
 *
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2052.png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2052.png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 {% endstep %}
 
@@ -81,4 +81,4 @@ icon: money-bills
 {% endstep %}
 {% endstepper %}
 
-{% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}
+{% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

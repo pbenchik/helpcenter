@@ -36,4 +36,4 @@ icon: vial
 Если бот быстро набирает 25 диалогов, тестовый период может закончиться раньше 7 дней.
 {% endhint %}
 
-{% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}
+{% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}
