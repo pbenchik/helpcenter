@@ -182,3 +182,4 @@
   * [Как правильно отправить видео-кружок](faq-i-reshenie-problem/chastye-voprosy/kak-pravilno-otpravit-video-kruzhok.md)
   * [Как избежать сжатия видео](faq-i-reshenie-problem/chastye-voprosy/kak-izbezhat-szhatiya-video.md)
   * [Как скрыть чаты между операторами](faq-i-reshenie-problem/chastye-voprosy/kak-skryt-chaty-mezhdu-operatorami.md)
+* [Update log](faq-i-reshenie-problem/update-log.md)
