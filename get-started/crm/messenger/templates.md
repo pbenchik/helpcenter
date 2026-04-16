@@ -38,6 +38,9 @@ icon: block
 * 1 - #1
 * deposit - #deposit
 * oldacc - #oldacc
+*
+
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot_3.jpg" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 {% hint style="info" %}
