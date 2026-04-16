@@ -12,7 +12,7 @@ icon: sack-dollar
 * Здесь можно пополнять баланс, контролировать списания средств и анализировать использование ресурсов.
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 2050.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2050.png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 ***

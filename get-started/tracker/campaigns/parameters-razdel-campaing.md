@@ -13,11 +13,6 @@ icon: memo-circle-check
 * сохранять buyer, campaign, creative и `subid`
 * выводить нужные параметры в CRM
 * унифицировать аналитику по кампаниям
-*
-
-```
-<div data-with-frame="true"><figure><img src="/files/8xEN3mAPYbxEyutI7EHm" alt=""><figcaption></figcaption></figure></div>
-```
 {% endhint %}
 
 ### Как работает Parameters:

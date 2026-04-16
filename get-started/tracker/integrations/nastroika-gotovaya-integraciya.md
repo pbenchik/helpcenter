@@ -50,11 +50,9 @@ icon: bookmark
 
 Обычно используется параметр `click_id`.
 
-*
+*   Пример настройки.
 
-```
-<figure><img src="/files/RvFcPkzWkztdwx2MBonV" alt=""><figcaption></figcaption></figure>
-```
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2193.png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 {% endstep %}
 
@@ -64,11 +62,9 @@ icon: bookmark
 
 После выбора `clickid` система автоматически создаёт конфигурации событий и postback URL.
 
-*
+*   Пример созданных конфигураций.
 
-```
-<figure><img src="/files/sjy6nfBOzgU9nwuSR65R" alt=""><figcaption></figcaption></figure>
-```
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (130).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 {% endstep %}
 
@@ -78,17 +74,12 @@ icon: bookmark
 
 Скопируйте Postback URL из интеграции и добавьте его в кабинет партнёрской программы.
 
-*
+*   Окно интеграции.
 
-```
-<div data-with-frame="true"><figure><img src="/files/xfg0jgeFAqfkX0CbzRdQ" alt=""><figcaption></figcaption></figure></div>
-```
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure></div>
+*   Окно настройки в партнёрской программе.
 
-*
-
-```
-<div data-with-frame="true"><figure><img src="/files/G72L8b5dufCGDHiwV61Z" alt=""><figcaption></figcaption></figure></div>
-```
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2192.png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 {% endstep %}
 
@@ -98,17 +89,12 @@ icon: bookmark
 
 После настройки postback добавьте регистрационную ссылку в `Registration Links`.
 
-*
+*   Форма добавления ссылки.
 
-```
-<div data-with-frame="true"><figure><img src="/files/vYdfm8XDgbyVPv7YnhK7" alt=""><figcaption></figcaption></figure></div>
-```
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (138).png" alt=""><figcaption></figcaption></figure></div>
+*   Готовый пример заполнения.
 
-*
-
-```
-<div data-with-frame="true"><figure><img src="/files/HLJpP3LUZWpMHqEBZoMI" alt=""><figcaption></figcaption></figure></div>
-```
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (139).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 {% endstep %}
 
@@ -186,7 +172,9 @@ icon: bookmark
 
 <summary>Кастомные поля</summary>
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (131).png" alt=""><figcaption></figcaption></figure></div>
+*   Пример кастомных полей.
+
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (131).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Внутри postback используются дополнительные параметры, которые автоматически создают Custom Fields в CRM.
@@ -225,17 +213,24 @@ icon: bookmark
 * сопоставьте параметры события
 {% endhint %}
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (132).png" alt=""><figcaption></figcaption></figure></div>
+*   Скриншот 1.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (134).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (132).png" alt=""><figcaption></figcaption></figure></div>
+*   Скриншот 2.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (135).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (134).png" alt=""><figcaption></figcaption></figure></div>
+*   Скриншот 3.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (136).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (135).png" alt=""><figcaption></figcaption></figure></div>
+*   Скриншот 4.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (137).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (136).png" alt=""><figcaption></figcaption></figure></div>
+*   Скриншот 5.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (133).png" alt=""><figcaption></figcaption></figure></div>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (137).png" alt=""><figcaption></figcaption></figure></div>
+*   Скриншот 6.
+
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (133).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 Самый важный параметр:

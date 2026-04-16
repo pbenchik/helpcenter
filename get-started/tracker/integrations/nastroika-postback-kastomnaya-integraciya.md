@@ -51,7 +51,7 @@ icon: bookmark
 
 *
 
-    <figure><img src="../../../.gitbook/assets/unknown (123).png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (123).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 {% endstep %}
 
@@ -63,7 +63,7 @@ icon: bookmark
 
 *
 
-    <figure><img src="../../../.gitbook/assets/unknown (124).png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (124).png" alt=""><figcaption></figcaption></figure></div>
 
 Обычно используют:
 
@@ -82,7 +82,7 @@ icon: bookmark
 
 *
 
-    <figure><img src="../../../.gitbook/assets/unknown (125).png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (125).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 {% endstep %}
 
@@ -94,7 +94,7 @@ icon: bookmark
 
 *
 
-    <figure><img src="../../../.gitbook/assets/unknown (128).png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (128).png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 {% endstep %}
 

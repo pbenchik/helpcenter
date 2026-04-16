@@ -48,7 +48,7 @@ icon: person-circle-exclamation
 
 <summary>Postback logs</summary>
 
-![Postback logs](<../../.gitbook/assets/Frame 2110.png>)
+<div data-with-frame="true"><img src="../../.gitbook/assets/Frame 2110.png" alt="Postback logs"></div>
 
 {% hint style="info" %}
 `Postback logs` показывают события, которые приходят от партнёрских программ и продуктов.
@@ -75,7 +75,7 @@ icon: person-circle-exclamation
 
 <summary>Sources logs</summary>
 
-![Sources logs](<../../.gitbook/assets/image 32596.png>)
+<div data-with-frame="true"><img src="../../.gitbook/assets/image 32596.png" alt="Sources logs"></div>
 
 {% hint style="info" %}
 `Sources logs` показывают события, которые Tracker отправляет в рекламные источники.

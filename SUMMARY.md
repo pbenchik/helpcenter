@@ -54,7 +54,7 @@
     * [Экспорт CSV](get-started/crm/users/eksport-csv.md)
   * [Mailings](get-started/crm/mailings/README.md)
     * [Массовые рассылки](get-started/crm/mailings/massovye-rassylki.md)
-    * [Как создать и настройть рассылку](get-started/crm/mailings/kak-sozdat-i-nastroit-rassylku.md)
+    * [Как создать и настроить рассылку](get-started/crm/mailings/kak-sozdat-i-nastroit-rassylku.md)
     * [Управление рассылками](get-started/crm/mailings/upravlenie-rassylkami.md)
 * [Конструктор (Flow Settings)](get-started/konstruktor-flow-settings/README.md)
   * [AI Settings](get-started/konstruktor-flow-settings/ai-settings/README.md)

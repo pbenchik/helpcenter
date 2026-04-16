@@ -13,7 +13,9 @@ icon: money-bill-1
 * оплачивать работу ботов и AI-чаты
 * централизованно управлять расходами компании
 * отслеживать операции в разделе Billing
-* ![](<../../../.gitbook/assets/Frame 2050.png>)
+*
+
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2050.png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 
 ### Как пополнить компанию:
@@ -21,31 +23,31 @@ icon: money-bill-1
 {% stepper %}
 {% step %}
 {% hint style="info" %}
-#### **Перейдите в раздел Company → Billing**
+**Перейдите в раздел Company → Billing**
 
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 2050.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2050.png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 {% endstep %}
 
 {% step %}
 {% hint style="info" %}
-#### **Нажмите Top up balance**
+**Нажмите Top up balance**
 
 *
 
-    <figure><img src="../../../.gitbook/assets/image 32540.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image 32540.png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 {% endstep %}
 
 {% step %}
 {% hint style="info" %}
-#### **Выберите сеть для пополнения**
+**Выберите сеть для пополнения**
 
 *
 
-    <figure><img src="../../../.gitbook/assets/image 32541.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image 32541.png" alt=""><figcaption></figcaption></figure></div>
 
 Доступные сети:
 
@@ -56,11 +58,11 @@ icon: money-bill-1
 
 {% step %}
 {% hint style="info" %}
-#### **Скопируйте адрес кошелька или используйте QR-код**
+**Скопируйте адрес кошелька или используйте QR-код**
 
 *
 
-    <figure><img src="../../../.gitbook/assets/Frame 2052.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2052.png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 {% endstep %}
 

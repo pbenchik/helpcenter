@@ -93,7 +93,7 @@ Proxy особенно полезен при работе с:
 {% step %}
 #### Нажмите кнопку проверки рядом с нужным proxy
 
-<figure><img src="../../.gitbook/assets/Frame 2168.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2168.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}

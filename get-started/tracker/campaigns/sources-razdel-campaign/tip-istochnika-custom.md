@@ -17,11 +17,9 @@ icon: sliders-simple
 * проверять логику маршрутизации без готовой интеграции
 * работать с нестандартными сценариями и сторонними источниками
 * использовать auto redirect после клика
-*
+*   Скриншот настройки источника `Custom`.
 
-```
-<div align="left" data-with-frame="true"><figure><img src="/files/hB8wLJJogGPTgONgoWtq" alt=""><figcaption></figcaption></figure></div>
-```
+    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/image 32588.png" alt="Настройка источника Custom"><figcaption></figcaption></figure></div>
 {% endhint %}
 
 ### Как работает источник Custom:

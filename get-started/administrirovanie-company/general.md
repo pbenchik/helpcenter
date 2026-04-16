@@ -37,7 +37,7 @@ icon: crown
 
 *
 
-    <figure><img src="../../.gitbook/assets/Frame 2169.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2169.png" alt=""><figcaption></figcaption></figure></div>
 {% endhint %}
 {% endstep %}
 {% endstepper %}
@@ -71,7 +71,7 @@ icon: crown
 
 *
 
-    <figure><img src="../../.gitbook/assets/image 32562.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image 32562.png" alt=""><figcaption></figcaption></figure></div>
 
 </details>
 
@@ -93,7 +93,7 @@ icon: crown
 
 *
 
-    <figure><img src="../../.gitbook/assets/Frame 2100.png" alt=""><figcaption></figcaption></figure>
+    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2100.png" alt=""><figcaption></figcaption></figure></div>
 
 </details>
 

@@ -17,9 +17,9 @@ icon: layer-plus
 ### Доступные фильтры
 
 {% hint style="info" %}
-* **Object** — <mark style="color:$primary;">объект системы. Например:</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">`user`</mark><mark style="color:$primary;">,</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">`bot`</mark><mark style="color:$primary;">.</mark>
-* **Editor** — <mark style="color:$primary;">пользователь, который выполнил действие.</mark>
-* **Time** — <mark style="color:$primary;">период, за который показывать события.</mark>
+* **Object** — объект системы. Например: `user`, `bot`.
+* **Editor** — пользователь, который выполнил действие.
+* **Time** — период, за который показывать события.
 {% endhint %}
 
 ### Как применить фильтр
@@ -47,13 +47,13 @@ icon: layer-plus
 ### Нажмите Apply
 
 {% hint style="warning" %}
-<mark style="color:$primary;">Таблица обновится.</mark>
+Таблица обновится.
 {% endhint %}
 {% endstep %}
 {% endstepper %}
 
 {% hint style="info" %}
-<mark style="color:$primary;">Экспорт CSV выгружает данные с учётом текущих фильтров.</mark>
+Экспорт CSV выгружает данные с учётом текущих фильтров.
 {% endhint %}
 
 ### Что дальше?

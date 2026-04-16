@@ -22,7 +22,7 @@ icon: laptop
 
 Подойдёт, если нужно быстро понять логику выбора события, настройки действия и автоматического перевода пользователя в нужный `Flow`, `Step` и `Status`.
 
-{% embed url="https://www.youtube.com/watch?v=fSAfJ_zMdAQ" fullWidth="false" %}
+{% embed url="https://www.youtube.com/watch?v=fSAfJ_zMdAQ" %}
 {% endhint %}
 
 ### Как работает Auto Actions:
