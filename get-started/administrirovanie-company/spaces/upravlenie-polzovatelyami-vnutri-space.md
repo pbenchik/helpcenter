@@ -26,7 +26,9 @@ icon: user-magnifying-glass
 
 **Company →  Spaces → выберите нужный Space.**
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (98).png" alt=""><figcaption><p>Управление участниками внутри Space</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Chatterfy-choose-your-bot-Google-Chrome-2026-04-17-16-53-58.gif" alt=""><figcaption></figcaption></figure></div>
+
+
 
 {% hint style="info" %}
 Интерфейс
@@ -76,6 +78,8 @@ icon: user-magnifying-glass
 {% endhint %}
 
 ### Роли в Space
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Group 1437256429.png" alt=""><figcaption></figcaption></figure></div>
 
 Ниже перечислены роли, которые можно выдать пользователю внутри Space.
 

@@ -8,6 +8,8 @@ icon: chalkboard-user
 
 ***
 
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Group 1437256430.png" alt=""><figcaption></figcaption></figure></div>
+
 ### Доступные роли:
 
 <details>
