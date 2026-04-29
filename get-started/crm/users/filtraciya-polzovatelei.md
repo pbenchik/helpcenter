@@ -9,14 +9,12 @@ icon: filter
 ### **Чтобы открыть фильтрацию, нажмите Filters**:
 
 {% hint style="info" %}
-*
+<img src="../../../.gitbook/assets/Frame 2206.png" alt="" data-size="original">
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2206.png" alt=""><figcaption></figcaption></figure></div>
-* #### Настройте нужные вам фильтры что бы отфильтровать пользователей&#x20;
-* <a href="../messenger/custom-filters/kak-ispolzovat-smart-filters.md" class="button secondary">Видео как настроить фильтры</a>&#x20;
-*
+* #### Настройте нужные вам фильтры что бы отфильтровать пользователей
+* <a href="../messenger/custom-filters/kak-ispolzovat-smart-filters.md" class="button secondary">Видео как настроить фильтры</a>
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2205.png" alt=""><figcaption></figcaption></figure></div>
+<img src="../../../.gitbook/assets/Frame 2205.png" alt="" data-size="original">
 {% endhint %}
 
 ***
@@ -35,6 +33,16 @@ icon: filter
 * **Events** — <a href="../messenger/kartochka-klienta/events/" class="button secondary" data-icon="calendar-circle-exclamation">Events</a>
 * **Total Deposit** — сумма депозитов
 * **Created At** — дата создания чата
+{% endhint %}
+
+{% hint style="info" %}
+В фильтрах по **Tracker Field** можно использовать:
+
+* кампанию и сорс
+* домен и лендинг
+* тип залива и тип сорса
+
+Эти поля доступны для фильтрации, если у пользователя есть соответствующий доступ к Tracker.
 {% endhint %}
 
 {% hint style="info" %}

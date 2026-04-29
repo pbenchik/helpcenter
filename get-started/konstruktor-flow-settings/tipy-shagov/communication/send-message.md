@@ -7,7 +7,7 @@ icon: envelope-circle-check
 
 > ### Send Message - это шаг для отправки готовых сообщений.
 
-Здесь можно отправлять текст, медиа, файлы, голосовые, видеокружки и кнопки.
+Здесь можно отправлять текст, медиа, файлы, голосовые, видеокружки и сообщения с кнопками.
 
 <div align="center" data-full-width="false" data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2139 (5).png" alt=""><figcaption></figcaption></figure></div>
 
@@ -17,7 +17,7 @@ icon: envelope-circle-check
 * Отправлять обычный текст
 * Добавлять фото, видео и документы
 * Отправлять голосовые и видеокружки
-* Использовать inline buttons и keyboard
+* Добавлять inline buttons и keyboard к сообщениям
 * Собирать цепочки из нескольких сообщений
 * Настраивать пуши, если пользователь не ответил
 
@@ -38,9 +38,7 @@ icon: envelope-circle-check
 
 Если вы используете `waiting` и пуши, включите **Skip the transition to next step**. Тогда шаг останется активным и будет ждать ответ пользователя.
 
-*
-
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (45).png" alt=""><figcaption></figcaption></figure></div>
+<img src="../../../../.gitbook/assets/Frame 2248 (45).png" alt="" data-size="original">
 {% endhint %}
 
 ### Manual Messages:
@@ -48,7 +46,7 @@ icon: envelope-circle-check
 {% hint style="info" %}
 В этом блоке создаются основные сообщения шага.
 
-Доступные типы:
+Доступные типы сообщений:
 
 * **Text** — готовый текст
 * **Prompt** — текст по вашему запросу
@@ -56,6 +54,11 @@ icon: envelope-circle-check
 * **Document** — файлы и документы
 * **Video Note** — видеокружочки
 * **Voice** — голосовые сообщения
+
+Кнопки не создаются как отдельный тип сообщения.
+
+**Inline Buttons** и **Keyboard** прикрепляются к нужному сообщению:
+
 * **Inline Buttons** — кнопки внутри сообщения
 * **Keyboard** — кнопки снизу в чате
 
@@ -65,9 +68,7 @@ icon: envelope-circle-check
 
 **Pin message** закрепляет сообщение в диалоге.
 
-*
-
-    <div data-with-frame="true"><img src="../../../../.gitbook/assets/Frame 2248 (46).png" alt=""></div>
+<img src="../../../../.gitbook/assets/Frame 2248 (46).png" alt="" data-size="original">
 {% endhint %}
 
 ### Push Messages:

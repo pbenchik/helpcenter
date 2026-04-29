@@ -16,12 +16,10 @@ icon: bookmark
 {% step %}
 {% hint style="info" %}
 * #### Откройте Custom Filters
-* Перейдте в Bot Settings  \
-
+* Перейдте в Bot Settings \\
 * Перейдите в раздел **Custom Filters**.
-*
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2198.png" alt=""><figcaption></figcaption></figure></div>
+<img src="../../../../.gitbook/assets/Frame 2198.png" alt="" data-size="original">
 {% endhint %}
 {% endstep %}
 
@@ -29,9 +27,8 @@ icon: bookmark
 {% hint style="info" %}
 * #### Создайте новый фильтр
 * Нажмите **Add New Filter**.
-*
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2198 (1).png" alt=""><figcaption></figcaption></figure></div>
+<img src="../../../../.gitbook/assets/Frame 2198 (1).png" alt="" data-size="original">
 {% endhint %}
 {% endstep %}
 
@@ -39,9 +36,8 @@ icon: bookmark
 {% hint style="info" %}
 * #### Добавьте условие
 * Нажмите **Add Condition**.
-*
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2235 (1).png" alt=""><figcaption></figcaption></figure></div>
+<img src="../../../../.gitbook/assets/Frame 2235 (1).png" alt="" data-size="original">
 {% endhint %}
 {% endstep %}
 
@@ -49,9 +45,8 @@ icon: bookmark
 {% hint style="info" %}
 * #### Выберите параметр фильтрации
 * Выберите нужное условие из доступных полей.
-*
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure></div>
+<img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original">
 {% endhint %}
 {% endstep %}
 
@@ -60,9 +55,8 @@ icon: bookmark
 * #### Сохраните фильтр
 * Введите имя фильтра.
 * Нажмите **Apply**.
-*
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2235 (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<img src="../../../../.gitbook/assets/Frame 2235 (1) (1).png" alt="" data-size="original">
 {% endhint %}
 {% endstep %}
 {% endstepper %}
@@ -81,6 +75,19 @@ icon: bookmark
 * **Events** — <a href="../kartochka-klienta/events/" class="button secondary" data-icon="calendar-circle-exclamation">Events</a>
 * **Total Deposit** — сумма депозитов
 * **Created At** — дата создания чата
+{% endhint %}
+
+{% hint style="info" %}
+Через **Tracker Field** можно фильтровать по данным из Tracker:
+
+* кампания
+* сорс
+* домен
+* лендинг
+* тип залива
+* тип сорса
+
+Эти поля доступны в фильтрах, если у пользователя есть соответствующий доступ к Tracker.
 {% endhint %}
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

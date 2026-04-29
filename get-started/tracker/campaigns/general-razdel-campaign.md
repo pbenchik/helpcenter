@@ -86,6 +86,17 @@ icon: head-side-gear
 * Telegram-канал для сценария `Channel`
 * Flow и Step для первого запуска
 * DM bot для дальнейшей обработки лида
+* Approval time
+{% endhint %}
+
+</details>
+
+<details>
+
+<summary>Approval time</summary>
+
+{% hint style="info" %}
+Параметр **Approval time** определяет задержку перед автоматическим принятием пользователя в канал. То есть, система выжидает заданное время и только затем добавляет участника в канал.
 {% endhint %}
 
 </details>
