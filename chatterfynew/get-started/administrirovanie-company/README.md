@@ -4,17 +4,60 @@ icon: buildings
 
 # Администрирование (Company)
 
-> ### Раздел Company предназначен для администрирования компании внутри платформы. Здесь находятся основные настройки компании, управление пользователями, биллинг и контроль действий сотрудников.
+## Администрирование (Company)
 
-***
+Раздел **Company** предназначен для администрирования компании внутри платформы. Здесь находятся основные настройки компании, управление пользователями, биллинг и контроль действий сотрудников.
 
-## Подразделы Company:
+### Как это работает
 
-Каждый подраздел отвечает за отдельную часть администрирования компании.
+Каждый подраздел отвечает за отдельную часть администрирования компании. Выберите нужный раздел в зависимости от задачи.
 
-***
+### Как открыть нужный раздел
 
-<table data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center">GENERAL</td><td><a href="../../.gitbook/assets/Frame 2068.png">Frame 2068.png</a></td><td><a href="general.md">general.md</a></td><td><a href="general.md">general.md</a></td></tr><tr><td align="center">BILLING</td><td><a href="../../.gitbook/assets/Frame 2069.png">Frame 2069.png</a></td><td></td><td><a href="billing/">billing</a></td></tr><tr><td align="center">USERS</td><td><a href="../../.gitbook/assets/Frame 2071.png">Frame 2071.png</a></td><td></td><td><a href="users/">users</a></td></tr><tr><td align="center">SPACES</td><td><a href="../../.gitbook/assets/Frame 2070 (3).png">Frame 2070 (3).png</a></td><td></td><td><a href="spaces/">spaces</a></td></tr><tr><td align="center">LOGS</td><td><a href="../../.gitbook/assets/Frame 2072.png">Frame 2072.png</a></td><td></td><td><a href="logs/">logs</a></td></tr></tbody></table>
+1. Откройте **Company**.
+2. Выберите нужный подраздел.
+
+### Подразделы Company
+
+#### General
+
+![General](<../../.gitbook/assets/Frame 2068.png>)
+
+Базовые настройки компании.
+
+* [Перейти в General](general.md)
+
+#### Billing
+
+![Billing](<../../.gitbook/assets/Frame 2069.png>)
+
+Управление балансом компании и расходами.
+
+* [Перейти в Billing](billing/)
+
+#### Users
+
+![Users](<../../.gitbook/assets/Frame 2071.png>)
+
+Управление пользователями компании и их доступом.
+
+* [Перейти в Users](users/)
+
+#### Spaces
+
+![Spaces](<../../.gitbook/assets/Frame 2070 (3).png>)
+
+Управление рабочими пространствами внутри компании.
+
+* [Перейти в Spaces](spaces/)
+
+#### Logs
+
+![Logs](<../../.gitbook/assets/Frame 2072.png>)
+
+Журнал действий пользователей внутри компании.
+
+* [Перейти в Logs](logs/)
 
 {% include "../../../.gitbook/includes/na-glavnuyu.md" %}
 

@@ -4,16 +4,35 @@ icon: sidebar
 
 # Landings
 
-> ### Раздел Landings используется для создания лендинговых страниц, через которые пользователь переходит в Telegram бота или канал.
+Раздел **Landings** нужен для создания страниц, через которые пользователь переходит в Telegram-бота или канал.
 
-<div data-with-frame="true"><img src="../../../.gitbook/assets/Frame 2075.png" alt="Раздел Landings"></div>
+### Как это работает
 
-{% hint style="info" %}
-В Chatterfy доступны два типа лендингов:
+![](<../../../.gitbook/assets/Frame 2075.png>)
 
-Default - встроенный лендинг платформы
+В Tracker доступны два типа лендингов:
 
-Custom - собственный загружаемый лендинг
-{% endhint %}
+* [**Default**](default.md) — встроенный лендинг платформы.
+* [**Custom**](custom.md) — собственный загружаемый лендинг.
+
+### Страницы раздела
+
+#### [Как создать landing](kak-sozdat-landing.md)
+
+Создание нового лендинга в Tracker.
+
+#### [Custom](custom.md)
+
+Загрузка собственного лендинга в Tracker и требования к архиву.
+
+#### [Default](default.md)
+
+Работа со встроенным лендингом платформы.
+
+### Как выбрать
+
+* Начните с [**Как создать landing**](kak-sozdat-landing.md), если лендинг ещё не создан.
+* Выберите [**Default**](default.md), если нужен готовый шаблон.
+* Выберите [**Custom**](custom.md), если нужен свой дизайн и структура.
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

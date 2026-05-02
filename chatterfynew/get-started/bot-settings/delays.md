@@ -4,173 +4,123 @@ icon: table
 
 # Delays
 
-> ### **Delays** — это настройки задержек перед отправкой сообщений пользователю.
+**Delays** задаёт задержки перед отправкой сообщений пользователю.
 
-Они позволяют управлять скоростью реакции бота и делать диалог более естественным.
+Эти настройки управляют скоростью реакции бота и делают диалог более естественным.
 
-{% hint style="info" %}
-**Delays** содержит параметры, которые влияют на время ответа бота и поведение сообщений в диалоге.
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2248 (71).png" alt=""><figcaption></figcaption></figure></div>
 
-Используется для:
+### Как это работает
 
-* настройки паузы перед обработкой сообщения пользователя
-* управления скоростью ответа AI
-* настройки задержки для шага **Send Message**
-* имитации набора текста
-*
+В разделе можно настроить:
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2248 (71).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+* паузу перед обработкой сообщения пользователя
+* скорость ответа для **AI Reply**
+* задержку для шага **Send Message**
+* скорость имитации набора текста
 
-***
+### Response time from the lead
 
-### Основные возможности:
+**Response time from the lead (sec)** — базовая задержка после последнего сообщения пользователя.
 
-{% hint style="info" %}
-С помощью **Delays** можно настроить:
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (4).png" alt=""><figcaption></figcaption></figure></div>
 
-* когда бот начинает обрабатывать сообщение пользователя
-* сколько времени проходит перед ответом AI
-* как быстро отправляется сообщение из шага **Send Message**
-* скорость имитации печати текста
-{% endhint %}
+#### How it works
 
-***
+Система ждёт указанное время, прежде чем запустить следующий шаг сценария.
 
-### Важно:
+#### Steps / Instructions
 
-<details>
+1. Откройте **Bot Settings → Delays**.
+2. Найдите поле **Response time from the lead (sec)**.
+3. Укажите значение в секундах.
+4. Сохраните изменения.
 
-<summary>1. Response time from the lead </summary>
+#### Notes
 
-{% hint style="info" %}
-**Response time from the lead (sec)** — это время ожидания после последнего сообщения пользователя, прежде чем система начнёт запуск следующего шага сценария.
+* Если указано `60 sec`, бот начнёт обработку через `60` секунд после последнего сообщения пользователя.
 
-Это базовая задержка реакции на сообщение пользователя.
+### AI reply speed
 
-*
+**AI reply speed (sec)** задаёт задержку перед ответом из шага **AI Reply**.
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (4).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (5).png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-Пример:
+#### How it works
 
-Если установлено:
-
-* **Response time from the lead:** `60 sec`
-
-бот начнёт обработку сообщения через `60` секунд после последнего сообщения пользователя.
-{% endhint %}
-
-
-
-</details>
-
-<details>
-
-<summary>2. AI reply speed</summary>
-
-{% hint style="info" %}
-**AI reply speed (sec)** — это задержка перед отправкой ответа, который сгенерирован шагом **AI Reply**.
-
-*
-
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (5).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-
-{% hint style="info" %}
-Она включает:
+Эта настройка включает:
 
 * время ожидания после сообщения пользователя
 * дополнительное время на генерацию и отправку ответа
 
-Фактически:
+Формула:
 
-**AI reply speed = Response time from the lead + дополнительная задержка**
-{% endhint %}
+`AI reply speed = Response time from the lead + дополнительная задержка`
 
-{% hint style="warning" %}
-Пример:
+#### Steps / Instructions
 
-Если указано:
+1. Найдите поле **AI reply speed (sec)**.
+2. Укажите итоговое время ответа в секундах.
+3. Сохраните изменения.
 
-* **Response time from the lead:** `60 sec`
-* **AI reply speed:** `80 sec`
+#### Notes
 
-то:
+* Если **Response time from the lead** = `60 sec`
+* и **AI reply speed** = `80 sec`
+* бот подождёт `60` секунд после сообщения пользователя
+* затем добавит ещё `20` секунд перед отправкой ответа
+* итоговая задержка составит `80` секунд
 
-* `60` секунд — ожидание после сообщения пользователя
-* ещё `20` секунд — дополнительная задержка перед отправкой ответа
+### Send message answer speed
 
-В результате сообщение будет отправлено через `80` секунд после последнего сообщения пользователя.
-{% endhint %}
+**Send message answer speed (sec)** задаёт задержку для шага **Send Message**.
 
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (6).png" alt=""><figcaption></figcaption></figure></div>
 
+#### How it works
 
-</details>
+Здесь не используется генерация ИИ.
 
-<details>
+Система отправляет заранее подготовленный текст через указанное время после последнего сообщения пользователя.
 
-<summary>3. Send message answer speed</summary>
+#### Steps / Instructions
 
-{% hint style="info" %}
-**Send message answer speed (sec)** — это задержка перед отправкой сообщения для шага **Send Message**.
+1. Найдите поле **Send message answer speed (sec)**.
+2. Укажите значение в секундах.
+3. Сохраните изменения.
 
-*
+#### Notes
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (6).png" alt=""><figcaption></figcaption></figure></div>
+* Если указано `45 sec`, сообщение будет отправлено через `45` секунд после последнего сообщения пользователя.
 
-В отличие от **AI Reply**, здесь не используется генерация ИИ. Отправляется заранее подготовленный текст.
-{% endhint %}
+### Typing speed
 
-{% hint style="info" %}
-Задержка отсчитывается от момента получения последнего сообщения пользователя.
+**Typing speed** задаёт скорость имитации набора текста перед отправкой сообщения.
 
-Пример:
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (7).png" alt=""><figcaption></figcaption></figure></div>
 
-* **Send message answer speed:** `45 sec`
+#### How it works
 
-Сообщение будет отправлено через `45` секунд после последнего сообщения пользователя.
-{% endhint %}
+Эта настройка влияет на то, как быстро бот «печатает» сообщение в диалоге.
 
+#### Steps / Instructions
 
+1. Найдите поле **Typing speed**.
+2. Выберите подходящее значение.
+3. Сохраните изменения.
 
-</details>
+#### Notes
 
-<details>
+* Если хотите добавить более естественную паузу, уменьшите значение **Typing speed**.
+* При более низкой скорости текст будет набираться дольше.
 
-<summary>4. Typing speed</summary>
+### Когда использовать
 
-{% hint style="info" %}
-**Typing speed** — это скорость имитации набора текста ботом перед отправкой сообщения.
-
-*
-
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (7).png" alt=""><figcaption></figcaption></figure></div>
-
-Эта настройка влияет на то, как быстро бот «печатает» сообщение, создавая более реалистичное поведение в диалоге.
-{% endhint %}
-
-</details>
-
-{% hint style="warning" %}
-Если вы хотите, чтобы сообщения отправлялись с небольшой естественной задержкой, уменьшите значение **Typing speed**.
-
-При более низкой скорости текст будет набираться дольше, и пользователь увидит эффект печати перед отправкой сообщения.
-{% endhint %}
-
-***
-
-{% hint style="success" %}
-**Когда использовать Delays**
-
-Используйте эти настройки, когда нужно:
+Откройте **Delays**, если нужно:
 
 * сделать ответы бота менее мгновенными
-* имитировать естественную паузу перед сообщением
+* добавить естественную паузу перед сообщением
 * разделить скорость ответа для **AI Reply** и **Send Message**
 * точнее настроить восприятие диалога пользователем
-{% endhint %}
 
 {% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

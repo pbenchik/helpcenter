@@ -4,120 +4,58 @@ icon: money-bill-1
 
 # Как пополнить компанию
 
-> ### Пополнение компании — это способ пополнить баланс компании через Billing.
+## Как пополнить компанию
 
-{% hint style="info" %}
-С помощью пополнения можно:
+Пополнение компании позволяет внести средства на общий баланс через Billing. Этот баланс используется для оплаты внутренних расходов платформы.
+
+### Как это работает
+
+Через пополнение можно:
 
 * пополнить общий баланс компании
 * оплачивать работу ботов и AI-чаты
 * централизованно управлять расходами компании
 * отслеживать операции в разделе Billing
-*
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2050.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+![Раздел Billing](<../../../.gitbook/assets/Frame 2050.png>)
 
-### Как пополнить компанию:
+### Как пополнить компанию
 
-{% stepper %}
-{% step %}
-{% hint style="info" %}
-**Перейдите в раздел Company → Billing**
+1. Перейдите в **Company → Billing**.
+2. Нажмите **Top up balance**.
+3. Выберите сеть для пополнения.
+4. Скопируйте адрес кошелька или используйте QR-код.
+5. Отправьте нужную сумму на полученный адрес.
 
-*
+![Кнопка Top up balance](<../../../.gitbook/assets/image 32540.png>)
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2050.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
-
-{% step %}
-{% hint style="info" %}
-**Нажмите Top up balance**
-
-*
-
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image 32540.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
-
-{% step %}
-{% hint style="info" %}
-**Выберите сеть для пополнения**
-
-*
-
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image 32541.png" alt=""><figcaption></figcaption></figure></div>
+![Выбор сети](<../../../.gitbook/assets/image 32541.png>)
 
 Доступные сети:
 
-* USDT (TRC20)
-* USDT (ERC20)
-{% endhint %}
-{% endstep %}
+* `USDT (TRC20)`
+* `USDT (ERC20)`
 
-{% step %}
-{% hint style="info" %}
-**Скопируйте адрес кошелька или используйте QR-код**
+![Адрес кошелька и QR-код](<../../../.gitbook/assets/Frame 2052.png>)
 
-*
+### Когда зачислятся средства
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2052.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+После подтверждения транзакции сетью баланс компании обновится автоматически. Дополнительно подтверждать пополнение в системе не нужно.
 
-{% step %}
-{% hint style="info" %}
-* #### **Отправьте нужную сумму на полученный адрес**
-{% endhint %}
-{% endstep %}
-{% endstepper %}
+### Где посмотреть историю пополнений
 
-### Полезная информация
-
-<details>
-
-<summary>Важные условия пополнения</summary>
-
-{% hint style="warning" %}
-**Перед оплатой проверьте:**
-
-* минимальная сумма пополнения — $100
-* каждый адрес кошелька используется только один раз
-* отправлять средства нужно в выбранной сети
-{% endhint %}
-
-</details>
-
-<details>
-
-<summary>Когда зачислятся средства</summary>
-
-{% hint style="info" %}
-После подтверждения транзакции сетью баланс компании обновится автоматически.
-
-Дополнительно подтверждать пополнение в системе не нужно.
-{% endhint %}
-
-</details>
-
-<details>
-
-<summary>Где посмотреть историю пополнений</summary>
-
-{% hint style="info" %}
 История всех пополнений находится в разделе [История пополнений](istoriya-popolnenii.md).
 
-Там можно проверить сумму, сеть, статус транзакции, дату и автора операции.
-{% endhint %}
+Там можно проверить:
 
-</details>
+* сумму
+* сеть
+* статус транзакции
+* дату
+* автора операции
 
-<details>
+### На что влияет баланс компании
 
-<summary>На что влияет баланс компании</summary>
-
-{% hint style="info" %}
 Средства компании используются для оплаты внутренних расходов платформы.
 
 Например:
@@ -125,10 +63,11 @@ icon: money-bill-1
 * работы ботов
 * AI-чатов
 * других списаний, которые отражаются в Billing
-{% endhint %}
 
-</details>
+### Notes
 
-### Важно
+* Минимальная сумма пополнения — `$100`.
+* Каждый адрес кошелька используется только один раз.
+* Отправлять средства нужно в выбранной сети.
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

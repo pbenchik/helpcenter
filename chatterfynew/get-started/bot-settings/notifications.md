@@ -4,112 +4,86 @@ icon: indent
 
 # Notifications
 
-> ### Notifications позволяют получать уведомления о событиях, происходящих в диалогах бота.
+**Notifications** отправляют уведомления о событиях в диалогах бота.
 
-Они используются для оповещения команды о чатах, которые требуют ручной проверки. Уведомления могут отправляться.
+Они помогают оповещать команду о чатах, которые требуют ручной проверки.
 
-{% hint style="info" %}
-**Видеоинструкция как подключить Notifications**
+### Видео
 
 {% embed url="https://youtu.be/pYCUUyoCDtA" %}
-{% endhint %}
 
-### Как настроить Notifications:
+### Как это работает
 
-{% hint style="info" %}
-Чтобы получать уведомления, необходимо подключить Telegram-чат к боту/личке.
+Чтобы получать уведомления, нужно подключить Telegram-чат к боту или личке.
 
-*
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (8).png" alt=""><figcaption></figcaption></figure></div>
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (8).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+После сохранения уведомления начнут отправляться в указанный чат.
 
-{% stepper %}
-{% step %}
 ### Подготовьте чат
 
-{% hint style="info" %}
-**Выберите, куда будут приходить уведомления.**
+Сначала выберите чат, куда будут приходить уведомления.
 
-*
+<div align="center" data-full-width="false" data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (158).png" alt=""><figcaption></figcaption></figure></div>
 
-    <div align="center" data-full-width="false" data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (158).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+#### Steps / Instructions
 
-{% step %}
+1. Создайте или выберите нужный Telegram-чат.
+2. Убедитесь, что чат подходит для уведомлений команды.
+
 ### Получите Telegram ID
 
-{% hint style="info" %}
-* Формат Telegram ID
-* Единственное отличие зависит от типа бота - как записывается ID:
-* Если это бот - ID указывается с минусом (-)
-* Если это личка - ID указывается без минуса
+Для подключения нужен `Telegram ID` выбранного чата.
 
-<mark style="color:blue;">Примеры:</mark> Примеры:
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (9).png" alt=""><figcaption></figcaption></figure></div>
 
-* Бот: `-2894347`
-* Личка: `2894347`
-{% endhint %}
-{% endstep %}
+#### How it works
 
-{% step %}
-### **Для подключения необходимо узнать Telegram ID выбранного чата.**
+Формат `Telegram ID` зависит от типа подключения:
 
-{% hint style="info" %}
-* Чтобы это сделать, просто добавьте @username\_to\_id\_bot в нужный вам чат, напишите команду /start, и он напишет вам нужный ID.
-* Нужный нам ID — это ID чата.
-*
+* если это бот, ID указывается с минусом: `-2894347`
+* если это личка, ID указывается без минуса: `2894347`
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (9).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+#### Steps / Instructions
 
-{% step %}
-### Шаг 3. Добавьте ID в настройки
+1. Добавьте `@username_to_id_bot` в нужный чат.
+2. Отправьте команду `/start`.
+3. Скопируйте ID чата из ответа бота.
 
-{% hint style="info" %}
-* Откройте вашего бота в платформе
-* Перейдите в Bot Settings
-*
+#### Notes
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2255.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+* Нужен именно ID чата.
 
-{% step %}
-### Откройте раздел Notifications
+### Добавьте ID в настройки
 
-{% hint style="info" %}
-*
+Теперь нужно сохранить `Telegram ID` в настройках бота.
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2254.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2255.png" alt=""><figcaption></figcaption></figure></div>
 
-{% step %}
-### Вставьте Telegram ID
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2254.png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-*
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2253.png" alt=""><figcaption></figcaption></figure></div>
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2253.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+#### Steps / Instructions
 
-{% step %}
-### Добавьте параметр, при котором должно отправляться уведомление.
+1. Откройте нужного бота в платформе.
+2. Перейдите в **Bot Settings**.
+3. Откройте раздел **Notifications**.
+4. Вставьте `Telegram ID`.
 
-{% hint style="info" %}
-*
+### Настройте условия отправки
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2252.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
-{% endstepper %}
+После добавления `Telegram ID` выберите, при каком событии отправлять уведомление.
 
-{% hint style="info" %}
-После сохранения уведомления начнут отправляться в указанный чат.
-{% endhint %}
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2252.png" alt=""><figcaption></figcaption></figure></div>
+
+#### Steps / Instructions
+
+1. Добавьте параметр, при котором должно отправляться уведомление.
+2. Сохраните изменения.
+
+#### Notes
+
+* После сохранения уведомления начнут отправляться в указанный чат.
 
 {% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

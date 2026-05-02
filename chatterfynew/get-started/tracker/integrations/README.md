@@ -4,8 +4,59 @@ icon: file-circle-plus
 
 # Integrations
 
-> ### В данном разделе описывается настройка обмена данными между Chatterfy и партнёрскими сетями (партнёрками) через механизм постбеков.&#x20;
+В этом разделе описана настройка обмена данными между Chatterfy и партнёрскими сетями через механизм постбеков.
 
-<table data-view="cards"><thead><tr><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="../../../.gitbook/assets/Frame 2144 (16).png">Frame 2144 (16).png</a></td><td><a href="integrations-podklyuchenie-partnyorskikh-programm.md">integrations-podklyuchenie-partnyorskikh-programm.md</a></td></tr><tr><td><a href="../../../.gitbook/assets/Frame 2144 (17).png">Frame 2144 (17).png</a></td><td><a href="kak-rabotaet-peredacha-sobytii.md">kak-rabotaet-peredacha-sobytii.md</a></td></tr><tr><td><a href="../../../.gitbook/assets/Frame 2144 (18).png">Frame 2144 (18).png</a></td><td><a href="tipy-integracii.md">tipy-integracii.md</a></td></tr><tr><td><a href="../../../.gitbook/assets/Frame 2144 (19).png">Frame 2144 (19).png</a></td><td><a href="nastroika-gotovaya-integraciya.md">nastroika-gotovaya-integraciya.md</a></td></tr><tr><td><a href="../../../.gitbook/assets/Frame 2144 (20).png">Frame 2144 (20).png</a></td><td><a href="nastroika-postback-kastomnaya-integraciya.md">nastroika-postback-kastomnaya-integraciya.md</a></td></tr></tbody></table>
+### Как это работает
+
+Раздел объединяет инструкции по подключению партнёрских программ и передаче событий.
+
+* подключение готовых интеграций
+* работа с типами интеграций
+* настройка postback
+* передача событий из Tracker
+
+### Разделы
+
+Ниже собраны основные страницы этого блока.
+
+#### Integrations - подключение партнёрских программ
+
+![](<../../../.gitbook/assets/Frame 2144 (16).png>)
+
+Базовая настройка подключения партнёрских сетей.
+
+[Открыть Integrations - подключение партнёрских программ](integrations-podklyuchenie-partnyorskikh-programm.md)
+
+#### Как работает передача событий
+
+![](<../../../.gitbook/assets/Frame 2144 (17).png>)
+
+Логика передачи событий и конверсий из Tracker.
+
+[Открыть Как работает передача событий](kak-rabotaet-peredacha-sobytii.md)
+
+#### Типы интеграций
+
+![](<../../../.gitbook/assets/Frame 2144 (18).png>)
+
+Обзор доступных форматов интеграции.
+
+[Открыть Типы интеграций](tipy-integracii.md)
+
+#### Настройка- готовая интеграция
+
+![](<../../../.gitbook/assets/Frame 2144 (19).png>)
+
+Настройка готовой интеграции по шаблону.
+
+[Открыть Настройка- готовая интеграция](nastroika-gotovaya-integraciya.md)
+
+#### Настройка Postback - кастомная интеграция
+
+![](<../../../.gitbook/assets/Frame 2144 (20).png>)
+
+Настройка кастомного postback для сторонней системы.
+
+[Открыть Настройка Postback - кастомная интеграция](nastroika-postback-kastomnaya-integraciya.md)
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

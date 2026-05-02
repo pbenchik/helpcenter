@@ -4,250 +4,181 @@ icon: text-size
 
 # Ai Recognition
 
-> ### AI Recognition - это блок настроек, который отвечает за обработку входящих медиа-сообщений с помощью AI.
+**AI Recognition** — это блок настроек, который отвечает за обработку входящих медиа-сообщений с помощью AI.
 
-{% hint style="info" %}
-С его помощью можно:
+### Что можно делать
 
-\- распознавать голосовые сообщения
+С помощью этого блока можно настраивать реакцию на медиа-контент.
 
-\- анализировать изображения
+* распознавать голосовые сообщения
+* анализировать изображения
+* извлекать текст и данные
+* реагировать на медиа-контент от пользователя
+* автоматически записывать найденные данные в поля
 
-\- извлекать текст и данные
+### Как открыть AI Recognition
 
-\- реагировать на медиа-контент от пользователя
+![](<../../../.gitbook/assets/Frame 2213.png>)
 
-\- автоматически записывать найденные данные в поля
-{% endhint %}
+![](<../../../.gitbook/assets/Frame 2214.png>)
 
-### Как открыть AI Recognition:
+#### Steps / Instructions
 
-{% stepper %}
-{% step %}
-{% hint style="info" %}
-*   #### **Перейдите в Bot Settings**
+1. Перейдите в **Bot Settings**.
+2. Откройте раздел **AI Recognition**.
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2213.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+### Какие типы контента поддерживаются
 
-{% step %}
-{% hint style="info" %}
-*   #### **Откройте раздел AI Recognition**
+В AI Recognition можно отдельно настраивать реакцию на разные типы медиа.
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2214.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
-{% endstepper %}
+* **Voice** — голосовые сообщения
+* **Video Note** — кружки
+* **Photo** — изображения
+* **Video** — видео
+* **Document** — документы
 
-### Подробнее:
+### Режим Recognition
 
-<details>
+![](<../../../.gitbook/assets/Frame 2256 (2).png>)
 
-<summary>Какие типы контента поддерживаются</summary>
+В режиме **Recognition** AI обрабатывает медиа автоматически.
 
-{% hint style="info" %}
-В AI Recognition можно отдельно настраивать реакцию на разные типы медиа:
-
-* Voice - голосовые сообщения
-* Video Note - кружки
-* Photo - изображения
-* Video - видео
-* Document - документы
-{% endhint %}
-
-</details>
-
-<details>
-
-<summary>Режим Recognition</summary>
-
-{% hint style="info" %}
-В режиме Recognition AI:
+### How it works
 
 * анализирует содержимое медиа
 * преобразует его в текст или смысл
 * учитывает результат в контексте диалога
-*   продолжает общение автоматически
+* продолжает общение автоматически
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2256 (2).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+### Notes
 
-{% hint style="info" %}
-Этот режим нужен, когда медиа должно обрабатываться без участия оператора.
-{% endhint %}
+* Этот режим нужен, когда медиа должно обрабатываться без участия оператора.
 
-</details>
+### Режим Manual
 
-<details>
+![](<../../../.gitbook/assets/Frame 2256 (3).png>)
 
-<summary>Режим Manual</summary>
+В режиме **Manual** диалог переводится на ручную обработку.
 
-{% hint style="info" %}
-В режиме Manual диалог переводится на ручную обработку.
-{% endhint %}
+### How it works
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2256 (3).png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
 Этот вариант подходит, если:
 
 * нужна проверка оператором
 * медиа нельзя обрабатывать автоматически
 * требуется ручное решение по диалогу
-{% endhint %}
 
-</details>
+### Режим Skip
 
-<details>
+![](<../../../.gitbook/assets/Frame 2256 (4).png>)
 
-<summary>Режим Skip</summary>
+В режиме **Skip** AI пропускает медиа и не меняет сценарий.
 
-{% hint style="info" %}
-В режиме Skip AI:
+### How it works
 
-* <mark style="color:$primary;">игнорирует сообщение</mark>
-* <mark style="color:$primary;">не учитывает его в контексте</mark>
-*   <mark style="color:$primary;">продолжает диалог без изменений</mark>
+* игнорирует сообщение
+* не учитывает его в контексте
+* продолжает диалог без изменений
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2256 (4).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+### Notes
 
-{% hint style="info" %}
-Этот режим удобен, когда медиа не должно влиять на сценарий.
-{% endhint %}
+* Этот режим удобен, когда медиа не должно влиять на сценарий.
 
-</details>
+### Ограничения по типам
 
-<details>
+Поддержка режимов зависит от типа медиа.
 
-<summary>Ограничения по типам</summary>
+* **Voice**, **Video Note** и **Photo** поддерживают `Recognition`, `Manual` и `Skip`
+* **Video** и **Document** поддерживают только `Manual` и `Skip`
 
-{% hint style="warning" %}
-**На текущий момент:**
+### Как работает распознавание голосовых сообщений
 
-* Voice, Video Note и Photo поддерживают `Recognition`, `Manual` и `Skip`
-* Video и Document поддерживают только `Manual` и `Skip`
-{% endhint %}
+При включённом **Recognition** AI обрабатывает голос как текстовый ввод.
 
-</details>
-
-<details>
-
-<summary>Как работает распознавание голосовых сообщений</summary>
-
-{% hint style="info" %}
-При включенном Recognition:
+### How it works
 
 * AI преобразует голос в текст
 * понимает смысл сообщения
 * отвечает так, как если бы пользователь написал текст
-{% endhint %}
 
-{% hint style="info" %}
-Это позволяет автоматизировать работу с голосовыми сообщениями без ручной расшифровки.
-{% endhint %}
+### Notes
 
-</details>
+* Это позволяет автоматизировать работу с голосовыми сообщениями без ручной расшифровки.
 
-<details>
+### Как работает распознавание изображений
 
-<summary>Как работает распознавание изображений</summary>
+AI может извлекать смысл и данные из изображения.
 
-{% hint style="info" %}
-AI может:
+### How it works
 
 * определять содержимое изображения
 * распознавать текст
 * понимать контекст скриншотов и интерфейсов
 * извлекать конкретные данные
-{% endhint %}
 
-</details>
+### Tasks
 
-<details>
+`Tasks` — это инструкции для AI, что именно искать на изображении.
 
-<summary>Tasks (Instructions)</summary>
-
-{% hint style="info" %}
-Tasks - это инструкции для AI, что именно искать на изображении.
+### How it works
 
 Они помогают повысить точность распознавания и задать нужный контекст.
-{% endhint %}
 
-{% hint style="info" %}
 Для добавления нажмите `Add task` и укажите инструкцию.
 
 Примеры:
 
-* Find user ID from Exnova
-* Find product name on the image
-* Find user's country on 1Win
-{% endhint %}
+* `Find user ID from Exnova`
+* `Find product name on the image`
+* `Find user's country on 1Win`
 
-</details>
+### Functions
 
-<details>
+![](<../../../.gitbook/assets/Frame 2256 (5).png>)
 
-<summary>Functions</summary>
+`Functions` позволяют выполнять действия на основе найденной информации.
 
-{% hint style="info" %}
-Functions позволяют выполнять действия на основе найденной информации.
+### How it works
 
-Например, записывать данные в Custom Fields.
-{% endhint %}
+Например, записывать данные в **Custom Fields**.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2256 (5).png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
 Для добавления функции нужно указать:
 
-* Action - действие, например `Write`
-* Field - кастомное поле
-* Value - тип данных, например `ID`, `Country`, `Amount`
-* Prompt - что именно нужно найти
-{% endhint %}
+* **Action** — действие, например `Write`
+* **Field** — кастомное поле
+* **Value** — тип данных, например `ID`, `Country`, `Amount`
+* **Prompt** — что именно нужно найти
 
-{% hint style="info" %}
 Пример настройки:
 
-* Task: Find user ID from Exnova
-* Action: Write
-* Field: Exnova ID
-* Value: ID
-* Prompt: User ID from Exnova
-{% endhint %}
+* **Task** — `Find user ID from Exnova`
+* **Action** — `Write`
+* **Field** — `Exnova ID`
+* **Value** — `ID`
+* **Prompt** — `User ID from Exnova`
 
-{% hint style="info" %}
-В результате AI найдёт ID на изображении и автоматически запишет его в нужное поле.
-{% endhint %}
+### Notes
 
-</details>
+* В результате AI найдёт ID на изображении и автоматически запишет его в нужное поле.
 
-<details>
+### Пример сценария
 
-<summary>Пример сценария</summary>
+Ниже пример типового потока.
 
-{% hint style="info" %}
-Пример работы:
+### How it works
 
 * пользователь отправляет скриншот
 * AI распознаёт нужные данные
-* сохраняет их в Custom Fields
+* сохраняет их в **Custom Fields**
 * диалог продолжается по сценарию
-{% endhint %}
 
-</details>
+### Где удобно использовать AI Recognition
 
-### Где удобно использовать AI Recognition:
-
-{% hint style="success" %}
-AI Recognition особенно полезен, когда пользователи отправляют:
+Этот блок полезен, когда пользователи отправляют медиа для автоматической обработки.
 
 * голосовые сообщения
 * скриншоты
 * подтверждения
 * документы и медиа для проверки
-{% endhint %}
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

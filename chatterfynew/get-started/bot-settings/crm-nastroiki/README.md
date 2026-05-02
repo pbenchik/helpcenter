@@ -4,10 +4,44 @@ icon: screen-users
 
 # CRM-настройки
 
-> ### В этом разделе собраны основные CRM-настройки бота в Chatterfy.
+В этом разделе собраны основные CRM-настройки бота в Chatterfy.
 
 Здесь можно управлять назначением менеджеров, тегами и пользовательскими фильтрами.
 
-<table data-view="cards"><thead><tr><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="../../../.gitbook/assets/Frame 2250 (12).png">Frame 2250 (12).png</a></td><td><a href="assign-manager.md">assign-manager.md</a></td></tr><tr><td><a href="../../../.gitbook/assets/Frame 2250 (13).png">Frame 2250 (13).png</a></td><td><a href="tags.md">tags.md</a></td></tr><tr><td><a href="../../../.gitbook/assets/Frame 2250 (14).png">Frame 2250 (14).png</a></td><td><a href="../../crm/messenger/custom-filters/">custom-filters</a></td></tr></tbody></table>
+### Как это работает
+
+Раздел объединяет настройки, которые влияют на работу команды в CRM.
+
+* назначение менеджеров
+* работа с тегами
+* настройка пользовательских фильтров
+
+### Разделы
+
+Ниже собраны основные страницы этого блока.
+
+#### Assign Manager
+
+![](<../../../.gitbook/assets/Frame 2250 (12).png>)
+
+Настройки назначения менеджеров для диалогов и лидов.
+
+[Открыть Assign Manager](assign-manager.md)
+
+#### Tags
+
+![](<../../../.gitbook/assets/Frame 2250 (13).png>)
+
+Настройки тегов для маркировки и сегментации диалогов.
+
+[Открыть Tags](tags.md)
+
+#### Custom Filters
+
+![](<../../../.gitbook/assets/Frame 2250 (14).png>)
+
+Настройки пользовательских фильтров для работы со списками диалогов.
+
+[Открыть Custom Filters](../../crm/messenger/custom-filters/)
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

@@ -4,171 +4,110 @@ icon: square-root-variable
 
 # Bot Variables
 
-> ### Bot Variables - это переменные, которые можно создать для конкретного бота или лички.
+**Bot Variables** — это переменные, которые можно создать для конкретного бота или лички.
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2256 (6).png" alt=""><figcaption></figcaption></figure></div>
+### Что можно делать
 
-{% hint style="info" %}
-С их помощью можно:
+![](<../../../.gitbook/assets/Frame 2256 (6).png>)
 
-\- централизованно хранить ссылки, ID и другие значения
+С их помощью можно централизованно хранить общие значения.
 
-\- использовать одни и те же данные в сообщениях и шагах
+* централизованно хранить ссылки, ID и другие значения
+* использовать одни и те же данные в сообщениях и шагах
+* быстро обновлять значение в одном месте
+* сокращать длинные ссылки через свой домен
 
-\- быстро обновлять значение в одном месте
+### Как создать Bot Variable
 
-\- сокращать длинные ссылки через свой домен
-{% endhint %}
+![](<../../../.gitbook/assets/Frame 2213 (1).png>)
 
-### Как создать Bot Variable:
+![](<../../../.gitbook/assets/Frame 2215.png>)
 
-{% stepper %}
-{% step %}
-{% hint style="info" %}
-*   #### **Перейдите в Bot Settings**
+![](<../../../.gitbook/assets/Frame 2215 (1).png>)
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2213 (1).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+![](<../../../.gitbook/assets/image (26).png>)
 
-{% step %}
-{% hint style="info" %}
-*   #### **Пролистайте вниз до блока Bot Variables**
+#### Steps / Instructions
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2215.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+1. Перейдите в **Bot Settings**.
+2. Пролистайте вниз до блока **Bot Variables**.
+3. Нажмите **Add New Variable**.
+4. В поле **Variable Name** укажите название переменной.
+5. В поле **Value** укажите значение переменной.
 
-{% step %}
-{% hint style="info" %}
-*   #### **Нажмите Add New Variable**
+### Примеры переменных
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2215 (1).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+Названия и значения зависят от задачи.
 
-{% step %}
-{% hint style="info" %}
-*   #### **В поле Variable Name укажите название переменной**
-
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
-
-{% step %}
-{% hint style="info" %}
-* #### **В поле Value укажите значение переменной**
-{% endhint %}
-{% endstep %}
-{% endstepper %}
-
-### Подробнее:
-
-<details>
-
-<summary>Примеры переменных</summary>
-
-{% hint style="info" %}
 Примеры названий:
 
 * `regLink`
 * `trader_id`
-{% endhint %}
 
-{% hint style="info" %}
 Примеры значений:
 
 * `https://pp.com?clickid={{tracker.clickid}}`
 * `{{fields.trader_id}}`
-{% endhint %}
 
-</details>
+### Как использовать Bot Variables
 
-<details>
+После создания переменную можно использовать в сообщениях, шагах и сценариях.
 
-<summary>Как использовать Bot Variables</summary>
+### How it works
 
-{% hint style="info" %}
-После создания переменную можно использовать в сообщениях, шагах и сценариях через макрос:
+Используйте макросы:
 
-* <mark style="color:$primary;">`\{{variables.regLink\}}`</mark>
-* <mark style="color:$primary;">`\{{variables.trader_id\}}`</mark>
-{% endhint %}
+* `{{variables.regLink}}`
+* `{{variables.trader_id}}`
 
-{% hint style="info" %}
-Если значение изменится, достаточно обновить его один раз в Bot Settings.
+Если значение изменится, достаточно обновить его один раз в **Bot Settings**.
 
 После этого изменения применятся везде, где используется этот макрос.
-{% endhint %}
 
-</details>
+### Shorten the link
 
-<details>
+Если значение переменной — длинная ссылка, можно включить опцию `Shorten the link`.
 
-<summary>Shorten the link</summary>
+### Steps / Instructions
 
-{% hint style="info" %}
-Если значение переменной - длинная ссылка, можно включить опцию `Shorten the link`.
-{% endhint %}
+1. Включите `Shorten the link`.
+2. Выберите один из своих доменов в поле `Domains`.
 
-{% hint style="info" %}
-Для этого:
+### Пример сокращения ссылки
 
-* включите `Shorten the link`
-* выберите один из своих доменов в поле `Domains`
-{% endhint %}
-
-</details>
-
-<details>
-
-<summary>Пример сокращения ссылки</summary>
-
-{% hint style="info" %}
-Пример:
+Ниже пример того, как работает сокращение.
 
 Изначальная ссылка:
 
-https://partner.program/registerutm\_campaign=111111\&utm\_source=11111\&utm\_medium=11111\&a=11111\&ac=11111\&code=50START\&click\_id=\{{tracker.clickid\}}
+`https://partner.program/registerutm_campaign=111111&utm_source=11111&utm_medium=11111&a=11111&ac=11111&code=50START&click_id={{tracker.clickid}}`
 
 Домен:
 
-testdomain.com
+`testdomain.com`
 
 Финальная ссылка:
 
-https://testdomain.com/qp7h3zi
-{% endhint %}
+`https://testdomain.com/qp7h3zi`
 
-</details>
+### Использование в AI
 
-<details>
-
-<summary>Использование в AI</summary>
-
-{% hint style="info" %}
 Bot Variables можно использовать и в AI-промптах.
-{% endhint %}
 
-{% hint style="info" %}
+### How it works
+
 Это удобно, потому что:
 
 * вместо вставки ссылки вручную AI может использовать `{{variables.regLink}}`
 * при изменении ссылки достаточно обновить одну переменную
 * не нужно редактировать каждый шаг или каждый промпт отдельно
-{% endhint %}
 
-</details>
+### Где удобно использовать Bot Variables
 
-### Где удобно использовать Bot Variables:
-
-{% hint style="success" %}
-Bot Variables удобно использовать, когда нужно:
+Этот блок полезен, когда нужно переиспользовать значения в разных местах.
 
 * хранить общие ссылки и ID в одном месте
 * быстро менять данные без ручного поиска по шагам
 * использовать одни и те же значения в нескольких сценариях
 * сокращать длинные ссылки через собственный домен
-{% endhint %}
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

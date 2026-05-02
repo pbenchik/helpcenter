@@ -4,68 +4,62 @@ icon: calendar-users
 
 # Как пригласить пользователей
 
-> ### В этой статье вы найдете инструкцию, как пригласить сотрудника в вашу компанию.
+На этой странице показано, как пригласить сотрудника в компанию.
 
-{% hint style="info" %}
-**Инструкция**
+Доступны два способа: по ссылке и по email.
 
-* Видеоинструкция
-* Пошаговая текстовая инструкция
-{% endhint %}
+### Видеоинструкция
 
-### Видеоинструкция:
-
-{% hint style="info" icon="calendar-users" %}
-В видео показаны способы приглашения: по ссылке и по email.
+В видео показаны оба способа приглашения.
 
 {% embed url="https://www.youtube.com/watch?v=8gYlY0deHHE" fullWidth="false" %}
 
-***
+* `00:13` — приглашение по Invite link
+* `00:28` — приглашение по Email
 
-`00:13` — Как пригласить по Invite link
+### Приглашение по email
 
-***
+Используйте этот способ, если хотите сразу отправить приглашение на email сотрудника.
 
-`00:28` — Как пригласить по Email
+![](<../../../.gitbook/assets/image (81).png>)
 
-***
-{% endhint %}
+![](<../../../.gitbook/assets/image (82).png>)
 
-### Пошаговая текстовая инструкция:
+![](<../../../.gitbook/assets/Frame 2057.png>)
 
-<details>
+![](<../../../.gitbook/assets/Frame 2087.png>)
 
-<summary>Приглашение по email</summary>
+![](<../../../.gitbook/assets/Frame 2088.png>)
 
-* Перейдите в раздел Company → Users
-* ![](<../../../.gitbook/assets/image (81).png>)
-* Нажмите кнопку Invite user
-* ![](<../../../.gitbook/assets/image (82).png>)
-* Перейдите в блок Invite by email
-* ![](<../../../.gitbook/assets/Frame 2057.png>)
-* Укажите email пользователя
-* ![](<../../../.gitbook/assets/Frame 2087.png>)
-* Выберите роль
-* ![](<../../../.gitbook/assets/Frame 2088.png>)
-* Нажмите Send invites
-* ![](<../../../.gitbook/assets/Frame 2089.png>)
+![](<../../../.gitbook/assets/Frame 2089.png>)
 
-</details>
+#### Шаги
 
-<details>
+1. Перейдите в раздел **Company → Users**.
+2. Нажмите **Invite user**.
+3. Перейдите в блок **Invite by email**.
+4. Укажите email пользователя.
+5. Выберите роль.
+6. Нажмите **Send invites**.
 
-<summary>Приглашение по ссылке</summary>
+### Приглашение по ссылке
 
-* Перейдите в раздел Company → Users
-* ![](<../../../.gitbook/assets/image (80).png>)
-* Нажмите кнопку Invite user
-* ![](<../../../.gitbook/assets/image (79).png>)
-* В блоке Invite by link выберите роль пользователя
-* ![](<../../../.gitbook/assets/Frame 2090.png>)
-* Скопируйте ссылку
-* ![](<../../../.gitbook/assets/Frame 2058 (3).png>)
-* Отправьте её сотруднику
+Используйте этот способ, если хотите вручную отправить ссылку сотруднику.
 
-</details>
+![](<../../../.gitbook/assets/image (80).png>)
+
+![](<../../../.gitbook/assets/image (79).png>)
+
+![](<../../../.gitbook/assets/Frame 2090.png>)
+
+![](<../../../.gitbook/assets/Frame 2058 (3).png>)
+
+#### Шаги
+
+1. Перейдите в раздел **Company → Users**.
+2. Нажмите **Invite user**.
+3. В блоке **Invite by link** выберите роль пользователя.
+4. Скопируйте ссылку.
+5. Отправьте её сотруднику.
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

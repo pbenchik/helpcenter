@@ -4,58 +4,33 @@ icon: layer-plus
 
 # Как фильтровать Logs
 
-> ### Фильтры помогают быстро найти нужное событие.&#x20;
+Фильтры помогают быстро найти нужное событие.
 
-{% hint style="info" %}
-Они находятся над таблицей, в кнопке **Filters**.
+### Как это работает
 
-*
+Фильтры находятся над таблицей, в кнопке **Filters**.
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image 32559.png" alt=""><figcaption><p>Filters в Logs</p></figcaption></figure></div>
-{% endhint %}
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image 32559.png" alt=""><figcaption><p>Filters в Logs</p></figcaption></figure></div>
 
 ### Доступные фильтры
 
-{% hint style="info" %}
 * **Object** — объект системы. Например: `user`, `bot`.
 * **Editor** — пользователь, который выполнил действие.
 * **Time** — период, за который показывать события.
-{% endhint %}
 
 ### Как применить фильтр
 
-{% stepper %}
-{% step %}
-{% hint style="info" %}
-* ### Нажмите Filters
-*
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure></div>
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2256 (16).png" alt=""><figcaption></figcaption></figure></div>
 
-{% step %}
-{% hint style="info" %}
-* ### Укажите нужные параметры
-*
+1. Нажмите **Filters**.
+2. Укажите нужные параметры.
+3. Нажмите **Apply**.
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2256 (16).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+### Примечания
 
-{% step %}
-### Нажмите Apply
-
-{% hint style="warning" %}
-Таблица обновится.
-{% endhint %}
-{% endstep %}
-{% endstepper %}
-
-{% hint style="info" %}
-Экспорт CSV выгружает данные с учётом текущих фильтров.
-{% endhint %}
-
-### Что дальше?
+* Таблица обновится после применения фильтра.
+* Экспорт CSV выгружает данные с учётом текущих фильтров.
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

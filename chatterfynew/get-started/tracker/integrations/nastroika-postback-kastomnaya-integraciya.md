@@ -4,44 +4,45 @@ icon: bookmark
 
 # Настройка Postback - кастомная интеграция
 
-> ### Настройка Postback - кастомная интеграция — это инструкция по ручному подключению партнёрской программы к Tracker.
+## Настройка Postback - кастомная интеграция
 
-{% hint style="info" %}
-С её помощью можно:
+Это инструкция по ручному подключению партнёрской программы к Tracker. Она подходит для программ, которых нет в списке готовых интеграций.
 
-* подключить партнёрскую программу, которой нет в списке готовых интеграций
-* указать параметр `clickid` для связи событий с пользователем
-* создать postback-события вручную
-* добавить регистрационную ссылку для выдачи пользователям
-{% endhint %}
+### Как это работает
 
-### Как работает кастомная интеграция:
-
-{% hint style="info" %}
 Кастомная интеграция используется, если нужной партнёрской программы нет в списке готовых интеграций.
-{% endhint %}
 
-{% hint style="info" %}
 Логика работы простая:
 
 1. пользователь переходит по регистрационной ссылке
 2. партнёрская программа сохраняет `clickid`
 3. при наступлении события программа отправляет postback
 4. Chatterfy находит пользователя по `clickid` и записывает событие
-{% endhint %}
 
-{% hint style="info" %}
+С помощью этой настройки можно:
+
+* подключить партнёрскую программу, которой нет в списке готовых интеграций
+* указать параметр `clickid` для связи событий с пользователем
+* создать postback-события вручную
+* добавить регистрационную ссылку для выдачи пользователям
+
 Пример регистрационной ссылки:
 
 `https://partner.com/signup?pbclick={{tracker.clickid}}`
-{% endhint %}
 
-### Как настроить кастомную интеграцию:
+### Как настроить кастомную интеграцию
 
-{% stepper %}
-{% step %}
-{% hint style="info" %}
-**Откройте раздел Integrations**
+1. Перейдите в **Tracker**.
+2. Откройте раздел **Integrations**.
+3. Нажмите `Create Custom integration`.
+4. Укажите `Click ID Parameter`.
+5. Добавьте postback-события через `Add Postback Event`.
+6. Добавьте регистрационную ссылку через `Add Registration Link`.
+7. Перейдите по регистрационной ссылке.
+8. Выполните тестовое событие.
+9. Проверьте postback в логах Tracker.
+
+### Откройте раздел Integrations
 
 Чтобы создать кастомную интеграцию:
 
@@ -49,21 +50,13 @@ icon: bookmark
 2. откройте раздел Integrations
 3. нажмите `Create Custom integration`
 
-*
+![Создание кастомной интеграции](<../../../.gitbook/assets/unknown (123).png>)
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (123).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
-
-{% step %}
-{% hint style="info" %}
-**Укажите параметр clickid**
+### Укажите параметр clickid
 
 Первый шаг — указать `Click ID Parameter`.
 
-*
-
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (124).png" alt=""><figcaption></figcaption></figure></div>
+![Параметр clickid](<../../../.gitbook/assets/unknown (124).png>)
 
 Обычно используют:
 
@@ -71,174 +64,95 @@ icon: bookmark
 * `sub1`
 * `sub4`
 * `pbclick`
-{% endhint %}
-{% endstep %}
 
-{% step %}
-{% hint style="info" %}
-**Настройте postback события**
+### Настройте postback-события
 
 Нажмите `Add Postback Event`, укажите название события и скопируйте `Postback URL`.
 
-*
+![Настройка postback-событий](<../../../.gitbook/assets/unknown (125).png>)
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (125).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+### Основные типы событий
 
-{% step %}
-{% hint style="info" %}
-**Добавьте регистрационную ссылку**
-
-После настройки postback добавьте регистрационную ссылку через `Add Registration Link`.
-
-*
-
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (128).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
-
-{% step %}
-{% hint style="info" %}
-**Выполните проверку**
-
-Перейдите по регистрационной ссылке, выполните тестовое событие и проверьте postback в логах Tracker.
-{% endhint %}
-{% endstep %}
-{% endstepper %}
-
-<details>
-
-<summary>Почему важен clickid</summary>
-
-{% hint style="danger" %}
-Если параметр `clickid` не передаётся, система не сможет связать событие с конкретным пользователем.
-
-В этом случае события не будут записываться в Tracker.
-{% endhint %}
-
-</details>
-
-<details>
-
-<summary>Основные типы событий</summary>
-
-{% hint style="info" %}
 Обычно настраиваются три основных события:
 
 * `Registration (registration)` — регистрация пользователя
 * `Sale (sale)` — первый депозит
 * `Resale (resale)` — повторный депозит
-*
 
-    <figure><img src="../../../.gitbook/assets/unknown (126).png" alt=""><figcaption></figcaption></figure>
-{% endhint %}
+![Основные типы событий](<../../../.gitbook/assets/unknown (126).png>)
 
-{% hint style="danger" %}
 Используйте точные названия:
 
 * `registration`
 * `sale`
 * `resale`
-{% endhint %}
 
-{% hint style="info" %}
 Если назвать событие иначе, система может обработать его некорректно.
-{% endhint %}
 
-</details>
+### Параметры postback
 
-<details>
-
-<summary>Параметры postback</summary>
-
-*
-
-    <figure><img src="../../../.gitbook/assets/unknown (127).png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="info" %}
 При настройке postback можно передавать дополнительные параметры.
+
+![Параметры postback](<../../../.gitbook/assets/unknown (127).png>)
 
 Например:
 
 * `tracker.cost={amount}`
 * `tracker.currency=usd`
 * `tracker.tid={event_id}`
-{% endhint %}
 
-{% hint style="info" %}
 Где:
 
 * `amount` — сумма депозита
 * `currency` — валюта
 * `event_id` — уникальный ID события
-{% endhint %}
 
-{% hint style="danger" %}
-Названия параметров могут отличаться в зависимости от партнёрской программы.
+### Добавьте регистрационную ссылку
 
-Перед сохранением проверьте, что вы используете её реальные переменные.
-{% endhint %}
+После настройки postback добавьте регистрационную ссылку через `Add Registration Link`.
 
-</details>
+![Добавление регистрационной ссылки](<../../../.gitbook/assets/unknown (128).png>)
 
-<details>
+#### Как это работает
 
-<summary>Как добавить регистрационную ссылку</summary>
-
-{% hint style="info" %}
 Для этого:
 
 1. нажмите `Add Registration Link`
 2. укажите `Link name` — внутреннее название ссылки
 3. добавьте `Base URL` — регистрационную ссылку из партнёрской программы
-{% endhint %}
 
-{% hint style="info" %}
 Система автоматически сформирует поле `Final URL with Parameters`.
-{% endhint %}
 
-{% hint style="info" %}
 Пример:
 
 `https://partner.com/signup?pbclick={{tracker.clickid}}`
-{% endhint %}
 
-{% hint style="info" %}
-Эту ссылку можно отправлять пользователю.
+Эту ссылку можно отправлять пользователю. Система автоматически подставит `clickid` для каждого перехода.
 
-Система автоматически подставит `clickid` для каждого перехода.
-{% endhint %}
+### Проверка после настройки
 
-</details>
-
-<details>
-
-<summary>Проверка после настройки</summary>
-
-{% hint style="info" %}
 После завершения настройки рекомендуется сделать тест:
 
 1. перейдите по регистрационной ссылке
 2. выполните тестовое событие в партнёрской программе
 3. проверьте, появился ли postback в логах Tracker
-{% endhint %}
 
-{% hint style="info" %}
 Если событие отображается корректно, интеграция настроена правильно.
-{% endhint %}
 
-</details>
+### Что важно
 
-### Где удобно использовать кастомную интеграцию:
+* Если параметр `clickid` не передаётся, система не сможет связать событие с конкретным пользователем.
+* В этом случае события не будут записываться в Tracker.
+* Названия параметров могут отличаться в зависимости от партнёрской программы.
+* Перед сохранением проверьте, что вы используете её реальные переменные.
 
-{% hint style="success" %}
+### Где использовать кастомную интеграцию
+
 Кастомная интеграция удобна, когда нужно:
 
 * подключить партнёрскую программу без готового шаблона
 * гибко настроить свои события и параметры
 * связать postback с пользователем через `clickid`
 * передавать регистрации и депозиты в Tracker вручную настроенной схемой
-{% endhint %}
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

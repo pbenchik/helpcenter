@@ -4,26 +4,28 @@ icon: hand-holding-circle-dollar
 
 # История списаний
 
-> ### Transactions history:
+## История списаний
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (8).png" alt=""><figcaption><p>В блоке Transactions history отображаются все списания средств.</p></figcaption></figure></div>
+В блоке **Transactions history** отображаются все списания средств компании.
 
-{% hint style="success" icon="square-poll-horizontal" %}
-В блоке Transactions history фиксируются:
+### Как это работает
+
+Раздел показывает операции списания и их основные параметры. Здесь фиксируется стоимость использования ботов и AI-чатов.
+
+![История списаний](<../../../.gitbook/assets/unknown (8).png>)
+
+### Что фиксируется в разделе
 
 * стоимость использования ботов
 * стоимость чатов, в которых участвует AI
-{% endhint %}
 
-{% hint style="success" icon="flag-swallowtail" %}
-Доступные поля:
+### Какие поля доступны
 
-* Transaction ID - уникальный идентификатор транзакции в системе.
-* Amount - сумма списания средств.
-* Type - тип операции (например: bots, AI chats).
-* Value - количество ботов, по которым произведено списание.
-* Date and time - дата и время выполнения операции.
-* Details - дополнительная информация о транзакции.
-{% endhint %}
+* **Transaction ID** — уникальный идентификатор транзакции в системе
+* **Amount** — сумма списания средств
+* **Type** — тип операции, например `bots` или `AI chats`
+* **Value** — количество ботов, по которым произведено списание
+* **Date and time** — дата и время выполнения операции
+* **Details** — дополнительная информация о транзакции
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

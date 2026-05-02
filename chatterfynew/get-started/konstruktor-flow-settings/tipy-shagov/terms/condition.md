@@ -4,315 +4,165 @@ icon: chart-simple-horizontal
 
 # Condition
 
-> ### Condition - это шаг, который позволяет делать разнообразные гибкие условия переходов на другие шаги.
+Condition позволяет разделять пользователей по условиям и направлять их по разным веткам сценария.
 
-{% hint style="info" %}
-*
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2260 (8).png" alt=""><figcaption></figcaption></figure></div>
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2260 (8).png" alt=""><figcaption></figcaption></figure></div>
+### How it works
 
-**Condition** - это шаг, который позволяет разделять пользователей по условиям и направлять их по разным веткам сценария.\
-Используется для:
+Condition используется для:
 
 * построения логики воронки
 * сегментации пользователей
 * персонализации сценариев
-* обработки различных сценариев поведения
-{% endhint %}
+* обработки разных сценариев поведения
 
-### Важно:
+### Settings
 
-<details>
+Короткие настройки шага для навигации внутри flow.
 
-<summary>1. Settings (Настройки)</summary>
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-**Title**\
-Название шага.\
-Используется для удобной навигации внутри flow.
+* **Title** — название шага. Используется для удобной навигации внутри flow
 
-*
-
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-
-
-
-</details>
-
-<details>
-
-<summary>2. Conditions (Условия)</summary>
-
-{% hint style="info" %}
-*
-
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (27).png" alt=""><figcaption></figcaption></figure></div>
+### Conditions
 
 Здесь настраиваются условия перехода пользователя по flow.
-{% endhint %}
 
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (27).png" alt=""><figcaption></figcaption></figure></div>
 
+#### Filter types
 
-</details>
+Выберите тип данных, по которому будет выполняться проверка.
 
-<details>
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (23).png" alt=""><figcaption></figcaption></figure></div>
 
-<summary>По каким условиям можно переводить лидов:</summary>
+* **Tags** — теги
+* **Custom Field** — кастомные поля
+* **Tracker Field** — трекерные поля
+* **Current time** — текущее время по часовому поясу бота из **Bot Settings → General**
+* **Total Deposit** — сумма депозитов лида
+* **Tracker Events** — события. Можно проверить наличие или отсутствие события
+* **FD Amount** — сумма первого депозита
+* **RD Amount** — сумма повторных депозитов
 
-{% hint style="info" %}
-· <mark style="color:blue;">Tags</mark> - теги
+#### Filter by
 
-· <mark style="color:blue;">Custom Field</mark> - кастомные поля
+Этот блок задаёт тип данных для проверки.
 
-· <mark style="color:blue;">Tracker Field</mark> - трекерные поля
+<figure><img src="../../../../.gitbook/assets/Frame 2248 (28).png" alt=""><figcaption></figcaption></figure>
 
-· <mark style="color:blue;">Current time</mark> - текущее время. Время определяется по часовому поясу бота, которое устанавливается в его настройках, раздел Bot Settings - General;
+* **Tags** — фильтрация по тегам пользователя
+* **Custom Field** — фильтрация по кастомным полям
+* **Tracker Field** — фильтрация по данным из трекера
+* **Current time** — фильтрация по времени
+* **Total Deposit** — общая сумма депозитов пользователя
+* **Tracker Events** — параметры из трекера
+* **FD Amount** — сумма первого депозита
+* **RD Amount** — сумма повторных депозитов
 
-· <mark style="color:blue;">Total Deposit</mark> - сумма депозитов лида;
+#### Operators
 
-· <mark style="color:blue;">Tracker Events</mark> - события. Можно сделать проверку на наличие или отсутствие того или иного события у лида;
+Доступные операторы зависят от выбранного типа данных.
 
-· <mark style="color:blue;">FD Amount</mark> - сумма первого депозита;
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (24).png" alt=""><figcaption></figcaption></figure></div>
 
-· <mark style="color:blue;">RD Amount</mark> - сумма повторных депозитов.
+* `is` — есть точное совпадение
+* `has` — если есть значение
+* `any` — любое значение
+* `not` — не имеет значения
+* `more than` — больше чем
+* `less than` — меньше чем
+* `range include` — диапазон включает
+* `range exclude` — диапазон исключает
 
-*
+**For tags and fields**
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (23).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (29).png" alt=""><figcaption></figcaption></figure></div>
 
+* `is` — совпадает
+* `has` — содержит
+* `any` — любой из
+* `not` — не равно
 
+**For numeric values**
 
-</details>
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (30).png" alt=""><figcaption></figcaption></figure></div>
 
-<details>
+* `is` — равно
+* `not` — не равно
+* `more than` — больше
+* `less than` — меньше
 
-<summary>В данном шаге доступны следующие переменные:</summary>
+**For time**
 
-{% hint style="info" %}
-*
+<figure><img src="../../../../.gitbook/assets/Frame 2248 (31).png" alt=""><figcaption></figcaption></figure>
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (24).png" alt=""><figcaption></figcaption></figure></div>
-* <mark style="color:blue;">is</mark> - есть точное совпадение;
-* <mark style="color:blue;">has</mark> - если есть значение;
-* <mark style="color:blue;">any</mark> - любое значение;
-* <mark style="color:blue;">not</mark> - не имеет значения;
-* <mark style="color:blue;">more than</mark> - больше чем;
-* <mark style="color:blue;">less than</mark> - меньше чем;
-* <mark style="color:blue;">range include</mark> - диапазон включает;
-* <mark style="color:blue;">range exclude</mark> - диапазон исключает.
-{% endhint %}
+* `range include` — входит в диапазон
+* `range exclude` — вне диапазона
 
+#### Enter value
 
+Поле для ввода значения, с которым будет происходить сравнение.
 
-</details>
-
-<details>
-
-<summary>Пример на Current time:</summary>
-
-{% hint style="info" %}
-У Вас есть два обработчика, у одного из которых график работы с 12:00 до 00:00, а у другого обработчика график с 00:00 до 12:00.
-
-Можно создать два шага с назначением обработчиков и в шаге Condition сделать два условия:
-
-* <mark style="color:blue;">1. Для того, кто работает днем - Current time - range exclude - 00:00 - 12:00</mark>
-* <mark style="color:purple;">2. Для того, кто работает ночью - Current time - range include - 00:00 - 12:00</mark>
-*
-
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (25).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-
-
-
-</details>
-
-<details>
-
-<summary>Add condition</summary>
-
-{% hint style="info" %}
-Добавляет новое условие в выбранную ветку.\
-В одну ветку можно добавить несколько условий.
-{% endhint %}
-
-
-
-</details>
-
-<details>
-
-<summary>Filter by</summary>
-
-{% hint style="info" %}
-*
-
-    <figure><img src="../../../../.gitbook/assets/Frame 2248 (28).png" alt=""><figcaption></figcaption></figure>
-* Тип данных, по которому будет происходить проверка:
-* Tags - фильтрация по тегам пользователя
-* Custom Field - фильтрация по кастомным полям
-* Tracker Field - фильтрация по данным из трекера
-* Current time - фильтрация по времени
-* Total Deposit - общая сумма депозитов пользователя
-* Tracker Events - параметры из трекера
-* FD Amount - сумма первого депозита
-* RD Amount - сумма повторных депозитов
-{% endhint %}
-
-
-
-</details>
-
-<details>
-
-<summary>В зависимости от выбранного типа доступны разные операторы:</summary>
-
-{% hint style="info" %}
-* is - совпадает
-* has - содержит
-* any - любой из
-* not - не равно
-*
-
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (29).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-
-
-
-</details>
-
-<details>
-
-<summary>Для числовых значений:</summary>
-
-{% hint style="info" %}
-* is - равно
-* not - не равно
-* more than - больше
-* less than - меньше
-*
-
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (30).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-
-
-
-</details>
-
-<details>
-
-<summary>Для времени:</summary>
-
-{% hint style="info" %}
-* range include - входит в диапазон
-* range exclude - вне диапазона
-*
-
-    <figure><img src="../../../../.gitbook/assets/Frame 2248 (31).png" alt=""><figcaption></figcaption></figure>
-{% endhint %}
-
-
-
-</details>
-
-<details>
-
-<summary>Enter value</summary>
-
-{% hint style="info" %}
-Поле для ввода значения:
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (32).png" alt=""><figcaption></figcaption></figure></div>
 
 Используется для:
 
-* Custom Field
-* Tracker Field
-*
+* **Custom Field**
+* **Tracker Field**
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (32).png" alt=""><figcaption></figcaption></figure></div>
+#### Add condition
 
-В это поле вводится значение, с которым будет происходить сравнение.
-{% endhint %}
+Добавляет новое условие в выбранную ветку.
 
+* В одну ветку можно добавить несколько условий
 
+### Steps / Instructions
 
-</details>
+1. Добавьте шаг **Condition** в flow.
+2. Откройте блок **Conditions**.
+3. Выберите **Filter by**.
+4. Укажите оператор.
+5. Введите значение, если это нужно.
+6. При необходимости нажмите **Add condition**.
+7. Подключите ветку к следующему шагу.
 
-<details>
+### Examples
 
-<summary>Пример использования</summary>
+Ниже примеры, как использовать шаг в реальных сценариях.
 
-{% hint style="info" %}
-Сценарий 1: разделение по депозиту
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (25).png" alt=""><figcaption></figcaption></figure></div>
 
-***
+#### Current time
 
-**Шаг 1:** Total Deposit → more → 0 → если сумма депозитов пользователя больше 0, он будет переведён на указанный шаг
+У вас есть два обработчика:
 
-***
+* один работает с `12:00` до `00:00`
+* второй работает с `00:00` до `12:00`
 
-**Шаг 2:** Total Deposit → is → 0 → если у пользователя нет депозита, он будет переведён на указанный шаг
+Можно создать два шага с назначением обработчиков и в **Condition** задать такие условия:
 
-***
+* для дневного обработчика — `Current time → range exclude → 00:00 → 12:00`
+* для ночного обработчика — `Current time → range include → 00:00 → 12:00`
 
-**Сценарий 1: проверка времени**
+#### Other examples
 
-Current time → range include → 10:00–20:00\
-→ перевод пользователя на указанный шаг, если текущее время находится в этом промежутке
+* `Total Deposit → more than → 0` — если сумма депозитов пользователя больше `0`, он будет переведён на указанный шаг
+* `Total Deposit → is → 0` — если у пользователя нет депозита, он будет переведён на указанный шаг
+* `Current time → range include → 10:00–20:00` — переводит пользователя на указанный шаг, если текущее время находится в этом промежутке
+* `Tags → has → interested` — если у пользователя есть тег `interested`, он будет переведён на указанный шаг
 
-***
+### Notes
 
-**Сценарий 2: работа с тегами**
+Перед настройкой определите, какие данные будут участвовать в условиях.
 
-Tags → has → interested\
-→ если у пользователя есть тег interested, он будет переведён на указанный шаг
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (33).png" alt=""><figcaption></figcaption></figure></div>
 
-***
-{% endhint %}
-
-
-
-</details>
-
-### Важно перед началом:
-
-{% hint style="warning" %}
-Перед использованием шага необходимо понимать, какие данные вы будете использовать в условиях:\
-теги, кастомные поля, события, депозиты и т.д.
-{% endhint %}
-
-### Основные возможности:
-
-{% hint style="info" %}
-С помощью Condition вы можете:
-
-* разделять пользователей по разным веткам
-* задавать несколько условий внутри одной ветки
-* комбинировать различные типы данных
-* строить сложную логику сценария
-{% endhint %}
-
-### Важная логика работы:
-
-{% hint style="warning" %}
-* Условия внутри одной ветки работают по принципу AND или OR
-* Пользователь должен соответствовать всем условиям ветки
+* Условия внутри одной ветки работают по принципу `AND` или `OR`
+* Пользователь должен соответствовать условиям ветки
 * Пользователь попадает только в одну ветку
-* Если ни одно условие не подошло - диалог перейдет в статус manual
-*
-
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (33).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-
-### Когда использовать Condition:
-
-{% hint style="success" %}
-Используйте этот шаг, когда нужно:
-
-* разделить пользователей по разным шагам
-* настроить разные сценарии
-* персонализировать сообщения
-* управлять логикой воронки
-{% endhint %}
+* Если ни одно условие не подошло, диалог перейдёт в статус `manual`
+* Используйте шаг, когда нужно разделить пользователей по разным шагам, настроить разные сценарии, персонализировать сообщения или управлять логикой воронки
 
 {% include "../../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

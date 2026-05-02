@@ -4,168 +4,119 @@ icon: cabinet-filing
 
 # Billing
 
-> ### Billing - это раздел аналитики по расходам бота в Chatterfy.
+**Billing** — это раздел аналитики по расходам бота в Chatterfy.
 
-{% hint style="info" %}
-С его помощью можно:
+### Что можно делать
 
-\- контролировать расходы по боту
+С его помощью можно контролировать стоимость работы бота и AI.
 
-\- оценивать стоимость чатов
+* контролировать расходы по боту
+* оценивать стоимость чатов
+* видеть нагрузку на AI
+* находить рост затрат по дням
 
-\- видеть нагрузку на AI
+### Как это работает
 
-\- находить рост затрат по дням
-{% endhint %}
-
-### Как работает Billing:
-
-{% hint style="info" %}
 В этом разделе собрана аналитика по расходам за выбранный период.
-{% endhint %}
 
-{% hint style="info" %}
 Здесь можно смотреть:
 
 * общий расход
 * стоимость чатов
 * стоимость новых чатов
 * использование AI
-{% endhint %}
 
-### Как анализировать данные в Billing:
+### Steps / Instructions
 
-{% stepper %}
-{% step %}
-{% hint style="info" %}
-**Откройте вкладку Billing в разделе Analytics**
-{% endhint %}
-{% endstep %}
+1. Откройте вкладку **Billing** в разделе **Analytics**.
+2. Посмотрите основные метрики сверху.
+3. Сравните графики расходов и средней стоимости чата.
+4. Выберите нужный период для анализа.
 
-{% step %}
-{% hint style="info" %}
-**Посмотрите основные метрики сверху**
-{% endhint %}
-{% endstep %}
+### Основные метрики
 
-{% step %}
-{% hint style="info" %}
-**Сравните графики расходов и средней стоимости чата**
-{% endhint %}
-{% endstep %}
+В верхней части раздела отображаются ключевые показатели.
 
-{% step %}
-{% hint style="info" %}
-**Выберите нужный период для анализа**
-{% endhint %}
-{% endstep %}
-{% endstepper %}
+#### This month billing
 
-### Подробнее:
+![](<../../.gitbook/assets/Frame 2251 (19).png>)
 
-<details>
+Общий расход за текущий месяц.
 
-<summary>Основные метрики</summary>
+#### Average chat cost
 
-{% hint style="info" %}
-В верхней части раздела отображаются ключевые показатели:
+![](<../../.gitbook/assets/Frame 2251 (20).png>)
 
-*   This month billing — общий расход за текущий месяц
+Средняя стоимость одного чата.
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (19).png" alt=""><figcaption></figcaption></figure></div>
-*   Average chat cost — средняя стоимость одного чата
+#### Average new chat cost
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (20).png" alt=""><figcaption></figcaption></figure></div>
-*   Average new chat cost — средняя стоимость первого диалога
+![](<../../.gitbook/assets/Frame 2251 (21).png>)
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (21).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+Средняя стоимость первого диалога.
 
-{% hint style="info" %}
+### How it works
+
 Эти метрики помогают быстро понять текущую стоимость работы бота и изменения относительно прошлого периода.
-{% endhint %}
 
-</details>
+### Usages statistics
 
-<details>
+![](<../../.gitbook/assets/Frame 2256 (13).png>)
 
-<summary>Usages statistics</summary>
-
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2256 (13).png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
 Этот график показывает расходы по дням.
+
+### How it works
 
 Он включает:
 
 * стоимость самого бота
 * стоимость использования AI в диалогах
-{% endhint %}
 
-{% hint style="info" %}
 График помогает:
 
 * отслеживать дни с повышенными расходами
 * анализировать нагрузку на AI
 * находить скачки затрат
-{% endhint %}
 
-</details>
+### Average chat price by day
 
-<details>
+![](<../../.gitbook/assets/Frame 2256 (14).png>)
 
-<summary>Average chat price by day</summary>
-
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2256 (14).png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
 Этот график показывает среднюю стоимость чата по дням.
-{% endhint %}
 
-{% hint style="info" %}
+### How it works
+
 Он помогает:
 
 * понять, как меняется стоимость общения
 * заметить рост или снижение цены диалога
 * сравнить эффективность периодов между собой
-{% endhint %}
 
-</details>
+### Выбор периода
 
-<details>
+В разделе можно выбрать период отображения данных.
 
-<summary>Выбор периода</summary>
+### How it works
 
-{% hint style="info" %}
-В разделе можно выбрать период отображения данных:
+* `7 days`
+* `14 days`
+* `30 days`
+* `90 days`
 
-* 7 days
-* 14 days
-* 30 days
-* 90 days
-{% endhint %}
-
-{% hint style="info" %}
 Также можно выбрать конкретные даты через календарь.
-{% endhint %}
 
-{% hint style="warning" %}
-Выбранный период влияет на все показатели и графики.
+### Notes
 
-Перед анализом убедитесь, что выбран нужный диапазон дат.
-{% endhint %}
+* Выбранный период влияет на все показатели и графики.
+* Перед анализом убедитесь, что выбран нужный диапазон дат.
 
-</details>
+### Где удобно использовать Billing
 
-### Где удобно использовать Billing:
-
-{% hint style="success" %}
-Billing удобно использовать, когда нужно:
+Этот раздел полезен, когда нужно следить за расходами и стоимостью диалогов.
 
 * проверить текущие расходы по боту
 * понять стоимость одного чата
 * оценить влияние AI на затраты
 * найти дни с повышенной стоимостью
-{% endhint %}
 
 {% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

@@ -4,64 +4,40 @@ icon: almost-equal-to
 
 # Proxy
 
-> ### В разделе Proxy подключаются прокси-серверы для отправки серверных событий.
+## Proxy
 
-Прокси помогает отправлять запросы с отдельного IP. Это снижает риск блокировок и повышает стабильность.
+В разделе Proxy подключаются прокси-серверы для отправки серверных событий. Прокси помогает отправлять запросы с отдельного IP.
 
-### Когда нужен Proxy:
+### Как это работает
 
-{% hint style="info" %}
+Прокси снижает риск блокировок и повышает стабильность. Он особенно полезен для стабильной серверной отправки событий.
+
 Proxy особенно полезен при работе с:
 
 * Facebook
 * другими рекламными источниками
 * сценариями, где важна стабильная серверная отправка событий
-{% endhint %}
 
-### Поддерживаемые типы:
+### Поддерживаемые типы
 
-{% hint style="info" %}
+Поддерживаются:
+
 * **HTTP**
 * **HTTPS**
-{% endhint %}
 
-{% hint style="danger" %}
 `SOCKS` не поддерживается. Если указать такой тип, события отправляться не будут.
-{% endhint %}
 
-### Как создать Proxy:
+### Как создать Proxy
 
-{% tabs %}
-{% tab title="Инструкция" %}
-{% stepper %}
-{% step %}
-{% hint style="info" %}
-Откройте Tracker → Proxy
+![Раздел Proxy](<../../.gitbook/assets/image (66).png>)
 
-*
+![Кнопка Create proxy](<../../.gitbook/assets/unknown (2).jpeg>)
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+1. Откройте **Tracker → Proxy**.
+2. Нажмите **Create proxy**.
+3. Заполните параметры.
+4. Нажмите **Save**.
 
-
-{% endstep %}
-
-{% step %}
-{% hint style="info" %}
-Нажмите Create proxy
-
-*
-
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (2).jpeg" alt=""><figcaption></figcaption></figure></div>
-
-
-{% endhint %}
-{% endstep %}
-
-{% step %}
-#### Заполните параметры
-
-{% hint style="info" %}
 Укажите:
 
 * **Name** — внутреннее название proxy
@@ -69,86 +45,53 @@ Proxy особенно полезен при работе с:
 * **Port** — порт подключения
 * **Username** — логин
 * **Password** — пароль
-{% endhint %}
-{% endstep %}
 
-{% step %}
-#### Нажмите Save
-
-{% hint style="info" %}
 После сохранения proxy появится в списке и станет доступен в настройке Sources.
-{% endhint %}
-{% endstep %}
-{% endstepper %}
 
-### Как проверить Proxy:
+### Как проверить Proxy
 
 В системе есть встроенная проверка подключения.
 
-{% stepper %}
-{% step %}
-#### Откройте список Proxy
-{% endstep %}
+![Проверка proxy](<../../.gitbook/assets/Frame 2168.png>)
 
-{% step %}
-#### Нажмите кнопку проверки рядом с нужным proxy
+1. Откройте список Proxy.
+2. Нажмите кнопку проверки рядом с нужным proxy.
+3. Дождитесь результата.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2168.png" alt=""><figcaption></figcaption></figure></div>
-{% endstep %}
-
-{% step %}
-#### Дождитесь результата
-
-{% hint style="info" %}
 Система покажет, работает ли подключение.
-{% endhint %}
-{% endstep %}
-{% endstepper %}
 
-### Возможные статусы:
+### Возможные статусы
 
-{% hint style="info" %}
-**The proxy is working** — proxy работает корректно
-{% endhint %}
+**The proxy is working** — proxy работает корректно.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (1).png" alt=""><figcaption><p>Рабочий proxy</p></figcaption></figure></div>
+![Рабочий proxy](<../../.gitbook/assets/unknown (1).png>)
 
-{% hint style="info" %}
-**The proxy isn't working** — соединение отсутствует или данные указаны неверно
-{% endhint %}
+**The proxy isn't working** — соединение отсутствует или данные указаны неверно.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (2).png" alt=""><figcaption><p>Ошибка проверки proxy</p></figcaption></figure></div>
-{% endtab %}
+![Ошибка проверки proxy](<../../.gitbook/assets/unknown (2).png>)
 
-{% tab title="Видеоинструкция" %}
+### Видеоинструкция
+
 {% embed url="https://www.youtube.com/watch?feature=youtu.be&v=yb9j6W2k4fc" %}
-{% endtab %}
-{% endtabs %}
 
-### Если Proxy не работает:
+### Если Proxy не работает
 
-{% hint style="info" %}
 Проверьте:
 
 * правильность `Host`
 * правильность `Port`
 * логин и пароль
 * доступность сервера
-{% endhint %}
 
-{% hint style="info" %}
 Если ошибка сохраняется, замените proxy на другой.
-{% endhint %}
 
-### Важно:
+### Важно
 
-{% hint style="info" %}
 * Proxy не обязателен, но часто полезен.
 * Один proxy можно использовать в нескольких кампаниях.
 * Страна proxy не критична.
 * Важнее стабильное соединение и высокий uptime.
 * Проверяйте статус proxy регулярно, чтобы не терять события.
-{% endhint %}
 
 {% include "../../../.gitbook/includes/na-glavnuyu.md" %}
 

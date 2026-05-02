@@ -4,126 +4,90 @@ icon: braille
 
 # Custom Fields
 
-> ### Custom Fields - это пользовательские поля, которые позволяют хранить дополнительную информацию о диалоге и пользователе.
+**Custom Fields** — это пользовательские поля, которые позволяют хранить дополнительную информацию о диалоге и пользователе.
 
-### Видеоинструкция:
+### Видео
 
 {% embed url="https://youtu.be/OZpz3OOsGPE" %}
 
-{% hint style="info" %}
-С их помощью можно:
+### Что можно делать
 
-\- сохранять дополнительные данные по пользователю и диалогу
+Custom Fields используют для хранения и передачи дополнительных значений.
 
-\- использовать эти данные в логике бота
+* сохранять дополнительные данные по пользователю и диалогу
+* использовать эти данные в логике бота
+* передавать значения через Webhooks и Postback
+* отображать информацию в карточке клиента
 
-\- передавать значения через Webhooks и Postback
+### Как заполняются Custom Fields
 
-\- отображать информацию в карточке клиента
-{% endhint %}
+Поля могут заполняться автоматически или вручную.
 
-### Как заполняются Custom Fields:
-
-{% hint style="info" %}
-Поля могут заполняться двумя способами:
+### How it works
 
 * автоматически — через Webhooks, Postback и другие интеграции
 * вручную — оператором внутри CRM
-{% endhint %}
 
-### Как создать Custom Field:
+### Как создать Custom Field
 
-{% stepper %}
-{% step %}
-{% hint style="info" %}
-* **Перейдите в раздел Custom Fields**
-*
+Создание поля состоит из нескольких последовательных шагов.
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2210.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+![](<../../.gitbook/assets/Frame 2210.png>)
 
-{% step %}
-{% hint style="info" %}
-* **Нажмите Add Custom Field**
-*
+![](<../../.gitbook/assets/Frame 2210 (1).png>)
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2210 (1).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+![](<../../.gitbook/assets/Frame 2211.png>)
 
-{% step %}
-{% hint style="info" %}
-* **Выберите тип поля**
-*
+![](<../../.gitbook/assets/image (16).png>)
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2211.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+### Steps / Instructions
 
-{% step %}
-{% hint style="info" %}
-* **Заполните необходимые параметры**
-*
+1. Перейдите в раздел **Custom Fields**.
+2. Нажмите **Add Custom Field**.
+3. Выберите тип поля.
+4. Заполните необходимые параметры.
+5. Нажмите **Save**.
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+### Типы полей
 
-{% step %}
-#### **Нажмите Save**
-{% endstep %}
-{% endstepper %}
+При создании поля нужно выбрать его тип.
 
-### Подробнее:
+### How it works
 
-<details>
+* `Text` — короткий текст
+* `Long Text` — длинный текст, например заметка
+* `Link` — ссылка
+* `Number` — числовое значение
+* `Date` — дата в формате `2030-01-30T10:20:30Z`
+* `Select` — выбор одного варианта из списка
+* `Multiselect` — выбор нескольких вариантов
 
-<summary>Типы полей</summary>
+### Select и Multiselect
 
-{% hint style="info" %}
-При создании поля нужно выбрать его тип:
+Для типов `Select` и `Multiselect` можно заранее задать список значений.
 
-* `Text` - короткий текст
-* `Long Text` - длинный текст, например заметка
-* `Link` - ссылка
-* `Number` - числовое значение
-* `Date` - дата в формате `2030-01-30T10:20:30Z`
-* `Select` - выбор одного варианта из списка
-* `Multiselect` - выбор нескольких вариантов
-{% endhint %}
+### How it works
 
-</details>
-
-<details>
-
-<summary>Select и Multiselect</summary>
-
-{% hint style="info" %}
-Для типов `Select` и `Multiselect` можно заранее задать список значений в поле `Show items in field`.
+Список значений задаётся в поле `Show items in field`.
 
 Пример значений:
 
-\- Yes
-
-\- No
-
-\- Maybe
+* `Yes`
+* `No`
+* `Maybe`
 
 Разница между типами:
 
 * `Select` — можно выбрать только один вариант
 * `Multiselect` — можно выбрать несколько вариантов одновременно
-{% endhint %}
 
-</details>
+### Основные параметры
 
-<details>
+Основные параметры определяют, как поле хранится и где отображается.
 
-<summary>Основные параметры</summary>
+#### Field Key
 
-{% hint style="info" %}
-`Field Key` - это уникальный ключ поля.
+`Field Key` — это уникальный ключ поля.
 
 Он используется как переменная внутри системы.
 
@@ -136,29 +100,26 @@ icon: braille
 Пример переменной:
 
 `{{fields.refId}}`
-{% endhint %}
 
-{% hint style="warning" %}
-Подробнее об использовании:
+См. также:
 
-<a href="webhooks-and-api.md" class="button secondary">Webhooks &#x26; API</a> <a href="../tracker/integrations/nastroika-postback-kastomnaya-integraciya.md" class="button secondary">Настройка Postback - кастомная интеграция</a>
-{% endhint %}
+* [Webhooks & API](webhooks-and-api.md)
+* [Настройка Postback - кастомная интеграция](../tracker/integrations/nastroika-postback-kastomnaya-integraciya.md)
 
-{% hint style="info" %}
-`Name` - это название поля, которое отображается в интерфейсе.
+#### Name
+
+`Name` — это название поля, которое отображается в интерфейсе.
 
 Обычно оно видно в карточке клиента.
 
 Примеры:
 
-`Deposit Amount`
+* `Deposit Amount`
+* `User Status`
+* `Manager Comment`
 
-`User Status`
+#### Visible field
 
-`Manager Comment`
-{% endhint %}
-
-{% hint style="info" %}
 `Visible field` отвечает за отображение поля в карточке клиента.
 
 Если опция включена:
@@ -168,19 +129,14 @@ icon: braille
 Если опция выключена:
 
 * поле скрыто из карточки клиента
-{% endhint %}
 
-</details>
+### Где используются Custom Fields
 
-### Где используются Custom Fields:
+Эти поля полезны в сценариях, где нужно хранить служебные и бизнес-данные.
 
-{% hint style="success" %}
-**Custom Fields удобно использовать, когда нужно:**
-
-* Хранить ID трейдера, менеджера или сделки
-* Сохранять дату, сумму или статус
-* Передавать параметры между внешней системой и ботом
-* Показывать дополнительные данные оператору в CRM
-{% endhint %}
+* хранить ID трейдера, менеджера или сделки
+* сохранять дату, сумму или статус
+* передавать параметры между внешней системой и ботом
+* показывать дополнительные данные оператору в CRM
 
 {% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

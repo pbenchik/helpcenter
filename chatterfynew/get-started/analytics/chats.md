@@ -4,35 +4,23 @@ icon: message
 
 # Chats
 
-> ### Chats - это основная вкладка аналитики по диалогам бота.
+**Chats** — это основная вкладка аналитики по диалогам бота.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (70).jpeg" alt=""><figcaption></figcaption></figure></div>
+### Что можно делать
 
-{% hint style="info" %}
-С её помощью можно:
+![](<../../.gitbook/assets/unknown (70).jpeg>)
 
-\- оценивать объём диалогов
+С её помощью можно оценивать активность диалогов за выбранный период.
 
-\- анализировать приток новых пользователей
+* оценивать объём диалогов
+* анализировать приток новых пользователей
+* сравнивать активность по дням, неделям и месяцам
+* отслеживать общую нагрузку на бота
 
-\- сравнивать активность по дням, неделям и месяцам
+### Как это работает
 
-\- отслеживать общую нагрузку на бота
-{% endhint %}
-
-{% hint style="warning" %}
-Этот раздел показывает именно статистику по чатам.
-
-Если нужна аналитика по шагам, расходам или депозитам, используйте соседние вкладки Analytics.
-{% endhint %}
-
-### Как работает Chats:
-
-{% hint style="info" %}
 Во вкладке собраны ключевые показатели по диалогам за выбранный период.
-{% endhint %}
 
-{% hint style="info" %}
 Здесь можно:
 
 * увидеть число чатов за сегодня
@@ -40,183 +28,126 @@ icon: message
 * сравнить месяц с прошлым месяцем
 * посмотреть новые чаты по дням
 * посмотреть все чаты по дням
-{% endhint %}
 
-### Как анализировать данные в Chats:
+### Steps / Instructions
 
-{% stepper %}
-{% step %}
-{% hint style="info" %}
-**Откройте вкладку Chats в разделе Analytics**
-{% endhint %}
-{% endstep %}
+1. Откройте вкладку **Chats** в разделе **Analytics**.
+2. Посмотрите основные метрики сверху.
+3. Сравните графики новых и всех чатов.
+4. Выберите нужный период для анализа.
 
-{% step %}
-{% hint style="info" %}
-**Посмотрите основные метрики сверху**
-{% endhint %}
-{% endstep %}
+### Main metrics
 
-{% step %}
-{% hint style="info" %}
-**Сравните графики новых и всех чатов**
-{% endhint %}
-{% endstep %}
-
-{% step %}
-{% hint style="info" %}
-**Выберите нужный период для анализа**
-{% endhint %}
-{% endstep %}
-{% endstepper %}
-
-### Подробнее:
-
-<details>
-
-<summary>Main metrics</summary>
-
-{% hint style="info" %}
 В верхней части раздела отображаются основные показатели.
-{% endhint %}
 
-{% hint style="info" %}
-Доступные метрики:
+#### Chats for today
 
-*   Chats for today — количество чатов за текущий день
+![](<../../.gitbook/assets/Frame 2251 (12).png>)
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (12).png" alt=""><figcaption></figcaption></figure></div>
-*   Chats per week (mon–sun) — количество чатов за текущую неделю
+Количество чатов за текущий день.
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (13).png" alt=""><figcaption></figcaption></figure></div>
-*   Chats per month — количество чатов за текущий месяц
+#### Chats per week
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (14).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+![](<../../.gitbook/assets/Frame 2251 (13).png>)
 
-{% hint style="info" %}
+Количество чатов за текущую неделю `mon-sun`.
+
+#### Chats per month
+
+![](<../../.gitbook/assets/Frame 2251 (14).png>)
+
+Количество чатов за текущий месяц.
+
+### How it works
+
 Эти метрики помогают быстро понять текущую активность и общую динамику диалогов.
-{% endhint %}
 
-</details>
+### New chats by day
 
-<details>
+![](<../../.gitbook/assets/Frame 2251 (15).png>)
 
-<summary>New chats by day</summary>
-
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (15).png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
 Этот график показывает количество новых чатов по дням.
 
-Здесь учитываются только первые диалоги с пользователями.
-{% endhint %}
+### How it works
 
-{% hint style="info" %}
+Здесь учитываются только первые диалоги с пользователями.
+
 График помогает:
 
 * понять, сколько новых лидов приходит ежедневно
 * отследить пики и просадки по новым обращениям
 * оценить качество притока трафика
-{% endhint %}
 
-</details>
+### Chats by day
 
-<details>
+![](<../../.gitbook/assets/Frame 2251 (16).png>)
 
-<summary>Chats by day</summary>
-
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (16).png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
 Этот график показывает общее количество чатов по дням.
 
-В отличие от `New chats by day`, здесь учитываются и новые, и повторные диалоги.
-{% endhint %}
+### How it works
 
-{% hint style="info" %}
+В отличие от `New chats by day`, здесь учитываются и новые, и повторные диалоги.
+
 График помогает:
 
 * видеть общую нагрузку на бота
 * понимать активность текущей базы
 * сравнивать повторные обращения с новым трафиком
-{% endhint %}
 
-</details>
+### Period
 
-<details>
+![](<../../.gitbook/assets/Frame 2248 (76).png>)
 
-<summary>Period</summary>
-
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2248 (76).png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
 Для графиков и статистики можно выбрать период отображения.
+
+### How it works
 
 Доступные варианты:
 
-* Today
-* 7 days
-* 14 days
-* 30 days
-* 90 days
-{% endhint %}
+* `Today`
+* `7 days`
+* `14 days`
+* `30 days`
+* `90 days`
 
-{% hint style="warning" %}
-Выбранный период напрямую влияет на все показатели.
+### Notes
 
-Перед анализом убедитесь, что выбран нужный диапазон дат.
-{% endhint %}
+* Выбранный период напрямую влияет на все показатели.
+* Перед анализом убедитесь, что выбран нужный диапазон дат.
 
-</details>
+### Где удобно использовать Chats
 
-### Где удобно использовать Chats:
-
-{% hint style="success" %}
-Chats удобно использовать, когда нужно:
+Этот раздел полезен, когда нужно быстро понять объём и динамику диалогов.
 
 * оценить объём трафика
 * понять приток новых пользователей
 * отследить изменения активности
 * сравнить нагрузку по дням и периодам
-{% endhint %}
 
-{% columns fullWidth="false" %}
-{% column width="50%" %}
-{% hint style="info" %}
-**Старт и обзор**
+### Полезные ссылки
 
-* <a href="../../dobro-pozhalovat/o-produkte/" class="button secondary" data-icon="table">О продукте</a>
-* <a href="../../dobro-pozhalovat/arkhitektura-sistemy/" class="button secondary" data-icon="sitemap">Архитектура системы</a>
-* <a href="../bystryi-start/" class="button secondary" data-icon="rocket">Быстрый старт</a>
-{% endhint %}
+#### Старт и обзор
 
-{% hint style="info" %}
-**Аналитика и управление**
+* [О продукте](../../dobro-pozhalovat/o-produkte/)
+* [Архитектура системы](../../dobro-pozhalovat/arkhitektura-sistemy/)
+* [Быстрый старт](../bystryi-start/)
 
-* <a href="./" class="button secondary" data-icon="chart-line">Analytics</a>
-* <a href="../tracker/" class="button secondary" data-icon="chart-line">Tracker</a>
-* <a href="../administrirovanie-company/" class="button secondary" data-icon="buildings">Администрирование</a>
-* <a href="/broken/spaces/AxluUgdTFxFU08qksWVa/pages/yonwUmMhqke1c4edMh5B" class="button secondary" data-icon="circle-question">FAQ и решение проблем</a>
-{% endhint %}
-{% endcolumn %}
+#### Аналитика и управление
 
-{% column width="50%" %}
-{% hint style="info" %}
-**Работа в платформе**
+* [Analytics](./)
+* [Tracker](../tracker/)
+* [Администрирование](../administrirovanie-company/)
+* [FAQ и решение проблем](/broken/spaces/AxluUgdTFxFU08qksWVa/pages/yonwUmMhqke1c4edMh5B)
 
-* <a href="../crm/" class="button secondary" data-icon="comments">CRM</a>
-* <a href="../konstruktor-flow-settings/" class="button secondary" data-icon="arrow-progress">Конструктор (Flow Settings)</a>
-* <a href="../bot-settings/" class="button secondary" data-icon="robot">Bot Settings</a>
-{% endhint %}
+#### Работа в платформе
 
-{% hint style="info" %}
-**Частые вопросы**
+* [CRM](../crm/)
+* [Конструктор (Flow Settings)](../konstruktor-flow-settings/)
+* [Bot Settings](../bot-settings/)
 
-* <a href="../../faq-i-reshenie-problem/tipy-oshibok/oshibka-403.md" class="button secondary" data-icon="message-xmark">Бот не отвечает</a>
-* <a href="../../faq-i-reshenie-problem/tipy-oshibok/oshibka-400.md" class="button secondary" data-icon="triangle-exclamation">Нет ClickID</a>
-* <a href="../bystryi-start/sozdanie-i-podklyuchenie-bota/tipy-botov-v-chatterfy.md" class="button secondary" data-icon="robot">Какой тип бота выбрать?</a>
-* <a href="../../faq-i-reshenie-problem/chastye-voprosy/kak-skryt-chaty-mezhdu-operatorami.md" class="button secondary" data-icon="comment-xmark">Пуши не работают</a>
-{% endhint %}
-{% endcolumn %}
-{% endcolumns %}
+#### Частые вопросы
+
+* [Бот не отвечает](../../faq-i-reshenie-problem/tipy-oshibok/oshibka-403.md)
+* [Нет ClickID](../../faq-i-reshenie-problem/tipy-oshibok/oshibka-400.md)
+* [Какой тип бота выбрать?](../bystryi-start/sozdanie-i-podklyuchenie-bota/tipy-botov-v-chatterfy.md)
+* [Пуши не работают](../../faq-i-reshenie-problem/chastye-voprosy/kak-skryt-chaty-mezhdu-operatorami.md)

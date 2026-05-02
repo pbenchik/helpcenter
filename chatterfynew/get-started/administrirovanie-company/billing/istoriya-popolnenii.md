@@ -4,21 +4,25 @@ icon: rectangle-history
 
 # История пополнений
 
-> ### Deposits history:
+## История пополнений
 
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (7).png" alt=""><figcaption><p>В блоке Deposits history отображается история пополнений.</p></figcaption></figure></div>
+В блоке **Deposits history** отображается история пополнений компании.
 
-{% hint style="success" icon="align-justify" %}
-Доступные поля:
+### Как это работает
 
-* Deposit ID - идентификатор депозита
-* Amount - сумма пополнения
-* Network - используемая сеть
-* Status - статус транзакции
-* Date and time - дата и время операции
-* Created by - пользователь, создавший пополнение
-* Details - дополнительная информация
-{% endhint %}
+Раздел показывает все операции пополнения и их основные параметры.
+
+![История пополнений](<../../../.gitbook/assets/unknown (7).png>)
+
+### Какие поля доступны
+
+* **Deposit ID** — идентификатор депозита
+* **Amount** — сумма пополнения
+* **Network** — используемая сеть
+* **Status** — статус транзакции
+* **Date and time** — дата и время операции
+* **Created by** — пользователь, создавший пополнение
+* **Details** — дополнительная информация
 
 {% include "../../../../.gitbook/includes/na-glavnuyu.md" %}
 

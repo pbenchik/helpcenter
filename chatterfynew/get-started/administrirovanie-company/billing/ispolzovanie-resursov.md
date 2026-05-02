@@ -4,25 +4,24 @@ icon: gem
 
 # Использование ресурсов
 
-> ### Раздел Billing также отображает статистику использования ресурсов.
+## Использование ресурсов
 
-### Usages by bots:
+Раздел **Billing** также отображает статистику использования ресурсов.
 
-{% hint style="info" %}
-* Показывает использование ресурсов по каждому боту.
-*
+### Как это работает
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (9).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+Статистика помогает анализировать нагрузку и контролировать расходы внутри компании. Данные можно смотреть по ботам и по рабочим пространствам.
 
-### Usages by spaces:
+### Usages by bots
 
-{% hint style="info" %}
-* Показывает использование ресурсов по рабочим пространствам (Spaces).\
-  Это позволяет анализировать нагрузку и контролировать расходы внутри компании.
-*
+Блок показывает использование ресурсов по каждому боту.
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/unknown (10).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+![Usages by bots](<../../../.gitbook/assets/unknown (9).png>)
+
+### Usages by spaces
+
+Блок показывает использование ресурсов по рабочим пространствам — **Spaces**. Это позволяет анализировать нагрузку и контролировать расходы внутри компании.
+
+![Usages by spaces](<../../../.gitbook/assets/unknown (10).png>)
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

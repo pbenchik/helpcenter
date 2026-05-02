@@ -4,75 +4,53 @@ icon: globe-pointer
 
 # Как создать Space
 
-> ### В этом разделе описан подробный гайд по созданию спейсов
+На этой странице показано, как создать новое рабочее пространство.
 
-### Пошаговая инструкция:
+### Как это работает
 
-<details>
+Space — это отдельное рабочее пространство внутри компании.
 
-<summary>Как создать Space</summary>
+После создания Space доступ к нему выдается пользователям отдельно.
 
-{% hint style="info" %}
-1\. Откройте Company → Spaces
+### Шаги
 
-*
+#### 1. Откройте **Company → Spaces**
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2092.png" alt=""><figcaption></figcaption></figure></div>
-*
-{% endhint %}
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2092.png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-2\. Нажмите New space
+#### 2. Нажмите **New space**
 
 Кнопка находится в правом верхнем углу.
 
-*
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2091.png" alt=""><figcaption></figcaption></figure></div>
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2091.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+#### 3. Заполните имя и описание
 
-{% hint style="info" %}
-3\. Заполните имя и описание
+Имя будет видно в списке **Spaces**.
 
-Имя будет видно в списке Spaces.
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2093.png" alt=""><figcaption></figcaption></figure></div>
 
-*
+#### 4. Нажмите **Apply**
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2093.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+Space появится в списке **Spaces**.
 
-{% hint style="info" %}
-4\. Нажмите Apply
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2094.png" alt=""><figcaption></figcaption></figure></div>
 
-Space появится в списке Spaces.
+### Доступ к Space
 
-*
+Подробно: [Как выдаётся доступ к Space](upravlenie-polzovatelyami-vnutri-space.md).
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2094.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+### Примечания
 
-</details>
+* Доступ к Space выдаётся каждому пользователю отдельно.
+* Если пользователь не добавлен ни в один Space, он не имеет доступа к ботам и CRM.
 
-### Как работает доступ:
+### Зачем нужны Spaces
 
-<a href="upravlenie-polzovatelyami-vnutri-space.md" class="button secondary">Как выдаётся доступ к Space</a>
-
-{% hint style="danger" %}
-Доступ к Space выдаётся каждому пользователю отдельно.
-{% endhint %}
-
-{% hint style="danger" %}
-Если пользователь не добавлен ни в один Space, он не имеет доступа к ботам и CRM.
-{% endhint %}
-
-### Зачем нужны Spaces:
-
-{% hint style="info" %}
 Spaces помогают:
 
 * разделять команды внутри компании
 * ограничивать доступ к ботам и проектам
 * контролировать работу операторов CRM
-{% endhint %}
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

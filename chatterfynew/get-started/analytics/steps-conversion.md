@@ -4,23 +4,19 @@ icon: water-arrow-up
 
 # Steps Conversion
 
-> ### Steps Conversion - это раздел для анализа воронки прохождения пользователей по шагам.
+**Steps Conversion** — это раздел для анализа воронки прохождения пользователей по шагам.
 
-{% hint style="info" %}
-С его помощью можно:
+### Что можно делать
 
-\- видеть движение пользователей внутри flow
+С его помощью можно анализировать движение пользователей внутри сценария.
 
-\- находить шаги с сильной просадкой
+* видеть движение пользователей внутри flow
+* находить шаги с сильной просадкой
+* сравнивать конверсию между этапами
+* тестировать эффективность разных сценариев
 
-\- сравнивать конверсию между этапами
+### Как это работает
 
-\- тестировать эффективность разных сценариев
-{% endhint %}
-
-### Что показывает Steps Conversion:
-
-{% hint style="info" %}
 После создания воронки отображается:
 
 * количество пользователей на каждом шаге
@@ -28,201 +24,138 @@ icon: water-arrow-up
 * процент потерь между этапами
 * визуальная воронка
 * таблица с детальной статистикой
-{% endhint %}
 
-{% hint style="info" %}
 Это помогает понять, где пользователи перестают двигаться дальше и какие шаги требуют доработки.
-{% endhint %}
 
-### Как создать воронку:
+### Как создать воронку
 
-{% stepper %}
-{% step %}
-{% hint style="info" %}
-*   #### **Перейдите в Steps Conversion и нажмите Create new funnel**
+![](<../../.gitbook/assets/unknown (72).jpeg>)
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/unknown (72).jpeg" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+![](<../../.gitbook/assets/Frame 2248 (77).png>)
 
-{% step %}
-{% hint style="info" %}
-*   #### **В поле Funnel name укажите название**
+![](<../../.gitbook/assets/Frame 2248 (78).png>)
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2248 (77).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+### Steps / Instructions
 
-{% step %}
-{% hint style="info" %}
-*   #### **В блоке Funnel задайте последовательность шагов**
+1. Перейдите в **Steps Conversion** и нажмите **Create new funnel**.
+2. В поле **Funnel name** укажите название.
+3. В блоке **Funnel** задайте последовательность шагов.
+4. При необходимости добавьте новые этапы через **New step**.
+5. Проверьте порядок шагов и нажмите **Save**.
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2248 (78).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+### Как задавать шаги воронки
 
-{% step %}
-{% hint style="info" %}
-* #### **При необходимости добавьте новые этапы через New step**
-{% endhint %}
-{% endstep %}
+Для каждого этапа указывается источник шага.
 
-{% step %}
-{% hint style="info" %}
-* #### **Проверьте порядок шагов и нажмите Save**
-{% endhint %}
-{% endstep %}
-{% endstepper %}
+### How it works
 
-### Подробнее:
+* **Flow** — из какого flow берётся шаг
+* **Step** — конкретный шаг внутри flow
 
-<details>
-
-<summary>Как задавать шаги воронки</summary>
-
-{% hint style="info" %}
-Для каждого этапа указывается:
-
-* Flow — из какого flow берётся шаг
-* Step — конкретный шаг внутри flow
-{% endhint %}
-
-{% hint style="info" %}
 Пример:
 
-* Main flow → Start
-* Main flow → Question
-* Main flow → Offer
-{% endhint %}
+* `Main flow → Start`
+* `Main flow → Question`
+* `Main flow → Offer`
 
-{% hint style="warning" %}
-Шаги должны идти в логическом порядке движения пользователя.
-{% endhint %}
+### Notes
 
-</details>
+* Шаги должны идти в логическом порядке движения пользователя.
 
-<details>
+### Как читать воронку
 
-<summary>Как читать воронку</summary>
+![](<../../.gitbook/assets/Frame 2251 (17).png>)
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (17).png" alt=""><figcaption></figcaption></figure></div>
+Визуальная часть и таблица показывают, где происходит просадка.
 
-{% hint style="info" %}
+### How it works
+
 В визуальной части:
 
 * каждый столбец — отдельный шаг
 * уменьшение ширины показывает потери между этапами
 * отображается процент перехода между шагами
-{% endhint %}
 
-{% hint style="info" %}
 Ниже отображается таблица:
 
-* Step name — название шага
-* Data — количество пользователей
-* % — изменение относительно предыдущего шага
-{% endhint %}
+* **Step name** — название шага
+* **Data** — количество пользователей
+* `%` — изменение относительно предыдущего шага
 
-</details>
+### Сравнение воронок
 
-<details>
+![](<../../.gitbook/assets/Frame 2248 (79).png>)
 
-<summary>Сравнение воронок</summary>
+Можно сравнивать две воронки одновременно.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2248 (79).png" alt=""><figcaption></figcaption></figure></div>
+### How it works
 
-{% hint style="info" %}
-Можно сравнивать две воронки:
+* **Funnel** — основная воронка
+* **Funnel 2** — вторая воронка для сравнения
 
-* Funnel — основная воронка
-* Funnel 2 — вторая воронка для сравнения
-{% endhint %}
-
-{% hint style="info" %}
 После этого:
 
 * воронки отображаются рядом
 * показывается разница в конверсии
 * можно сравнивать эффективность разных сценариев
-{% endhint %}
 
-{% hint style="warning" %}
-**Ограничения:**
+### Notes
 
-* можно сравнивать не более двух воронок одновременно
-* для добавления второй воронки используйте Compare funnels
-{% endhint %}
+* Можно сравнивать не более двух воронок одновременно.
+* Для добавления второй воронки используйте **Compare funnels**.
 
-</details>
+### Редактирование воронки
 
-<details>
+![](<../../.gitbook/assets/Frame 2257.png>)
 
-<summary>Редактирование воронки</summary>
+![](<../../.gitbook/assets/Frame 2251 (18).png>)
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2257.png" alt=""><figcaption></figcaption></figure></div>
+В меню воронки доступны основные действия управления.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2251 (18).png" alt=""><figcaption></figcaption></figure></div>
+### How it works
 
-{% hint style="info" %}
-В меню воронки доступны:
+* **Edit** — редактирование воронки
+* **Open in fullscreen** — открыть на весь экран
+* **Save image** — сохранить изображение
+* **Delete** — удалить воронку
 
-* Edit — редактирование воронки
-* Open in fullscreen — открыть на весь экран
-* Save image — сохранить изображение
-* Delete — удалить воронку
-{% endhint %}
+### Выбор периода
 
-</details>
+![](<../../.gitbook/assets/Frame 2248 (76).png>)
 
-<details>
-
-<summary>Выбор периода</summary>
-
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2248 (76).png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
 Воронка строится за выбранный период.
+
+### How it works
 
 Доступные варианты:
 
-* Today
-* 7 days
-* 14 days
-* 30 days
-* 90 days
-{% endhint %}
+* `Today`
+* `7 days`
+* `14 days`
+* `30 days`
+* `90 days`
 
-{% hint style="info" %}
 Также можно выбрать конкретные даты через календарь.
-{% endhint %}
 
-{% hint style="warning" %}
-Выбранный период влияет на все показатели воронки и отображаемую статистику.
-{% endhint %}
+### Notes
 
-</details>
+* Выбранный период влияет на все показатели воронки и отображаемую статистику.
 
-<details>
+### Важные особенности
 
-<summary>Важные особенности</summary>
+Эти правила помогают корректно интерпретировать данные.
 
-{% hint style="warning" %}
 * воронка строится на основе шагов `Step`, а не тегов
 * если пользователь не дошёл до следующего шага, он не учитывается дальше
 * резкое падение между шагами означает, что этап требует доработки
 * чем плавнее переходы, тем лучше работает сценарий
-{% endhint %}
 
-</details>
+### Где удобно использовать Steps Conversion
 
-### Где удобно использовать Steps Conversion:
-
-{% hint style="success" %}
-Steps Conversion удобно использовать, когда нужно:
+Этот раздел полезен, когда нужно улучшать путь пользователя в flow.
 
 * анализировать поведение пользователей
 * находить слабые места в сценарии
 * улучшать конверсию между шагами
 * тестировать разные варианты flow
 * оптимизировать путь пользователя
-{% endhint %}

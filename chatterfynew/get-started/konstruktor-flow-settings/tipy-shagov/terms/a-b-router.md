@@ -4,154 +4,91 @@ icon: swap
 
 # A/B router
 
-> ### A/B router - это шаг, который позволяет случайным образом распределять пользователей по разным веткам сценария.
+A/B router случайным образом распределяет пользователей по разным веткам сценария в заданном процентном соотношении.
 
-{% hint style="info" %}
-**AB Router - проведение A/B тестов, позволит вам в одном боте и одном скрипте распределять пользователей в процентном соотношении по разными флоу.**
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure></div>
 
-*
+### How it works
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+Шаг используется для A/B тестов в одном боте и одном скрипте.
 
-### Структура шага:
+* распределяет пользователей по разным веткам
+* задаёт процент распределения
+* помогает тестировать сообщения и сценарии
+* помогает анализировать эффективность
 
-<details>
+### Use cases
 
-<summary>1. Settings (Настройки)</summary>
+A/B router подходит для:
 
-{% hint style="info" %}
-*
+* A/B тестирования
+* сравнения эффективности сценариев
+* распределения трафика
+* оптимизации воронки
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (21).png" alt=""><figcaption></figcaption></figure></div>
+### Settings
 
-**Title**\
-<mark style="color:$primary;">Название шага.</mark>\ <mark style="color:$primary;">Используется для удобной навигации внутри flow.</mark>
+Базовые настройки шага.
 
-***
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (21).png" alt=""><figcaption></figcaption></figure></div>
 
-**Delay**\
-<mark style="color:$primary;">Задержка перед выполнением шага.</mark>\ <mark style="color:$primary;">Во время задержки:</mark>
+* **Title** — название шага. Используется для удобной навигации внутри flow
+* **Delay** — задержка перед выполнением шага. Во время задержки сообщения пользователя игнорируются, а действие не выполняется
+* **Finish Status** — статус диалога после выполнения шага:
+  * `nothing` — переход к следующему шагу
+  * `auto` — автоматическое продолжение диалога
+  * `waiting` — ожидание ответа пользователя
+  * `manual` — перевод на оператора
+  * `blocked` — блокировка диалога
+  * `finished` — завершение диалога
+* **Hide keyboard** — скрывает клавиатуру из предыдущего шага
+* **Is start step of flow** — отмечает шаг как стартовый
+* **Skip the transition to next step** — отключает автоматический переход на следующий шаг. Обычно используется вместе со статусом `waiting`
 
-* <mark style="color:$primary;">сообщения пользователя игнорируются</mark>
-* <mark style="color:$primary;">действие не выполняется</mark>
+Если **Skip the transition to next step** включён:
 
-***
+* шаг не переключится автоматически
+* система останется на текущем шаге
+* система будет ждать ответ пользователя
 
-**Finish Status**\
-<mark style="color:$primary;">Статус диалога после выполнения шага.</mark>\ <mark style="color:$primary;">Варианты:</mark>
+### Traffic distribution
 
-* <mark style="color:$primary;">**nothing**</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">- переход к следующему шагу</mark>
-* <mark style="color:$primary;">**auto**</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">- автоматическое продолжение диалога</mark>
-* <mark style="color:$primary;">**waiting**</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">- ожидание ответа пользователя</mark>
-* <mark style="color:$primary;">**manual**</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">- перевод на оператора</mark>
-* <mark style="color:$primary;">**blocked**</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">- блокировка диалога</mark>
-* <mark style="color:$primary;">**finished**</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">- завершение диалога</mark>
+После создания шага настройте ветки распределения.
 
-***
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/unknown (50).jpeg" alt=""><figcaption></figcaption></figure></div>
 
-**Hide keyboard**\
-<mark style="color:$primary;">Скрывает клавиатуру из предыдущего шага.</mark>
+* проведите линии к нужным шагам
+* задайте процент распределения для каждой линии
+* убедитесь, что сумма всех веток равна `100%`
 
-***
+### Steps / Instructions
 
-**Is start step of flow**\
-<mark style="color:$primary;">Отмечает шаг как стартовый.</mark>
+1. Добавьте шаг **A/B router** в flow.
+2. Подключите линии к нужным шагам.
+3. Укажите процент распределения для каждой линии.
+4. Проверьте, что сумма всех процентов равна `100%`.
+5. Запустите сценарий и сравните результат веток.
 
-***
+### Example
 
-Skip the transition to next step
+Пример простого A/B теста.
 
-<mark style="color:$primary;">Отключает автоматический переход на следующий шаг.</mark>
+* **Шаг 1 — 50%** → сообщение с оффером A
+* **Шаг 2 — 50%** → сообщение с оффером B
 
-<mark style="color:$primary;">Используется в связке со статусом waiting.</mark>
+### Notes
 
-<mark style="color:$primary;">Если опция включена:</mark>
+Перед настройкой заранее определите:
 
-* <mark style="color:$primary;">шаг не переключится автоматически</mark>
-* <mark style="color:$primary;">система останется на текущем шаге</mark>
-* <mark style="color:$primary;">будет ожидать ответ пользователя</mark>
-{% endhint %}
+* какие сценарии вы хотите протестировать
+* как будет распределяться трафик между ними
 
-</details>
+Также важно учитывать:
 
-<details>
-
-<summary>Распределение трафика</summary>
-
-{% hint style="info" %}
-*
-
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/unknown (50).jpeg" alt=""><figcaption></figcaption></figure></div>
-
-После создания шага необходимо:
-
-* <mark style="color:$primary;">провести линии к нужным шагам</mark>
-* <mark style="color:$primary;">задать процент распределения для каждой линии</mark>
-
-Сумма всех веток должна быть равна 100%
-{% endhint %}
-
-</details>
-
-<details>
-
-<summary>Пример использования</summary>
-
-{% hint style="info" %}
-**Сценарий: тест двух сообщений**
-
-<mark style="color:$primary;">Шаг 1 - 50%</mark>\ <mark style="color:$primary;">→ сообщение с оффером A</mark>
-
-<mark style="color:$primary;">Шаг 2 - 50%</mark>\ <mark style="color:$primary;">→ сообщение с оффером B</mark>
-{% endhint %}
-
-</details>
-
-### Используется для:
-
-{% hint style="info" %}
-* <mark style="color:$primary;">A/B тестирования</mark>
-* <mark style="color:$primary;">сравнения эффективности сценариев</mark>
-* <mark style="color:$primary;">распределения трафика</mark>
-* <mark style="color:$primary;">оптимизации воронки</mark>
-{% endhint %}
-
-### Важно перед началом:
-
-{% hint style="warning" %}
-<mark style="color:$primary;">Перед использованием шага необходимо определить:</mark>
-
-* <mark style="color:$primary;">какие сценарии вы хотите протестировать</mark>
-* <mark style="color:$primary;">как будет распределяться трафик между ними</mark>
-{% endhint %}
-
-### Основные возможности:
-
-{% hint style="info" %}
-С <mark style="color:$primary;">помощью A/B router вы можете:</mark>
-
-* <mark style="color:$primary;">распределять пользователей по разным веткам</mark>
-* <mark style="color:$primary;">задавать процент распределения</mark>
-* <mark style="color:$primary;">тестировать разные сообщения и сценарии</mark>
-* <mark style="color:$primary;">анализировать эффективность</mark>
-{% endhint %}
-
-### Важная логика работы:
-
-{% hint style="warning" %}
-<mark style="color:$primary;">Проценты задаются на переходах (линиях), а не внутри шага</mark>\ <mark style="color:$primary;">Распределение происходит в момент выполнения шага</mark>\ <mark style="color:$primary;">Один пользователь попадает только в одну ветку</mark>\ <mark style="color:$primary;">Пользователь случайным образом попадает в одну из веток</mark>
-{% endhint %}
-
-### Когда использовать A/B router:
-
-{% hint style="success" %}
-**Используйте этот шаг, когда нужно:**
-
-* <mark style="color:$primary;">протестировать разные сценарии</mark>
-* <mark style="color:$primary;">сравнить конверсию</mark>
-* <mark style="color:$primary;">оптимизировать воронку</mark>
-* <mark style="color:$primary;">распределить трафик между вариантами</mark>
-{% endhint %}
+* проценты задаются на переходах, а не внутри шага
+* распределение происходит в момент выполнения шага
+* один пользователь попадает только в одну ветку
+* пользователь случайным образом попадает в одну из веток
+* шаг подходит, когда нужно протестировать разные сценарии, сравнить конверсию, оптимизировать воронку или распределить трафик между вариантами
 
 {% include "../../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

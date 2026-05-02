@@ -4,226 +4,121 @@ icon: globe-pointer
 
 # Webhook
 
-> ### Webhook - это шаг, который позволяет отправлять данные пользователя во внешние сервисы по URL.
+Webhook позволяет отправлять данные пользователя во внешние сервисы по URL.
 
-{% hint style="info" %}
 {% embed url="https://youtu.be/zuvJjU8nGXw" %}
 
-Используется для:
+### How it works
+
+Webhook используется для:
 
 * передачи данных во внешние системы
 * интеграции с базами данных и другими сервисами
 * автоматизации обработки лидов
 * передачи параметров пользователя
-{% endhint %}
 
-### Важно перед началом:
+Шаг отправляет данные наружу. Для приёма данных в Chatterfy используется отдельный механизм в **Bot Settings → Webhook / API**.
 
-{% hint style="warning" %}
-Необходимо понимать, куда будут отправляться данные (URL) и в каком формате их ожидает принимающая сторона.
+### Settings
 
-Webhook отправляет данные наружу.\
-Для приёма данных в Chatterfy используется отдельный механизм (Bot Settings -> Webhook / API).
-{% endhint %}
+Базовые настройки шага.
 
-### Основные возможности:
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (15).png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-С помощью Webhook вы можете:
+* **Title** — название шага. Используется для удобной навигации внутри flow
+* **Delay** — задержка перед выполнением шага. Во время задержки сообщения пользователя игнорируются, а действие не выполняется
+* **Finish Status** — статус диалога после выполнения шага:
+  * `nothing` — переход к следующему шагу
+  * `auto` — автоматическое продолжение диалога
+  * `waiting` — ожидание ответа пользователя
+  * `manual` — перевод в ручной режим
+  * `blocked` — блокировка диалога
+  * `finished` — завершение диалога
+* **Hide keyboard** — скрывает клавиатуру из предыдущего шага
+* **Is start step of flow** — отмечает шаг как стартовый
+* **Skip the transition to next step** — отключает автоматический переход на следующий шаг. Используется в связке со статусом `waiting`
 
-* отправлять данные пользователя во внешние сервисы
-* передавать параметры (id, username, clickid и т.д.)
-* настраивать GET и POST запросы
-* формировать собственное тело запроса (Body)
-{% endhint %}
+Если эта опция включена:
 
-### Структура шага:
+* шаг не переключится автоматически
+* система останется на текущем шаге
+* будет ожидать ответ пользователя
 
-{% hint style="info" %}
-**Шаг состоит из 2 блоков:**
+### Webhook
 
-* Settings (Настройки)
-* Webhook (Настройки запроса)
-{% endhint %}
+Здесь задаются параметры запроса.
 
-### Важно:
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (14).png" alt=""><figcaption></figcaption></figure></div>
 
-<details>
+* **URL** — ссылка, на которую будет отправлен запрос
+* **Method** — тип запроса:
+  * `GET` — данные передаются через URL
+  * `POST` — данные передаются в теле запроса
 
-<summary>1. Settings (Настройки)</summary>
+### Body
 
-{% hint style="info" %}
-*
+Этот блок используется для `POST`-запросов.
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (15).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../../../../.gitbook/assets/Frame 2248 (16).png" alt=""><figcaption></figcaption></figure>
 
-**Title**\
-<mark style="color:$primary;">Название шага.</mark>\
-<mark style="color:$primary;">Используется для удобной навигации внутри flow.</mark>
-
-***
-
-**Delay**\
-<mark style="color:$primary;">Задержка перед выполнением шага.</mark>\
-<mark style="color:$primary;">Во время задержки:</mark>
-
-* <mark style="color:$primary;">сообщения пользователя игнорируются</mark>
-* <mark style="color:$primary;">действие не выполняется</mark>
-
-***
-
-**Finish Status**\
-<mark style="color:$primary;">Статус диалога после выполнения шага.</mark>\
-<mark style="color:$primary;">Варианты:</mark>
-
-* <mark style="color:$primary;">nothing - переход к следующему шагу</mark>
-* <mark style="color:$primary;">auto - автоматическое продолжение диалога</mark>
-* <mark style="color:$primary;">waiting - ожидание ответа пользователя</mark>
-* <mark style="color:$primary;">manual - перевод в ручной режим</mark>
-* <mark style="color:$primary;">blocked - блокировка диалога</mark>
-* <mark style="color:$primary;">finished - завершение диалога</mark>
-
-***
-
-**Hide keyboard**\
-<mark style="color:$primary;">Скрывает клавиатуру из предыдущего шага.</mark>
-
-***
-
-**Is start step of flow**\
-<mark style="color:$primary;">Отмечает шаг как стартовый.</mark>
-
-***
-
-<mark style="color:$primary;">Отключает автоматический переход на следующий шаг.</mark>
-
-<mark style="color:$primary;">Используется в связке со статусом waiting.</mark>
-
-<mark style="color:$primary;">Если опция включена:</mark>
-
-* <mark style="color:$primary;">шаг не переключится автоматически</mark>
-* <mark style="color:$primary;">система останется на текущем шаге</mark>
-* <mark style="color:$primary;">будет ожидать ответ пользователя</mark>
-{% endhint %}
-
-
-
-</details>
-
-<details>
-
-<summary>2. Webhook (Настройки запроса)</summary>
-
-{% hint style="info" %}
-*
-
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (14).png" alt=""><figcaption></figcaption></figure></div>
-
-URL - ссылка, на которую будет отправлен запрос.
-
-Method - тип запроса:
-
-* GET - данные передаются через URL
-* POST - данные передаются в теле запроса
-{% endhint %}
-
-
-
-</details>
-
-<details>
-
-<summary>Body (для POST)</summary>
-
-{% hint style="info" %}
-*
-
-    <figure><img src="../../../../.gitbook/assets/Frame 2248 (16).png" alt=""><figcaption></figcaption></figure>
-* Поле для формирования тела запроса.
-* В теле запроса можно использовать переменные пользователя и системы.
+* поле формирует тело запроса
+* в теле запроса можно использовать переменные пользователя и системы
 
 Пример:
 
-<mark style="color:yellow;">{"username": "{username}","chat\_id": "{chatId}","clickid": "{tracker.clickid}"}</mark>
-{% endhint %}
+`{"username": "{username}","chat_id": "{chatId}","clickid": "{tracker.clickid}"}`
 
+### Available variables
 
-
-</details>
-
-<details>
-
-<summary>Available variables</summary>
-
-{% hint style="info" %}
 Доступные переменные для отправки:
 
-* {username} - имя пользователя в Telegram (текстовое значение)
-* {chatId} - Chat ID пользователя в Telegram (числовое значение)
-* {stepKey} - ключ шага, на котором находится пользователь (текстовое значение)
-* {createdAt} - время начала диалога (формат: 2024-03-10T17:49:32.806Z)
+* `{username}` — имя пользователя в Telegram
+* `{chatId}` — Chat ID пользователя в Telegram
+* `{stepKey}` — ключ шага, на котором находится пользователь
+* `{createdAt}` — время начала диалога в формате `2024-03-10T17:49:32.806Z`
 
-***
+Также доступны динамические переменные:
 
-**Также доступны динамические переменные:**
+* `{KEYCUSTOMFIELD}` — значение кастомного поля. Замените `KEYCUSTOMFIELD` на ключ поля из **Bot Settings → Custom Fields**
+* `{tracker.KEYTRACKERFIELD}` — значение поля из трекера. Например, `{tracker.clickid}`
 
-* {KEYCUSTOMFIELD} - значение кастомного поля (замените KEYCUSTOMFIELD на ключ вашего поля из Bot Settings → Custom Fields)
-* {tracker.KEYTRACKERFIELD} - значение поля из трекера (например: {tracker.clickid})
-{% endhint %}
+### Steps / Instructions
 
+1. Добавьте шаг **Webhook** в flow.
+2. Откройте блок **Webhook**.
+3. Укажите **URL** для отправки запроса.
+4. Выберите **Method** — `GET` или `POST`.
+5. Если выбран `POST`, заполните **Body**.
+6. Подставьте нужные переменные.
+7. Подключите следующий шаг.
 
+### Examples
 
-</details>
+#### GET
 
-<details>
+Сценарий отправки данных в трекер, например в Keitaro.
 
-<summary>Пример использования</summary>
+`https://keitaro.yoursite.com/25123a/postback?subid={tracker.clickid}&username={username}&chatid={chatId}&startdialogue={createdAt}`
 
-{% hint style="info" %}
-Сценарий 1: отправка данных в трекер (например, Keitaro)
-
-Webhook → GET
-
-Пример: https://keitaro.yoursite.com/25123a/postback?subid={tracker.clickid}\&username={username}\&chatid={chatId}\&startdialogue={createdAt}\
 Где:
 
-* <mark style="color:yellow;">subid={tracker.clickid}</mark> - clickid пользователя
-* <mark style="color:yellow;">username={username}</mark> - имя пользователя
-* <mark style="color:yellow;">chatid={chatId}</mark> - Telegram ID
-* <mark style="color:yellow;">startdialogue={createdAt}</mark> - время начала диалога
+* `subid={tracker.clickid}` — `clickid` пользователя
+* `username={username}` — имя пользователя
+* `chatid={chatId}` — Telegram ID
+* `startdialogue={createdAt}` — время начала диалога
 
-***
+#### POST
 
-Сценарий 2: отправка параметров в базу данных
+Сценарий отправки параметров в базу данных.
 
-Webhook → POST
+`{"username": "{username}","chat_id": "{chatId}"}`
 
-Body: <mark style="color:yellow;">{"username": "{username}","chat\_id": "{chatId}"}</mark>
-{% endhint %}
+### Notes
 
-
-
-</details>
-
-### Важная логика работы:
-
-{% hint style="warning" %}
-Запрос отправляется сразу после выполнения шага\
-Данные подставляются автоматически через переменные\
-Используется для передачи данных во внешние системы
-
-Корректность отправки можно проверить в разделе Logs → Webhooks
-{% endhint %}
-
-### Когда использовать Webhook:
-
-{% hint style="success" %}
-Используйте этот шаг, когда нужно:
-
-* передать данные во внешний сервис
-* отправить данные пользователя в систему аналитики
-* автоматизировать обработку лидов
-* интегрировать Chatterfy с другими сервисами
-{% endhint %}
+* Перед настройкой нужно понимать, куда отправляются данные и в каком формате их ждёт принимающая сторона
+* Запрос отправляется сразу после выполнения шага
+* Данные подставляются автоматически через переменные
+* Корректность отправки можно проверить в **Logs → Webhooks**
+* Используйте шаг, когда нужно передать данные во внешний сервис, отправить данные пользователя в аналитику, автоматизировать обработку лидов или интегрировать платформу с другими сервисами
 
 {% include "../../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}
