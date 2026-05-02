@@ -4,20 +4,22 @@ icon: cloud-binary
 
 # Custom data
 
-> ### Раздел Custom Data позволяет вручную записывать значения в кастомные поля.
+_Custom Data_ позволяет вручную записывать значения в кастомные поля.
 
-{% hint style="info" %}
-*
+### Как это работает
 
-    <div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2239.png" alt=""><figcaption></figcaption></figure></div>
-*   Это удобно, если необходимо:
+<div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2239.png" alt=""><figcaption></figcaption></figure></div>
 
-    * записать вводные или комментарии о пользователе
-    * скорректировать данные вручную
-    * дополнить информацию, полученную из других источников
+Заполнение этого блока помогает дополнять и корректировать данные по пользователю.
 
-    \
-    <a href="../../../../bot-settings/custom-fields.md" class="button secondary">Подробнее про Custom Fields</a>
-{% endhint %}
+### Когда использовать
+
+* если нужно записать вводные или комментарии о пользователе
+* если нужно скорректировать данные вручную
+* если нужно дополнить информацию из других источников
+
+### Связанные страницы
+
+* [Custom Fields](../../../../bot-settings/custom-fields.md)
 
 {% include "../../../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

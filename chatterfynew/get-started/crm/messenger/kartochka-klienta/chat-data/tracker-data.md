@@ -4,10 +4,11 @@ icon: file-shield
 
 # Tracker Data
 
-> ### С помощью блока Tracker Data вы можете просматривать всю информацию, связанную с источником трафика и кампанией.
+_Tracker Data_ показывает информацию, связанную с источником трафика и кампанией.
 
-{% hint style="info" %}
-**Это включает параметры, переданные через трекер.**
+### Что отображается
+
+<div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2241.png" alt=""><figcaption></figcaption></figure></div>
 
 В карточке лида можно видеть:
 
@@ -18,23 +19,16 @@ icon: file-shield
 * тип залива
 * тип сорса
 
+### Как это работает
 
+Выбор отображаемых данных настраивается в `Tracker` → `Campaigns` → `Ваша кампания` → `Parameters`.
 
-*
+* [Подробнее про параметры](../../../../tracker/campaigns/parameters-razdel-campaing.md)
 
-    <div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2241.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-
-{% hint style="info" %}
-**Выбор отображаемых данных настраивается в:**
-
-<mark style="color:$primary;">Tracker - Campaigns - Ваша кампания - Parameters</mark>
-
-<a href="../../../../tracker/campaigns/parameters-razdel-campaing.md" class="button secondary">Подробнее про параметры</a>
-{% endhint %}
+### Notes
 
 {% hint style="info" %}
-По этим данным можно фильтровать лидов, если у пользователя есть соответствующий доступ к Tracker.
+По этим данным можно фильтровать лидов, если у пользователя есть доступ к Tracker.
 {% endhint %}
 
 {% include "../../../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

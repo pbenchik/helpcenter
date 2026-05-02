@@ -4,53 +4,39 @@ icon: indent
 
 # Массовые действия
 
-> ### При выборе одного или нескольких чатов становится доступен раздел Edit Chats. Он нужен для массового изменения данных сразу у нескольких пользователей.
+При выборе одного или нескольких чатов становится доступен раздел **Edit Chats**.
 
-### Массовые действия:
+Он нужен для массового изменения данных сразу у нескольких пользователей.
 
+### Как использовать
 
+#### 1. Выберите чаты
 
-{% stepper %}
-{% step %}
-{% hint style="info" %}
-* #### Выберите один или несколько чатов
-*
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2204.png" alt=""><figcaption></figcaption></figure></div>
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2204.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+* Выберите один или несколько чатов.
 
-{% step %}
-{% hint style="info" %}
-* #### Откройте **Edit Chats**
-*
+#### 2. Откройте раздел
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2203.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2203.png" alt=""><figcaption></figcaption></figure></div>
 
-{% step %}
-{% hint style="info" %}
-* #### Выберите нужное действие и сохраните изменения
-*
+* Откройте **Edit Chats**.
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
-{% endstepper %}
+#### 3. Примените действие
 
-### Важно:
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-В разделе **Edit Chats** можно:
+* Выберите нужное действие.
+* Сохраните изменения.
 
-* добавить или удалить теги&#x20;
-* изменить статус&#x20;
+### Что можно изменить
+
+* добавить или удалить теги
+* изменить статус
 * изменить текущий флоу и шаг
-* назначить или убрать менеджера&#x20;
+* назначить или убрать менеджера
 
-
-{% endhint %}
+### Notes
 
 {% hint style="warning" %}
 Массовые действия применяются сразу ко всем выбранным чатам.

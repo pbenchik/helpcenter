@@ -4,46 +4,57 @@ icon: arrow-progress
 
 # Конструктор (Flow Settings)
 
-> ### Конструктор управляет логикой бота внутри flow. Здесь настраиваются сообщения, условия, изменения данных и события.
+Конструктор управляет логикой бота внутри _flow_.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image 32644.png" alt=""><figcaption></figcaption></figure></div>
 
-### Основные разделы:
+Здесь настраиваются сообщения, условия, изменения данных и события.
 
-{% hint style="info" %}
-**Блоки, которые отвечают за отправку сообщения.**
+### Как это работает
 
-<a href="tipy-shagov/communication/" class="button secondary" data-icon="comments">Communication</a><a href="/broken/spaces/AxluUgdTFxFU08qksWVa/pages/lm4KfqdwEAOZgB9OOz85" class="button secondary" data-icon="envelope-circle-check">Send message</a><a href="tipy-shagov/communication/ai-reply.md" class="button secondary" data-icon="brain-circuit">AI Reply</a><a href="tipy-shagov/communication/custom-push.md" class="button secondary" data-icon="paper-plane">Custom push</a>
-{% endhint %}
+Каждый _flow_ состоит из шагов.
 
-{% hint style="info" %}
-**Блоки, которые отвечают за изменение статуса диалога.**
+Шаг выполняет одно действие и передаёт пользователя дальше по логике сценария.
 
-<a href="tipy-shagov/changes/" class="button secondary" data-icon="arrows-rotate">Changes</a><a href="tipy-shagov/changes/change-tag.md" class="button secondary" data-icon="tags">Change tag</a><a href="tipy-shagov/changes/change-flow.md" class="button secondary" data-icon="shuffle">Change flow</a><a href="tipy-shagov/changes/operator.md" class="button secondary" data-icon="user-headset">Operator</a><a href="tipy-shagov/changes/change-sale-status.md" class="button secondary" data-icon="chart-simple">Change sale status</a>
-{% endhint %}
+### Основные разделы
 
-{% hint style="info" %}
-**Дополнительные инструменты для настройки флоу.**
+#### Communication
 
-<a href="tipy-shagov/terms/" class="button secondary" data-icon="code-branch">Terms</a><a href="tipy-shagov/terms/condition.md" class="button secondary" data-icon="circle-question">Condition</a><a href="tipy-shagov/terms/a-b-router.md" class="button secondary" data-icon="split">A/B router</a><a href="tipy-shagov/terms/delay.md" class="button secondary" data-icon="clock">Delay</a>
-{% endhint %}
+* [Communication](tipy-shagov/communication/)
+* [Send message](tipy-shagov/communication/send-message.md)
+* [AI Reply](tipy-shagov/communication/ai-reply.md)
+* [Custom push](tipy-shagov/communication/custom-push.md)
 
-{% hint style="info" %}
-**Настройки, связанные с отслеживанием событий и обновлением информации по статусу пользователя.**
+#### Changes
 
-<a href="tipy-shagov/tracking/" class="button secondary" data-icon="chart-line">Tracking</a><a href="tipy-shagov/tracking/send-event.md" class="button secondary" data-icon="paper-plane-top">Send event</a><a href="tipy-shagov/tracking/webhook.md" class="button secondary" data-icon="webhook">Webhook</a>
-{% endhint %}
+* [Changes](tipy-shagov/changes/)
+* [Change tag](tipy-shagov/changes/change-tag.md)
+* [Change flow](tipy-shagov/changes/change-flow.md)
+* [Operator](tipy-shagov/changes/operator.md)
+* [Change sale status](tipy-shagov/changes/change-sale-status.md)
 
-{% hint style="info" %}
-Дополнительные инструменты для удобства работы.
+#### Terms
 
-<a href="tipy-shagov/additional/" class="button secondary" data-icon="plus">Additional</a><a href="tipy-shagov/additional/note.md" class="button secondary" data-icon="note-sticky">Note</a>
-{% endhint %}
+* [Terms](tipy-shagov/terms/)
+* [Condition](tipy-shagov/terms/condition.md)
+* [A/B router](tipy-shagov/terms/a-b-router.md)
+* [Delay](tipy-shagov/terms/delay.md)
 
-{% hint style="info" %}
-Глобальные настройки бота.
+#### Tracking
 
-<a href="create-new-flow.md" class="button secondary" data-icon="square-plus">Create New Flow</a><a href="/broken/spaces/AxluUgdTFxFU08qksWVa/pages/OD3xjP4kv5pdIaw4u22M" class="button secondary" data-icon="bell">Push</a><a href="ai-settings/" class="button secondary" data-icon="sliders">AI Settings</a>
-{% endhint %}
+* [Tracking](tipy-shagov/tracking/)
+* [Send event](tipy-shagov/tracking/send-event.md)
+* [Webhook](tipy-shagov/tracking/webhook.md)
+
+#### Additional
+
+* [Additional](tipy-shagov/additional/)
+* [Note](tipy-shagov/additional/note.md)
+
+#### Глобальные инструменты
+
+* [Create New Flow](create-new-flow.md)
+* [AI Settings](ai-settings/)
+* [AI Routings](ai-routings.md)
 
 {% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

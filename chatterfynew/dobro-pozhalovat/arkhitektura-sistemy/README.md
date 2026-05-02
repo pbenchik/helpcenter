@@ -5,141 +5,100 @@ icon: boxes-stacked
 
 # Архитектура системы
 
-> #### Каждый раздел отвечает за свою часть работы: управление компанией, рабочие пространства, CRM и трекинг трафика.
->
-> Chatterfy состоит из нескольких основных разделов.
+Каждый раздел отвечает за свою часть работы: управление компанией, рабочие пространства, CRM и трекинг трафика.
 
-{% hint style="warning" %}
+Chatterfy состоит из нескольких основных разделов.
+
+{% hint style="info" %}
 Понимание этой структуры помогает быстрее ориентироваться в интерфейсе и правильно настраивать систему.
 {% endhint %}
 
-### Как устроена система:
+### Как устроена система
 
-{% stepper %}
-{% step %}
+Это базовая логика работы в Chatterfy.
+
+#### Как это работает
+
+Сначала на уровне **Company** настраивают компанию.
+
+Внутри неё создают **Spaces**, а команда работает в **CRM** и **Tracker**.
+
+#### Шаги
+
+1. Управляют компанией в **Company**
+2. Создают рабочие пространства в **Spaces**
+3. Работают с лидами и чатами в **CRM**
+4. Анализируют трафик и конверсии в **Tracker**
+
 ### Company
 
-{% hint style="info" %}
-На верхнем уровне находится **Company**.
-
-Здесь управляют компанией, пользователями, биллингом и общими настройками.
-{% endhint %}
-{% endstep %}
-
-{% step %}
-### Spaces
-
-{% hint style="info" %}
-Внутри компании создаются **Spaces**.
-
-Это отдельные рабочие пространства для команд, проектов или источников трафика.
-{% endhint %}
-{% endstep %}
-
-{% step %}
-### CRM
-
-{% hint style="info" %}
-Внутри рабочих процессов команда общается с клиентами через **CRM**.
-
-Здесь находятся чаты, карточки лидов, фильтры, статусы и история взаимодействий.
-{% endhint %}
-{% endstep %}
-
-{% step %}
-### Tracker
-
-{% hint style="info" %}
-Для анализа трафика и конверсий используется **Tracker**.
-
-Он показывает путь пользователя от клика до целевого действия.
-{% endhint %}
-{% endstep %}
-{% endstepper %}
-
-### Основные разделы системы:
-
-<details>
-
-<summary>Company</summary>
-
-{% hint style="info" %}
 Раздел для управления компанией на общем уровне.
 
-Здесь настраиваются:
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image 32635.png" alt=""><figcaption></figcaption></figure></div>
 
-* Пользователи
-* Роли
-* Spaces
-* Биллинг
-* Системные логи
-*
+#### Что здесь настраивают
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image 32635.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+* **Пользователи** — управление доступом сотрудников
+* **Роли** — права доступа внутри компании
+* **Spaces** — рабочие пространства
+* **Billing** — баланс и платежи
+* **Logs** — системные действия
 
-</details>
+#### Связанная страница
 
-<details>
+* [Company - управление компанией](company-upravlenie-kompaniei.md)
 
-<summary>Spaces</summary>
+### Spaces
 
-{% hint style="info" %}
 Рабочие пространства помогают разделять команды и проекты.
 
-Это удобно, если у вас:
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure></div>
+
+#### Когда использовать
 
 * Несколько направлений
 * Разные команды
 * Отдельные источники трафика
-*
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+#### Связанная страница
 
-</details>
+* [Spaces - рабочие пространства](spaces-rabochie-prostranstva.md)
 
-<details>
+### CRM
 
-<summary>CRM</summary>
-
-{% hint style="info" %}
 CRM используется для работы с лидами и клиентами.
 
-Здесь команда:
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure></div>
+
+#### Что здесь делает команда
 
 * Ведёт переписку
 * Меняет статусы
 * Назначает менеджеров
 * Смотрит историю и данные по лиду
-*
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+#### Связанная страница
 
-</details>
+* [CRM - работа с клиентами](crm-rabota-s-klientami.md)
 
-<details>
+### Tracker
 
-<summary>Tracker</summary>
-
-{% hint style="info" %}
 Tracker нужен для анализа рекламы и событий.
 
-Он помогает:
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure></div>
 
-* Отслеживать источники трафика
-* Видеть события и конверсии
-* Анализировать эффективность кампаний
-*
+#### Что показывает
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+* Источники трафика
+* События и конверсии
+* Эффективность кампаний
 
-</details>
+#### Связанная страница
+
+* [Tracker - отслеживание трафика](tracker-otslezhivanie-trafika.md)
 
 {% hint style="info" %}
-Базовая логика системы простая: **Company → Spaces → работа команды в CRM и Tracker**.
+Базовая логика системы простая: **Company** → **Spaces** → работа команды в **CRM** и **Tracker**.
 {% endhint %}
 
 {% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

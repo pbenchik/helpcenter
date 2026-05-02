@@ -4,240 +4,79 @@ icon: head-side-gear
 
 # General - раздел campaign
 
-> ### General - это раздел Campaigns для настройки маршрута пользователя после клика.
+Раздел _General_ нужен для настройки маршрута пользователя после клика.
 
-{% hint style="info" %}
-С его помощью можно:
+Здесь вы выбираете точку входа в Telegram и стартовый сценарий.
 
-\- определить, куда попадёт пользователь после клика
-
-\- выбрать Telegram-точку входа
-
-\- задать стартовый Flow и Step
-
-\- назначить DM bot для дальнейшей обработки лида
-{% endhint %}
-
-### Видеоинструкция:
-
-{% hint style="info" icon="head-side-gear" %}
-В видео показано, как заполнить поля раздела General внутри Campaigns.
-
-Подойдёт, если нужно быстро понять логику полей `Campaign traffic type`, `Invite Bot / Bot`, `Channel`, `Start Flow`, `Start Step` и `DM bot`.
+### Видео
 
 {% embed url="https://youtu.be/hYwNhUlfXJ0" fullWidth="false" %}
-{% endhint %}
 
-### Как работает General:
+### Как это работает
 
-{% hint style="info" %}
-Здесь выбирается, куда попадёт пользователь и какой сценарий запустится дальше.
-{% endhint %}
+Во вкладке **General** определяется, куда попадёт пользователь.
 
-{% hint style="info" %}
-Именно на этом этапе определяется логика перехода в Telegram.
-{% endhint %}
+Здесь же задаются **Flow**, **Step** и **DM bot** для дальнейшей обработки.
 
-### Как заполнить General:
+### Шаги
 
-{% stepper %}
-{% step %}
-{% hint style="info" %}
-**Выберите маршрут пользователя**
+1. выберите тип маршрута
+2. укажите **Invite Bot** или **Bot**
+3. при необходимости выберите **Channel**
+4. задайте **Start Flow** и **Start Step**
+5. укажите **DM bot**
 
-Сначала определяется тип трафика кампании.
+### Поля
 
-Система должна понимать, ведёте вы пользователя в канал или сразу в бота.
-{% endhint %}
-{% endstep %}
-
-{% step %}
-{% hint style="info" %}
-**Подключите приёмщик трафика**
-
-Затем выбираются Invite Bot, Bot и при необходимости канал.
-
-Так задаётся точка входа пользователя в Telegram.
-{% endhint %}
-{% endstep %}
-
-{% step %}
-{% hint style="info" %}
-**Определите сценарий взаимодействия**
-
-После этого выбираются Flow, Step и DM bot.
-
-Так система понимает, какой сценарий запускать и где обрабатывать лид дальше.
-{% endhint %}
-{% endstep %}
-{% endstepper %}
-
-### Подробнее:
-
-<details>
-
-<summary>Что настраивается в General</summary>
-
-{% hint style="info" %}
-В этом разделе обычно задают:
-
-* тип маршрута пользователя: в канал или в бота
-* Invite Bot или Bot для обработки перехода
-* Telegram-канал для сценария `Channel`
-* Flow и Step для первого запуска
-* DM bot для дальнейшей обработки лида
-* Approval time
-{% endhint %}
-
-</details>
-
-<details>
-
-<summary>Approval time</summary>
-
-{% hint style="info" %}
-Параметр **Approval time** определяет задержку перед автоматическим принятием пользователя в канал. То есть, система выжидает заданное время и только затем добавляет участника в канал.
-{% endhint %}
-
-</details>
-
-<details>
-
-<summary>Campaign traffic type</summary>
+#### **Campaign traffic type**
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-`Campaign traffic type` определяет тип маршрута пользователя.
-{% endhint %}
-
-{% hint style="info" %}
-Доступны варианты:
-
 * `Channel` — пользователь сначала попадает в Telegram-канал
 * `Bot` — пользователь сразу попадает в Telegram-бота
-{% endhint %}
 
-</details>
-
-<details>
-
-<summary>Invite Bot / Bot</summary>
+#### **Invite Bot / Bot**
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-`Invite Bot / Bot` — бот, который используется для входа пользователя в сценарий.
-{% endhint %}
+* **Invite Bot** нужен для типа `Channel`
+* **Bot** нужен для типа `Bot`
 
-{% hint style="info" %}
-* `Invite Bot` нужен для типа `Channel`
-* `Bot` нужен для типа `Bot`
-{% endhint %}
-
-</details>
-
-<details>
-
-<summary>Channel</summary>
+#### **Channel**
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-`Channel` — Telegram-канал, в который попадёт пользователь.
-{% endhint %}
+Поле доступно только для типа `Channel`.
 
-{% hint style="info" %}
-Это поле доступно только для типа `Channel`.
-{% endhint %}
-
-</details>
-
-<details>
-
-<summary>Start Flow и Start Step</summary>
+#### **Start Flow** и **Start Step**
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-`Start Flow` — Flow, который запускается после перехода пользователя.
+* **Start Flow** — Flow, который запускается после перехода
+* **Start Step** — первый Step выбранного Flow
 
-`Start Step` — первый Step выбранного Flow.
-{% endhint %}
-
-{% hint style="info" %}
-Эти поля позволяют запускать пользователя с нужного этапа сценария.
-{% endhint %}
-
-</details>
-
-<details>
-
-<summary>DM bot</summary>
+#### **DM bot**
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-`DM bot` — бот или Telegram-аккаунт для обработки лида и получения события `contact`.
-{% endhint %}
+**DM bot** принимает лида и помогает получить событие `contact`.
 
-</details>
-
-<details>
-
-<summary>Start Flow и Start Step для DM bot</summary>
+#### **Start Flow** и **Start Step** для **DM bot**
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-Это отдельный сценарий для DM bot.
-{% endhint %}
+Это отдельный сценарий для **DM bot**.
 
-{% hint style="info" %}
-Если Invite Bot и DM bot совпадают, заполнять это обычно не нужно.
-{% endhint %}
+#### **Approval time**
 
-</details>
+Параметр **Approval time** задаёт задержку перед автоматическим принятием пользователя в канал.
 
-<details>
-
-<summary>Важные особенности</summary>
+### Notes
 
 {% hint style="warning" %}
-Для сценария `Channel` Invite Bot должен быть активирован в системе.
-
-Также его нужно добавить администратором канала и выдать право на принятие заявок.
-
-Если заявки принимает другой бот, события не будут фиксироваться в Tracker.
+Для сценария `Channel` **Invite Bot** должен быть активирован и назначен администратором канала с правом принимать заявки.
 {% endhint %}
 
-</details>
-
-<details>
-
-<summary>Что находится рядом</summary>
-
-{% hint style="info" %}
-Следующие этапы настройки Campaigns:
-
-* [Information](information-razdel-campaign.md) - базовая информация о кампании
-* [Sources](sources-razdel-campaign/) - выбор и настройка источника трафика
-* [Auto actions](auto-actions-razdel-campaing.md) - автоматические действия внутри кампании
-* [Parameters](parameters-razdel-campaing.md) - параметры передачи данных
-* [Test](test-razdel-campaign.md) - проверка кампании перед запуском
-{% endhint %}
-
-</details>
-
-### Где удобно использовать General:
-
-{% hint style="success" %}
-General удобно использовать, когда нужно:
-
-* определить маршрут пользователя после клика
-* связать кампанию с ботом или каналом
-* запустить пользователя с нужного Flow и Step
-* подготовить DM-обработку лида
-{% endhint %}
+* Следующие вкладки: [Sources](sources-razdel-campaign/), [Auto actions](auto-actions-razdel-campaing.md), [Parameters](parameters-razdel-campaing.md), [Test](test-razdel-campaign.md)
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

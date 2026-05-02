@@ -4,116 +4,62 @@ icon: gears
 
 # Custom push
 
-> ### Custom Push - это шаг для отправки отложенных сообщений, если пользователь не отвечает.
+**Custom Push** — это шаг для отправки отложенных сообщений, если пользователь не отвечает.
 
-Он помогает вернуть пользователя в диалог, напомнить о себе и продолжить догрев без участия оператора.
+Он помогает вернуть пользователя в диалог и продолжить догрев без участия оператора.
+
+### Как это работает
 
 <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2139 (7).png" alt=""><figcaption></figcaption></figure></div>
 
-### 1. Settings (Настройки):
+Пуши работают, пока пользователь не ответил.
 
-#### Title:
+### Settings
 
-{% hint style="info" %}
-Название шага.\
-Используется для удобной навигации внутри flow.
-{% endhint %}
+* **Title** — название шага
+* **Delay ms** — задержка перед запуском пушей
+* **Finish Status** — статус после выполнения шага
 
-***
+Доступные статусы:
 
-#### Delay ms:
+* `nothing`
+* `auto`
+* `waiting`
+* `manual`
+* `blocked`
+* `finished`
 
-{% hint style="info" %}
-Задержка перед запуском пушей.
+### Push Messages
 
-Во время задержки:
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (55).png" alt=""><figcaption></figcaption></figure></div>
 
-* сообщения пользователя игнорируются
-* пуши не отправляются
-{% endhint %}
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (56).png" alt=""><figcaption></figcaption></figure></div>
 
-***
+Можно использовать:
 
-#### Finish Status:
+* **Text**
+* **Media**
+* **Document**
+* **Video note**
+* **Voice**
 
-{% hint style="info" %}
-Статус диалога после выполнения шага.
+Варианты настройки:
 
-Доступные варианты:
+* **Global push messages** — берутся из настроек бота
+* **Step push messages** — настраиваются вручную внутри шага
 
-* nothing — переход к следующему шагу
-* auto — автоматическое продолжение диалога
-* waiting — ожидание ответа пользователя
-* manual — перевод на оператора
-* blocked — блокировка диалога
-* finished — завершение диалога
-{% endhint %}
-
-***
-
-#### Важно:
+### Notes
 
 {% hint style="danger" %}
-* Обычно для Custom Push используют статус `waiting`
-* Пуши работают, пока пользователь не ответил
-* Если нужен догрев без перехода дальше, включайте **Skip the transition to next step**
+Обычно для **Custom Push** используют статус `waiting`.
+
+Если нужен догрев без перехода дальше, включайте **Skip the transition to next step**.
 {% endhint %}
-
-***
-
-### 2. Push Messages (Пуши):
-
-{% hint style="info" %}
-В этом блоке настраиваются сами пуши.
-
-Доступны те же типы, что и в Send Message:
-
-* **Text** — текст
-* **Media** — изображения и видео
-* **Document** — файлы
-* **Video note** — видеокружочки
-* **Voice** — голосовые сообщения
-{% endhint %}
-
-{% hint style="info" %}
-Есть два варианта настройки:
-
-* **Global push messages** — используются глобальные пуши из настроек бота
-* **Step push messages** — пуши настраиваются вручную внутри шага
-
-Каждый следующий пуш отправляется после предыдущего.
-
-Задержка работает между пушами.
-
-Если пользователь ответил, отправка пушей прекращается.
-
-*
-
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (55).png" alt=""><figcaption></figcaption></figure></div>
-*
-
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (56).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-
-### Важная логика работы:
 
 {% hint style="warning" %}
-* Custom Push используется как отдельный шаг для догрева
-* Пуши не отправляются во время `Delay ms`
-* Если пользователь ответил, цепочка пушей останавливается
-* Этот шаг удобен для возврата пользователя в диалог без ручного участия
-{% endhint %}
+Пуши не отправляются во время `Delay ms`.
 
-### Основные возможности:
-
-{% hint style="info" %}
-С помощью Custom Push вы можете:
-
-* настраивать цепочку пушей
-* задавать время отправки каждого сообщения
-* использовать разные типы сообщений
-* возвращать пользователя в диалог
-* повышать конверсию через напоминания и догрев
+Если пользователь ответил, цепочка пушей останавливается.
 {% endhint %}
 
 {% include "../../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

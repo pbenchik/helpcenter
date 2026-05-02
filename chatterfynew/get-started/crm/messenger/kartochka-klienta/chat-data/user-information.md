@@ -4,16 +4,15 @@ icon: user-group
 
 # User information
 
-> ### В блоке User Information отображается базовая информация о пользователе:
+_User Information_ показывает базовую информацию о пользователе.
 
-{% hint style="info" %}
-* **username** клиента
-* **дата и время начала диалога**
-* **Step ID** - идентификатор текущего шага
-* **Chat ID** - уникальный идентификатор чата
-*
+### Что отображается
 
-    <div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2240.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+<div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2240.png" alt=""><figcaption></figcaption></figure></div>
+
+* **Username** — имя пользователя клиента
+* **Дата и время начала диалога** — момент старта переписки
+* **Step ID** — идентификатор текущего шага
+* **Chat ID** — уникальный идентификатор чата
 
 {% include "../../../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

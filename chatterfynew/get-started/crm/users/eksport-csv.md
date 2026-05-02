@@ -4,20 +4,18 @@ icon: file-csv
 
 # Экспорт CSV
 
-> ### Экспорт CSV позволяет выгрузить список пользователей в файл для дальнейшей работы.
+Экспорт CSV позволяет выгрузить список пользователей в файл для дальнейшей работы.
 
-{% hint style="info" %}
-Чтобы выгрузить CSV:
+### Как выгрузить CSV
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure></div>
 
 1. Откройте раздел **Users**.
-2. При необходимости настройте состав колонок в разделе <a href="dannye-po-polzovatelyam.md" class="button secondary"> Настройка отображения</a>
+2. При необходимости настройте состав колонок в [Настройка отображения](nastroika-otobrazheniya.md).
 3. Нажмите **Export CSV**.
 4. Дождитесь формирования файла.
 
-*
-
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+### Notes
 
 {% hint style="warning" %}
 В CSV попадут только те поля, которые включены в **Columns**.

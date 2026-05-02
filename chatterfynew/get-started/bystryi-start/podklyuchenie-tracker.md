@@ -4,11 +4,12 @@ icon: calendar-users
 
 # Подключение Tracker
 
-> ### Подключение Tracker нужно, чтобы начать отслеживать трафик и события внутри воронки. Tracker показывает путь пользователя от клика по ссылке до целевого действия в Telegram.
+Подключение Tracker нужно, чтобы начать отслеживать трафик и события внутри воронки.
 
-### Что даёт Tracker:
+Tracker показывает путь пользователя от клика по ссылке до целевого действия в Telegram.
 
-{% hint style="info" %}
+### Что даёт Tracker
+
 С помощью Tracker вы можете:
 
 * отслеживать источники трафика
@@ -16,138 +17,85 @@ icon: calendar-users
 * видеть события и конверсии
 * оценивать эффективность рекламных кампаний
 * работать с аналитикой в одном интерфейсе
-{% endhint %}
 
-### Как подключается Tracker:
+### Как подключается Tracker
 
-{% stepper %}
-{% step %}
-#### Подключается домен
+Подключение идёт по базовой последовательности настройки инфраструктуры и кампаний.
 
-{% hint style="warning" %}
-Сначала добавляется домен, который будет использоваться в ссылках и кампаниях.
-{% endhint %}
-{% endstep %}
+#### Шаги
 
-{% step %}
-#### Создаётся лендинг
-
-{% hint style="warning" %}
-После этого выбирается стандартный лендинг или загружается свой.
-{% endhint %}
-{% endstep %}
-
-{% step %}
-#### Настраивается кампания
-
-{% hint style="warning" %}
-На этом этапе задаются источник трафика, параметры и правила кампании.
-{% endhint %}
-{% endstep %}
-
-{% step %}
-#### Подключается приёмщик лидов
-
-{% hint style="warning" %}
-Дальше нужно выбрать, куда будет попадать пользователь: в бота, канал или личный аккаунт.
-{% endhint %}
-{% endstep %}
-
-{% step %}
-#### Проверяется аналитика
-
-{% hint style="warning" %}
-После запуска трафика данные начинают появляться в статистике Tracker.
-{% endhint %}
-{% endstep %}
-{% endstepper %}
-
-### Основные этапы подключения:
-
-<details>
-
-<summary>Подключение домена</summary>
-
-{% hint style="info" %}
-Домен используется в трекинговых ссылках и кампаниях.
-
-Без него нельзя корректно запустить трекинг.
-{% endhint %}
-
-* [Как работает Tracker](../tracker/kak-rabotaet-tracker.md)
-* [Domains](../tracker/domains/)
-
-</details>
-
-<details>
-
-<summary>Создание лендинга</summary>
-
-{% hint style="info" %}
-Для Tracker нужен лендинг, через который будет идти пользователь.
-
-Можно использовать готовый шаблон или загрузить свой вариант.
-{% endhint %}
-
-* [Landings](../tracker/landings/)
-* [Как создать landing](../tracker/landings/kak-sozdat-landing.md)
-
-</details>
-
-<details>
-
-<summary>Настройка кампании</summary>
-
-{% hint style="info" %}
-Кампания связывает источник трафика, параметры и правила учёта событий.
-
-Именно здесь задаётся логика трекинга.
-{% endhint %}
-
-* [Campaigns](../tracker/campaigns/)
-* [Как создать кампанию](../tracker/campaigns/kak-sozdat-kampaniyu.md)
-
-</details>
-
-<details>
-
-<summary>Подключение приёмщика лидов</summary>
-
-{% hint style="info" %}
-После кампании нужно выбрать канал, куда будет попадать пользователь.
-
-Это может быть Telegram-бот, канал или личный аккаунт.
-{% endhint %}
-
-* [Как работает Tracker](../tracker/kak-rabotaet-tracker.md)
-* [Создание и подключение бота](sozdanie-i-podklyuchenie-bota/)
-
-</details>
-
-<details>
-
-<summary>Аналитика и интеграции</summary>
-
-{% hint style="info" %}
-После запуска трафика события и конверсии появляются в аналитике Tracker.
-
-При необходимости можно подключить внешние интеграции и postback.
-{% endhint %}
-
-* [Analytics](../tracker/analytics/)
-* [Integrations](../tracker/integrations/)
-
-</details>
+1. Подключается домен
+2. Создаётся лендинг
+3. Настраивается кампания
+4. Подключается приёмщик лидов
+5. Проверяется аналитика
 
 {% hint style="info" %}
 Базовая логика подключения простая: домен → лендинг → кампания → приёмщик лидов → аналитика.
 {% endhint %}
 
-{% hint style="info" %}
-Подразделы
+### Подключение домена
 
-* <a href="../tracker/kak-rabotaet-tracker.md" class="button secondary" data-icon="scroll">Как работает Tracker</a><a href="../tracker/domains/" class="button secondary" data-icon="globe">Подключение доменов</a><a href="../tracker/landings/" class="button secondary" data-icon="file-lines">Создание лендинга</a>
-* <a href="../tracker/campaigns/" class="button secondary" data-icon="bullhorn">Создание кампании</a><a href="../tracker/integrations/" class="button secondary" data-icon="network-wired">Интеграции и postback</a><a href="../tracker/analytics/" class="button secondary" data-icon="chart-line">Аналитика Tracker</a>
-{% endhint %}
+Домен используется в трекинговых ссылках и кампаниях.
+
+Без него нельзя корректно запустить трекинг.
+
+#### Связанные страницы
+
+* [Как работает Tracker](../tracker/kak-rabotaet-tracker.md)
+* [Domains](../tracker/domains/)
+
+### Создание лендинга
+
+Для Tracker нужен лендинг, через который будет идти пользователь.
+
+Можно использовать готовый шаблон или загрузить свой вариант.
+
+#### Связанные страницы
+
+* [Landings](../tracker/landings/)
+* [Как создать landing](../tracker/landings/kak-sozdat-landing.md)
+
+### Настройка кампании
+
+Кампания связывает источник трафика, параметры и правила учёта событий.
+
+Именно здесь задаётся логика трекинга.
+
+#### Связанные страницы
+
+* [Campaigns](../tracker/campaigns/)
+* [Как создать кампанию](../tracker/campaigns/kak-sozdat-kampaniyu.md)
+
+### Подключение приёмщика лидов
+
+После кампании нужно выбрать канал, куда будет попадать пользователь.
+
+Это может быть Telegram-бот, канал или личный аккаунт.
+
+#### Связанные страницы
+
+* [Как работает Tracker](../tracker/kak-rabotaet-tracker.md)
+* [Создание и подключение бота](sozdanie-i-podklyuchenie-bota/)
+
+### Аналитика и интеграции
+
+После запуска трафика события и конверсии появляются в аналитике Tracker.
+
+При необходимости можно подключить внешние интеграции и `postback`.
+
+#### Связанные страницы
+
+* [Analytics](../tracker/analytics/)
+* [Integrations](../tracker/integrations/)
+
+### Подразделы
+
+* [Как работает Tracker](../tracker/kak-rabotaet-tracker.md)
+* [Подключение доменов](../tracker/domains/)
+* [Создание лендинга](../tracker/landings/)
+* [Создание кампании](../tracker/campaigns/)
+* [Интеграции и postback](../tracker/integrations/)
+* [Аналитика Tracker](../tracker/analytics/)
 
 {% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

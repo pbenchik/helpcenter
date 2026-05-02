@@ -5,154 +5,84 @@ icon: scroll
 
 # Как работает Tracker
 
-> ### Tracker - это раздел для настройки трафика, кампаний и аналитики от клика до конверсии.
+Раздел _Tracker_ объединяет настройку трафика, событий и аналитики.
 
-{% hint style="info" %}
-С его помощью можно:
+Он ведёт пользователя от клика до конверсии и показывает результат по всей цепочке.
 
-\- подключить домен и лендинг
+### Как это работает
 
-\- настроить кампании и источники трафика
+Сначала вы готовите инфраструктуру.
 
-\- подключить приёмщик лидов
+Потом запускаете трафик и принимаете события в систему.
 
-\- передавать события и конверсии через интеграции
+### Этапы настройки
 
-\- анализировать путь пользователя до депозита
-{% endhint %}
+Ниже — базовая последовательность запуска.
 
-### Как работает Tracker:
+#### 1. Подключите домен
 
-{% hint style="info" %}
-Стандартный процесс работы включает 6 шагов.
-{% endhint %}
+<div data-with-frame="true"><img src="../../.gitbook/assets/Frame 2102.png" alt=""></div>
 
-{% hint style="info" %}
-Сначала настраивается инфраструктура, потом запускается трафик, а дальше данные начинают собираться в аналитике.
-{% endhint %}
+Домен используется в ссылках кампаний и лендингах.
 
-### Как запустить работу через Tracker:
+#### 2. Создайте лендинг
 
-{% stepper %}
-{% step %}
-{% hint style="info" %}
-*   #### **Подключите домен**
+<div data-with-frame="true"><img src="../../.gitbook/assets/Frame 2103.png" alt=""></div>
 
-    <div data-with-frame="true"><img src="../../.gitbook/assets/Frame 2102.png" alt=""></div>
+Можно использовать стандартный лендинг или загрузить свой.
 
-    Добавляется домен, который будет использоваться в кампаниях.
+#### 3. Создайте кампанию
 
-    <button type="button" class="button secondary" data-action="ask" data-query="Как подключить домен для Tracker?" data-icon="globe">Как подключить домен для Tracker?</button>
-{% endhint %}
-{% endstep %}
+<div data-with-frame="true"><img src="../../.gitbook/assets/Frame 2104.png" alt=""></div>
 
-{% step %}
-{% hint style="info" %}
-*   #### **Создайте лендинг**
+В кампании настраиваются источник, параметры и фильтры.
 
-    <div data-with-frame="true"><img src="../../.gitbook/assets/Frame 2103.png" alt=""></div>
+#### 4. Подключите приёмщик лидов
 
-    Можно использовать стандартный лендинг платформы или загрузить собственный лендинг.
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2105.png" alt=""><figcaption></figcaption></figure></div>
 
-    <button type="button" class="button secondary" data-action="ask" data-query="Как создать лендинг для Tracker?" data-icon="file-lines">Как создать лендинг для Tracker?</button>
-{% endhint %}
-{% endstep %}
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2106.png" alt=""><figcaption></figcaption></figure></div>
 
-{% step %}
-{% hint style="info" %}
-*   #### **Создайте кампанию**
+В качестве приёмщика можно использовать:
 
-    <div data-with-frame="true"><img src="../../.gitbook/assets/Frame 2104.png" alt=""></div>
+* Telegram-бот
+* Telegram-канал
+* личный аккаунт
 
-    Настраиваются источник трафика, параметры кампании и нужные фильтры.
+#### 5. Настройте интеграции
 
-    <button type="button" class="button secondary" data-action="ask" data-query="Как настраивать кампанию в Tracker?" data-icon="bullhorn">Как настраивать кампанию в Tracker?</button>
-{% endhint %}
-{% endstep %}
+<div data-with-frame="true"><img src="../../.gitbook/assets/Frame 2107.png" alt=""></div>
 
-{% step %}
-{% hint style="info" %}
-*   #### **Подключите приёмщик лидов**
+Интеграции принимают postback и передают события дальше.
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2105.png" alt=""><figcaption></figcaption></figure></div>
+#### 6. Запустите рекламу
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2106.png" alt=""><figcaption></figcaption></figure></div>
+После запуска данные начинают появляться в статистике.
 
-    Назначается канал взаимодействия с пользователями:
-
-    * Telegram бот
-    * Telegram канал
-    * личный аккаунт
-
-    <button type="button" class="button secondary" data-action="ask" data-query="Как подключить приемщика лидов в Tracker (Telegram бот/канал/личка)?" data-icon="robot">Как подключить приемщика лидов в Tracker?</button>
-{% endhint %}
-{% endstep %}
-
-{% step %}
-{% hint style="info" %}
-*   #### **Настройте интеграции**
-
-    <div data-with-frame="true"><img src="../../.gitbook/assets/Frame 2107.png" alt=""></div>
-
-    Подключаются postback из внешних сервисов, чтобы передавать события и конверсии в систему.
-
-    <a href="integrations/" class="button secondary" data-icon="network-wired">Как подключить интеграцию?</a>
-{% endhint %}
-{% endstep %}
-
-{% step %}
-{% hint style="info" %}
-*   #### **Запустите рекламу**
-
-    После запуска кампании статистика начинает отображаться в Tracker в реальном времени.
-
-    <button type="button" class="button secondary" data-action="ask" data-query="Как запустить рекламу и проверить, что трекинг работает?" data-icon="play">Как запустить рекламу и проверить трекинг?</button>
-{% endhint %}
-{% endstep %}
-{% endstepper %}
-
-### Подробнее:
-
-<details>
-
-<summary>Возможности Tracker</summary>
-
-{% hint style="info" %}
-В разделе Tracker доступны следующие инструменты:
-
-* [Сводные дашборды со статистикой](dashboards/)
-* [Управление рекламными кампаниями](campaigns/)
-* [Подключение доменов](domains/)
-* [Управление лендингами](landings/)
-* [Детальная аналитика по трафику](analytics/)
-* [Настройка интеграций и postback](integrations/)
-* [Просмотр логов событий](logs.md)
-* [Работа с proxy](proxy.md)
-* [Управление баерами](buyers.md)
-{% endhint %}
-
-</details>
-
-<details>
-
-<summary>Где находится Tracker</summary>
+### Где находится Tracker
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/Frame 2108 (3).png" alt=""></div>
 
-{% hint style="info" %}
-Чтобы открыть раздел Tracker:
+Чтобы открыть раздел:
 
-* в левом боковом меню нажмите на иконку Tracker
-* внутри раздела будут доступны все инструменты работы с трафиком
-{% endhint %}
+1. откройте левое меню
+2. нажмите **Tracker**
 
-</details>
+### Краткий порядок запуска
 
-<details>
+Если нужен короткий сценарий без деталей, используйте этот порядок.
 
-<summary>Подразделы Tracker</summary>
+#### Шаги
 
-* [Dashboards](dashboards/)
+1. Подключите **Domains**
+2. Подготовьте **Landings**
+3. Настройте **Campaigns**
+4. Подключите **Integrations**
+5. Проверьте данные в **Analytics**
+
+### Что доступно в разделе
+
+* [Dashboards](dashboards.md)
 * [Campaigns](campaigns/)
 * [Domains](domains/)
 * [Landings](landings/)
@@ -162,17 +92,8 @@ icon: scroll
 * [Proxy](proxy.md)
 * [Buyers](buyers.md)
 
-</details>
-
-### Где удобно использовать Tracker:
-
-{% hint style="success" %}
-Tracker удобно использовать, когда нужно:
-
-* собрать полный путь пользователя от клика до конверсии
-* запустить рекламу с трекингом событий
-* подключить внешние postback и аналитику
-* управлять доменами, лендингами и кампаниями в одном месте
+{% hint style="info" %}
+Базовый порядок запуска: **Domains** → **Landings** → **Campaigns** → **Integrations** → **Analytics**.
 {% endhint %}
 
 {% include "../../../.gitbook/includes/na-glavnuyu.md" %}

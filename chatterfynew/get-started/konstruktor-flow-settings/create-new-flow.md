@@ -4,189 +4,56 @@ icon: arrow-progress
 
 # Create New Flow
 
-> ### **Create New Flow** помогает быстро создать новый flow или перенести готовую структуру из другого бота.
+**Create New Flow** помогает создать новый _flow_ или перенести готовую структуру из другого бота.
 
-### Важно перед началом:
+### Как это работает
 
-{% hint style="warning" %}
-**Перед созданием нового flow заранее определите:**
+Через это окно можно:
 
-* нужен ли вам пустой flow или копия существующего
-* из какого space и бота нужно делать импорт
-* нужно ли переносить AI Settings и global push messages
-{% endhint %}
+* создать пустой _flow_
+* импортировать готовый _flow_
+* перенести **AI Settings**
+* перенести глобальные **push messages**
 
-### Основные возможности:
+### Create flow
 
-{% hint style="info" %}
-**С помощью Create New Flow вы можете:**
+<figure><img src="../../.gitbook/assets/Frame 2248 (5).png" alt=""><figcaption></figcaption></figure>
 
-* быстро запускать новые сценарии
-* использовать готовые flow как шаблон
-* копировать рабочую AI-конфигурацию
-* сокращать время на настройку нового бота
-{% endhint %}
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2248 (6).png" alt=""><figcaption></figcaption></figure></div>
 
-### Способы создания flow:
+1. Нажмите кнопку создания в верхней части **Flow Settings**.
+2. Введите название нового _flow_.
+3. Нажмите **Save**.
 
-<details>
+### Import flow
 
-<summary>Create flow</summary>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2248 (7).png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-**Чтобы создать новый flow вручную:**
+1. Выберите нужный `space`.
+2. Откройте нужный бот или личный аккаунт.
+3. Отметьте нужный _flow_.
+4. Запустите импорт.
 
-* нажмите кнопку в левой верхней части раздела **Flow Settings**
-*
+### Import AI Settings
 
-    <figure><img src="../../.gitbook/assets/Frame 2248 (5).png" alt=""><figcaption></figcaption></figure>
-* введите название нового flow
-*
+* переносит **Global Bot Settings** и **AI Settings** выбранного бота
+* подходит, если нужно быстро скопировать логику поведения
 
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2248 (6).png" alt=""><figcaption></figcaption></figure></div>
-* нажмите **Save**
+### Import global push messages
 
-**После сохранения система создаст новый пустой flow.**
-{% endhint %}
+* переносит глобальные **push messages** из другого бота
+* подходит, если нужно повторить логику догрева
+* подробнее: [Push](/broken/spaces/AxluUgdTFxFU08qksWVa/pages/OD3xjP4kv5pdIaw4u22M)
 
-
-
-</details>
-
-<details>
-
-<summary>Import flow</summary>
-
-{% hint style="info" %}
-**Import flow** позволяет перенести flow из другого бота или space.
-
-Чтобы выполнить импорт:
-
-* выберите space компании, из которого хотите перенести flow
-* откройте нужный space
-* выберите бота или личный аккаунт
-* отметьте нужный flow
-*
-
-    <div data-with-frame="true"><figure><img src="../../.gitbook/assets/Frame 2248 (7).png" alt=""><figcaption></figcaption></figure></div>
-* **запустите импорт**
-{% endhint %}
-
-
-
-</details>
-
-<details>
-
-<summary>Import AI Settings</summary>
-
-{% hint style="info" %}
-**Import AI Settings** переносит **Global Bot Settings** и **AI Settings** выбранного бота.
-
-Используйте этот вариант, если:
-
-* новому боту нужны такие же AI-настройки
-* вы хотите быстро скопировать логику поведения бота
-* не нужно настраивать роль и стиль общения заново
-{% endhint %}
-
-
-
-</details>
-
-<details>
-
-<summary>Import global push messages</summary>
-
-{% hint style="info" %}
-**Import global push messages** переносит глобальные push messages из другого бота.
-
-Это удобно, если:
-
-* у вас уже есть готовая схема пушей
-* нужно быстро повторить настройки в новом боте
-* важно сохранить одинаковую логику догрева
-
-Подробнее: [Push](/broken/spaces/AxluUgdTFxFU08qksWVa/pages/OD3xjP4kv5pdIaw4u22M)
-{% endhint %}
-
-{% hint style="info" %}
-**Используется для:**
-
-* создания нового flow с нуля
-* импорта готового flow из другого space
-* переноса AI Settings из другого бота
-* копирования global push messages
-{% endhint %}
-
-{% hint style="info" %}
-**Через это окно вы можете:**
-
-* создать пустой flow и задать ему имя
-* импортировать уже готовую воронку
-* ускорить запуск нового бота за счёт копирования настроек
-{% endhint %}
-
-
-
-</details>
-
-### Важная логика работы:
+### Notes
 
 {% hint style="warning" %}
-* **Create flow** создаёт пустой сценарий
-* Import flow переносит структуру выбранного flow
-* Import AI Settings не переносит сам flow
-* Import global push messages копирует только глобальные пуши
+**Create flow** создаёт пустой сценарий.
+
+**Import AI Settings** и **Import global push messages** не переносят сам _flow_.
 {% endhint %}
 
-### Когда использовать Create New Flow:
+### Связанные страницы
 
-{% hint style="success" %}
-Используйте этот инструмент, когда нужно:
-
-* создать новую воронку с нуля
-* скопировать готовую воронку в другой бот
-* быстро перенести AI-настройки
-* повторно использовать global push messages
-{% endhint %}
-
-{% columns fullWidth="false" %}
-{% column width="50%" %}
-{% hint style="info" %}
-**Старт и обзор**
-
-* <a href="../../dobro-pozhalovat/o-produkte/" class="button secondary" data-icon="table">О продукте</a>
-* <a href="../../dobro-pozhalovat/arkhitektura-sistemy/" class="button secondary" data-icon="sitemap">Архитектура системы</a>
-* <a href="../bystryi-start/" class="button secondary" data-icon="rocket">Быстрый старт</a>
-{% endhint %}
-
-{% hint style="info" %}
-**Аналитика и управление**
-
-* <a href="../analytics/" class="button secondary" data-icon="chart-line">Analytics</a>
-* <a href="../tracker/" class="button secondary" data-icon="chart-line">Tracker</a>
-* <a href="../administrirovanie-company/" class="button secondary" data-icon="buildings">Администрирование</a>
-* <a href="/broken/spaces/AxluUgdTFxFU08qksWVa/pages/yonwUmMhqke1c4edMh5B" class="button secondary" data-icon="circle-question">FAQ и решение проблем</a>
-{% endhint %}
-{% endcolumn %}
-
-{% column width="50%" %}
-{% hint style="info" %}
-**Работа в платформе**
-
-* <a href="../crm/" class="button secondary" data-icon="comments">CRM</a>
-* <a href="./" class="button secondary" data-icon="arrow-progress">Конструктор (Flow Settings)</a>
-* <a href="../bot-settings/" class="button secondary" data-icon="robot">Bot Settings</a>
-{% endhint %}
-
-{% hint style="info" %}
-**Частые вопросы**
-
-* <a href="../../faq-i-reshenie-problem/tipy-oshibok/oshibka-403.md" class="button secondary" data-icon="message-xmark">Бот не отвечает</a>
-* <a href="../../faq-i-reshenie-problem/tipy-oshibok/oshibka-400.md" class="button secondary" data-icon="triangle-exclamation">Нет ClickID</a>
-* <a href="../bystryi-start/sozdanie-i-podklyuchenie-bota/tipy-botov-v-chatterfy.md" class="button secondary" data-icon="robot">Какой тип бота выбрать?</a>
-* <a href="../../faq-i-reshenie-problem/chastye-voprosy/kak-skryt-chaty-mezhdu-operatorami.md" class="button secondary" data-icon="comment-xmark">Пуши не работают</a>
-{% endhint %}
-{% endcolumn %}
-{% endcolumns %}
+* [Конструктор (Flow Settings)](./)
+* [Bot Settings](../bot-settings/)

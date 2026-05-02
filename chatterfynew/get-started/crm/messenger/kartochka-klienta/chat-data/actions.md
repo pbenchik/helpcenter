@@ -4,36 +4,28 @@ icon: cloud-binary
 
 # Actions
 
-> #### **Clear chat -** Полностью удаляет диалог из CRM.
->
-> #### **Download messages -** Выгружает всю историю переписки
+_Actions_ содержит команды для выгрузки переписки и очистки диалога.
 
-{% hint style="info" %}
-**Download messages**
+### Доступные действия
 
-* Позволяет выгрузить всю историю переписки с пользователем в формате текстового файла.
+<div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2243.png" alt=""><figcaption></figcaption></figure></div>
 
-**Clear chat**
+* **Download messages** — выгружает всю историю переписки с пользователем в текстовый файл
+* **Clear chat** — полностью удаляет диалог из CRM
 
-* Полностью удаляет диалог из CRM.
-* Рекомендуется использовать для очистки тестовых диалогов, чтобы начинать воронку с чистого листа.
-*
+### Когда использовать
 
-    <div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2243.png" alt=""><figcaption></figcaption></figure></div>
+* **Download messages** — если нужно сохранить переписку
+* **Clear chat** — если нужно очистить тестовый диалог и начать воронку с чистого листа
 
+### Notes
 
+{% hint style="warning" %}
+Если вы не **Owner** и не **Admin**, этот блок может быть скрыт или недоступен.
 {% endhint %}
 
 {% hint style="danger" %}
-Важно
-
-* Если **вы не являетесь владельцем (Owner) или администратором (Admin)** — поэтому блок скрыт или недоступен.
+**Clear chat** удаляет диалог полностью. Используйте действие только тогда, когда это действительно нужно.
 {% endhint %}
 
-<br>
-
 {% include "../../../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}
-
-\
-<br>
-

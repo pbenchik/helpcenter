@@ -4,139 +4,100 @@ icon: server
 
 # Базовая настройка бота
 
-> ### Базовая настройка бота помогает подготовить бота к работе сразу после подключения. В этом разделе обычно проверяют основные параметры, от которых зависит работа команды и самого бота.
+Базовая настройка бота помогает подготовить бота к работе сразу после подключения.
 
-### Что настраивается в первую очередь:
+В этом разделе обычно проверяют основные параметры, от которых зависит работа команды и самого бота.
 
-{% hint style="info" %}
+### Что настраивается в первую очередь
+
 После создания бота обычно настраивают:
 
 * часовой пояс
 * статус бота
-* рабочий Space
+* рабочий **Space**
 * внутреннее описание
-{% endhint %}
 
-### Как проходит базовая настройка:
+### Как проходит базовая настройка
 
-{% stepper %}
-{% step %}
-#### Откройте Bot Settings → General
+Это базовый набор параметров в разделе **Bot Settings** → **General**.
 
-{% hint style="warning" %}
-Все базовые параметры бота находятся в разделе **General**.
-{% endhint %}
-{% endstep %}
+#### Шаги
 
-{% step %}
-#### Проверьте ключевые настройки
-
-{% hint style="warning" %}
-На этом этапе обычно задают timezone, проверяют статус бота и при необходимости меняют Space.
-{% endhint %}
-{% endstep %}
-
-{% step %}
-#### Добавьте описание для команды
-
-{% hint style="warning" %}
-Внутреннее описание помогает быстрее ориентироваться, если в системе много ботов.
-{% endhint %}
-{% endstep %}
-{% endstepper %}
-
-### Основные настройки:
-
-<details>
-
-<summary>Timezone</summary>
+1. Откройте **Bot Settings** → **General**
+2. Проверьте `timezone`, статус бота и рабочий **Space**
+3. Добавьте внутреннее описание для команды
 
 {% hint style="info" %}
-Здесь выбирается часовой пояс бота.
-
-Это важно, если:
-
-* боты работают в разных ГЕО
-* команда ориентируется на локальное время
-* нужно корректное отображение времени внутри системы
+Все базовые параметры бота находятся в разделе **General**.
 {% endhint %}
+
+### Timezone
+
+Здесь выбирается часовой пояс бота.
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/Frame 2149.png" alt=""></div>
 
-{% hint style="info" %}
-Вся информация внутри бота отображается согласно выбранной таймзоне.
-{% endhint %}
+#### Когда это важно
 
-</details>
+* боты работают в разных `ГЕО`
+* команда ориентируется на локальное время
+* нужно корректное отображение времени внутри системы
 
-<details>
+#### Notes
 
-<summary>Включение и выключение бота</summary>
+* вся информация внутри бота отображается согласно выбранной таймзоне
 
-{% hint style="info" %}
+### Включение и выключение бота
+
 Бота можно включать и выключать в зависимости от задачи.
-
-Когда бот выключен:
-
-* он не работает
-* плата за него не начисляется
-{% endhint %}
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/Frame 2150.png" alt=""></div>
 
-{% hint style="info" %}
-При необходимости бота также можно архивировать.
-{% endhint %}
+#### Что это меняет
 
-</details>
+* когда бот выключен, он не работает
+* когда бот выключен, плата за него не начисляется
 
-<details>
+#### Notes
 
-<summary>Перемещение между Spaces</summary>
+* при необходимости бота также можно архивировать
 
-{% hint style="info" %}
-Бота можно перенести в другой Space, если изменилась команда или проект.
+### Перемещение между Spaces
 
-Для этого:
-
-* выберите новый Space
-* сохраните изменения
-{% endhint %}
+Бота можно перенести в другой **Space**, если изменилась команда или проект.
 
 <div data-with-frame="true"><img src="../../.gitbook/assets/Frame 2151.png" alt=""></div>
 
-</details>
+#### Шаги
 
-<details>
+1. Выберите новый **Space**
+2. Сохраните изменения
 
-<summary>Описание бота</summary>
+### Описание бота
 
-{% hint style="info" %}
 Вы можете добавить внутреннее описание бота.
 
-Оно помогает:
+<div data-with-frame="true"><img src="../../.gitbook/assets/Frame 2149 (1).png" alt=""></div>
+
+#### Зачем это нужно
 
 * не путаться между ботами
 * фиксировать назначение бота внутри команды
 * быстрее ориентироваться в списке проектов
-{% endhint %}
 
-<div data-with-frame="true"><img src="../../.gitbook/assets/Frame 2149 (1).png" alt=""></div>
+#### Notes
 
-{% hint style="info" %}
-Описание видно только внутри Chatterfy.
-{% endhint %}
-
-</details>
+* описание видно только внутри Chatterfy
 
 {% hint style="info" %}
-Базовая логика простая: сначала проверьте настройки в General, затем убедитесь, что бот активен и находится в нужном Space.
+Базовая логика простая: сначала проверьте настройки в **General**, затем убедитесь, что бот активен и находится в нужном **Space**.
 {% endhint %}
 
-{% hint style="info" %}
-Связанные страницы
+### Связанные страницы
 
-* <a href="/broken/spaces/AxluUgdTFxFU08qksWVa/pages/JC3Y3E6CWfMjRVAr2wH4" class="button secondary" data-icon="tag">Название</a><a href="/broken/spaces/AxluUgdTFxFU08qksWVa/pages/uvw6TXs2BpGWBqU0HmGX" class="button secondary" data-icon="toggle-on">Статус</a><a href="/broken/spaces/AxluUgdTFxFU08qksWVa/pages/6g9jYBF0ToOLyzgYwFYp" class="button secondary" data-icon="clock">Timezone</a><a href="sozdanie-i-podklyuchenie-bota/" class="button secondary" data-icon="robot">Создание и подключение бота</a>
-{% endhint %}
+* [Название](/broken/spaces/AxluUgdTFxFU08qksWVa/pages/JC3Y3E6CWfMjRVAr2wH4)
+* [Статус](/broken/spaces/AxluUgdTFxFU08qksWVa/pages/uvw6TXs2BpGWBqU0HmGX)
+* [Timezone](/broken/spaces/AxluUgdTFxFU08qksWVa/pages/6g9jYBF0ToOLyzgYwFYp)
+* [Создание и подключение бота](sozdanie-i-podklyuchenie-bota/)
 
 {% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

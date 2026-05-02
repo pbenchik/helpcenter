@@ -4,84 +4,55 @@ icon: hands
 
 # Manual
 
-> ### Раздел Manual тут можно быстро поменять:
->
-> * #### Sale stage
-> * #### Status
-> * #### Flow
-> * #### Step&#x20;
-> * #### Manager
-> * #### Tags
+_Manual_ позволяет быстро менять ключевые параметры пользователя внутри карточки клиента.
+
+### Как это работает
+
+Из этого блока можно вручную обновлять данные по текущему диалогу.
 
 <div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2238.png" alt=""><figcaption></figcaption></figure></div>
 
-<details>
+### Что можно изменить
 
-<summary><strong>Sale stage</strong></summary>
+* **Sale stage** — смена этапа продажи
+* **Status** — смена текущего статуса диалога
+* **Flow** — смена флоу
+* **Step** — смена текущего шага воронки
+* **Manager** — назначение или смена менеджера
+* **Tags** — добавление или удаление тегов
 
-{% hint style="info" %}
-Sale Stage - смена этапа продажи
-{% endhint %}
+_Flow_ — это последовательность шагов или действий, которые бот выполняет для взаимодействия с пользователем, направляя его по заранее подготовленной воронке продаж.
 
-</details>
+### Связанные страницы
 
-<details>
+#### Chat status
 
-<summary>Status</summary>
+<div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2250 (5).png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-Status - смена текущего статуса диалога
-{% endhint %}
+* [Chat status](../../chat-status.md)
 
-</details>
+#### Sale Status
 
-<details>
+<div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2258 (2).png" alt=""><figcaption></figcaption></figure></div>
 
-<summary>Flow</summary>
+* [Sale Status](../../../../bot-settings/sale-status.md)
 
-{% hint style="info" %}
-Flow - смена флоу.\
-Flow (Флоу) - это последовательность шагов или действий, которые бот выполняет для взаимодействия с пользователем, направляя его по заранее подготовленной воронке продаж.
-{% endhint %}
+#### Tags
 
-</details>
+<div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2259.png" alt=""><figcaption></figcaption></figure></div>
 
-<details>
+* [Tags](../../../../bot-settings/crm-nastroiki/tags.md)
 
-<summary>Step</summary>
+#### Assign Manager
 
-{% hint style="info" %}
-Step - смена текущего шага воронки
-{% endhint %}
+<div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2260 (7).png" alt=""><figcaption></figcaption></figure></div>
 
-</details>
+* [Assign Manager](../../../../bot-settings/crm-nastroiki/assign-manager.md)
 
-<details>
-
-<summary>Manager</summary>
-
-{% hint style="info" %}
-Manager - назначение или смена менеджера
-{% endhint %}
-
-</details>
-
-<details>
-
-<summary>Tags</summary>
-
-{% hint style="info" %}
-Tags - добавление или удаление тегов
-{% endhint %}
-
-</details>
-
-<table data-view="cards"><thead><tr><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><a href="../../../../../.gitbook/assets/Frame 2250 (5).png">Frame 2250 (5).png</a></td><td><a href="../../chat-status.md">chat-status.md</a></td></tr><tr><td><a href="../../../../../.gitbook/assets/Frame 2258 (2).png">Frame 2258 (2).png</a></td><td><a href="../../../../bot-settings/sale-status.md">sale-status.md</a></td></tr><tr><td><a href="../../../../../.gitbook/assets/Frame 2259.png">Frame 2259.png</a></td><td><a href="../../../../bot-settings/crm-nastroiki/tags.md">tags.md</a></td></tr><tr><td><a href="../../../../../.gitbook/assets/Frame 2260 (7).png">Frame 2260 (7).png</a></td><td><a href="../../../../bot-settings/crm-nastroiki/assign-manager.md">assign-manager.md</a></td></tr></tbody></table>
-
-### Важно:
+### Notes
 
 {% hint style="danger" %}
-после внесения любых изменений необходимо нажать кнопку Save, иначе изменения не будут применены.
+После любых изменений нажмите **Save**, иначе они не применятся.
 {% endhint %}
 
 {% include "../../../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

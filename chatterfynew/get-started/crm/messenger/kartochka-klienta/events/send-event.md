@@ -4,37 +4,35 @@ icon: share-from-square
 
 # Send event
 
-> ### Функция **Send event** позволяет вручную отправить выбранное событие для клиента.&#x20;
+_Send event_ позволяет вручную отправить выбранное событие для клиента.
 
-### **Как отправить событие:**
+### Как отправить событие
 
-{% hint style="info" %}
+#### 1. Откройте форму отправки
 
+<div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2245.png" alt=""><figcaption></figcaption></figure></div>
 
-*
+* Выберите нужное событие.
 
-    <div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2245.png" alt=""><figcaption></figcaption></figure></div>
-* выберите нужное событие
-* заполните параметры, если они требуются
-*
+#### 2. Заполните параметры
 
-    <div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2246.png" alt=""><figcaption></figcaption></figure></div>
-* нажмите **Save**
-{% endhint %}
+<div data-with-frame="true"><figure><img src="../../../../../.gitbook/assets/Frame 2246.png" alt=""><figcaption></figcaption></figure></div>
 
-### Ручная отправка события влияет на данные клиента и аналитику:
+* Заполните параметры, если они требуются.
+* Нажмите **Save**.
+
+### Notes
 
 {% hint style="warning" %}
-* Используйте её только тогда, когда это действительно нужно.
-* После нажатия **Save** событие также записывается в карточку клиента, в раздел **Events**. Так же передаётся в аналитику кампании, по которой пришёл пользователь
+Ручная отправка влияет на данные клиента и аналитику.
+
+После нажатия **Save** событие записывается в карточку клиента, в раздел **Events**, и передаётся в аналитику кампании.
 {% endhint %}
 
-### Когда это полезно:
+### Когда это полезно
 
-{% hint style="info" %}
 * если событие нужно добавить вручную
 * если событие не пришло автоматически
 * если нужно протестировать сценарий или логику обработки
-{% endhint %}
 
 {% include "../../../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

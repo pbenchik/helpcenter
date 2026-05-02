@@ -4,66 +4,45 @@ icon: gears
 
 # Domains
 
-> ### Раздел Domains нужен для подключения доменов и поддоменов в Tracker.
+Раздел _Domains_ нужен для подключения доменов и поддоменов в Tracker.
 
 Они используются в ссылках кампаний, лендингах и трекинге событий.
 
-### &#x20;Что и как можно подключить:
+### Как это работает
 
-{% tabs %}
-{% tab title="Домен" %}
-{% hint style="info" %}
+Сначала домен или поддомен настраивается в Cloudflare.
+
+Потом включается `HTTPS` и адрес добавляется в Chatterfy.
+
+### Основной домен
+
 Подходит, если вы хотите использовать основной адрес сайта.
-
-Обычно настройка состоит из трёх шагов:
-
-1. Добавить домен в Cloudflare.
-2. Настроить SSL.
-3. Добавить домен в Chatterfy.
-{% endhint %}
-
-Видеоинструкция:
 
 {% embed url="https://youtu.be/zcJyh-e2o4k" %}
 
-<a href="kak-dobavit-domen-v-cloudflare.md" class="button secondary" data-icon="cloud">Как добавить домен в Cloudflare</a> <a href="kak-nastroit-ssl.md" class="button secondary" data-icon="lock">Как настроить SSL</a>&#x20;
+#### Шаги
 
-<a href="kak-dobavit-domen-v-chatterfy.md" class="button secondary" data-icon="plus">Как добавить домен в Chatterfy</a>
-{% endtab %}
+1. [Добавьте домен в Cloudflare](kak-dobavit-domen-v-cloudflare.md)
+2. [Настройте SSL](kak-nastroit-ssl.md)
+3. [Добавьте домен в Chatterfy](kak-dobavit-domen-v-chatterfy.md)
 
-{% tab title="Поддомен" %}
-{% hint style="info" %}
+### Поддомен
+
 Подходит, если основной домен уже подключён и нужен отдельный адрес, например `offer.example.com`.
-
-Обычно настройка состоит из трёх шагов:
-
-1. Создать DNS-запись поддомена в Cloudflare.
-2. Проверить SSL.
-3. Добавить поддомен в Chatterfy.
-{% endhint %}
-
-**Видео-инструкция:**&#x20;
 
 {% embed url="https://youtu.be/bHK-fuIVYTU" %}
 
-<a href="kak-dobavit-poddomen-v-cloudflare.md" class="button secondary" data-icon="plus">Как добавить поддомен в Cloudflare</a> <a href="kak-nastroit-ssl.md" class="button secondary" data-icon="lock">Как настроить SSL</a>&#x20;
+#### Шаги
 
-<a href="kak-dobavit-domen-v-chatterfy.md" class="button secondary" data-icon="plus">Как добавить домен в Chatterfy</a>
-{% endtab %}
-{% endtabs %}
+1. [Добавьте поддомен в Cloudflare](kak-dobavit-poddomen-v-cloudflare.md)
+2. [Настройте SSL](kak-nastroit-ssl.md)
+3. [Добавьте домен в Chatterfy](kak-dobavit-domen-v-chatterfy.md)
 
-### Зачем это нужно:
-
-Подключенный домен или поддомен используется для:
-
-* открытия лендингов
-* генерации ссылок кампаний
-* корректной работы трекинга
-
-Домен можно назначить конкретным байерам, чтобы разделять доступ и управление.
+### Notes
 
 {% hint style="info" %}
-Если нужен основной адрес сайта, используйте домен.
-
-Если нужен отдельный адрес внутри уже подключённого сайта, используйте поддомен.
+Если нужен основной адрес сайта, используйте домен. Если нужен отдельный адрес внутри уже подключённого сайта, используйте поддомен.
 {% endhint %}
+
+* Подключённый адрес используется для лендингов, ссылок кампаний и трекинга
+* Домен можно назначить конкретным байерам

@@ -4,32 +4,28 @@ icon: lightbulb
 
 # Как использовать Smart filters
 
-> #### Smart filters — это то же самое, что и **Custom Filters**, но находится внутри раздела **Messenger**.
+_Smart filters_ — это те же **Custom Filters**, но внутри раздела **Messenger**.
 
-{% hint style="info" %}
-В этом видео показано, как использовать и сохранять фильтры в разделе [Messenger](../).
-{% endhint %}
+Они помогают быстро сохранять и использовать выборки прямо в списке диалогов.
+
+### Видео
+
+В видео показано, как использовать и сохранять фильтры в **Messenger**.
 
 {% embed url="https://youtu.be/L8bCLsPxuHw" %}
 
-{% hint style="info" %}
-С его помощью можно:
+### Как это работает
 
-<mark style="color:$primary;">- быстро находить нужных лидов</mark>
+Smart filters помогают:
 
-<mark style="color:$primary;">- сегментировать диалоги по данным CRM</mark>
+* быстро находить нужных лидов
+* сегментировать диалоги по данным CRM
+* собирать выборки по нескольким условиям
+* упрощать навигацию по чатам и сценариям
 
-<mark style="color:$primary;">- собирать выборки по нескольким условиям</mark>
+### Связанные страницы
 
-<mark style="color:$primary;">- упрощать навигацию по чатам и сценариям</mark>
-{% endhint %}
-
-
-
-{% hint style="info" %}
-<a href="../" class="button secondary" data-icon="envelope-circle-check">Messenger</a><a href="./" class="button secondary" data-icon="bookmark">Custom Filters</a>
-{% endhint %}
-
-
+* [Messenger](../)
+* [Custom Filters](./)
 
 {% include "../../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

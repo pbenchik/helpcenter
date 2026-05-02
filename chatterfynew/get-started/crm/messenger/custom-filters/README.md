@@ -4,90 +4,70 @@ icon: bookmark
 
 # Custom Filters
 
-> ### Custom Filters - это инструмент для создания фильтров внутри CRM конкретного бота или личного аккаунта.
+_Custom Filters_ позволяют создавать фильтры внутри CRM конкретного бота или личного аккаунта.
 
-{% hint style="info" %}
-С их помощью можно быстро находить нужных пользователей, группировать лидов по событиям, тегам, этапам воронки и другим параметрам. Особенно удобно для обработчиков, когда необходимо работать с большим количеством диалогов.
-{% endhint %}
+Они помогают быстро находить нужных пользователей и группировать лидов по событиям, тегам, этапам воронки и другим параметрам.
 
-### Как создать фильтр:
+### Как это работает
 
-{% stepper %}
-{% step %}
-{% hint style="info" %}
-* #### Откройте Custom Filters
-* Перейдте в Bot Settings \\
-* Перейдите в раздел **Custom Filters**.
+Фильтр объединяет несколько условий в одну выборку.
+
+Это удобно, если нужно работать с большим количеством диалогов.
+
+### Как создать фильтр
+
+#### 1. Откройте раздел
 
 <img src="../../../../.gitbook/assets/Frame 2198.png" alt="" data-size="original">
-{% endhint %}
-{% endstep %}
 
-{% step %}
-{% hint style="info" %}
-* #### Создайте новый фильтр
-* Нажмите **Add New Filter**.
+* Перейдите в **Bot Settings**.
+* Откройте **Custom Filters**.
+
+#### 2. Создайте новый фильтр
 
 <img src="../../../../.gitbook/assets/Frame 2198 (1).png" alt="" data-size="original">
-{% endhint %}
-{% endstep %}
 
-{% step %}
-{% hint style="info" %}
-* #### Добавьте условие
-* Нажмите **Add Condition**.
+* Нажмите **Add New Filter**.
+
+#### 3. Добавьте условие
 
 <img src="../../../../.gitbook/assets/Frame 2235 (1).png" alt="" data-size="original">
-{% endhint %}
-{% endstep %}
 
-{% step %}
-{% hint style="info" %}
-* #### Выберите параметр фильтрации
-* Выберите нужное условие из доступных полей.
+* Нажмите **Add Condition**.
+
+#### 4. Выберите параметр фильтрации
 
 <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original">
-{% endhint %}
-{% endstep %}
 
-{% step %}
-{% hint style="info" %}
-* #### Сохраните фильтр
+* Выберите нужное условие из доступных полей.
+
+#### 5. Сохраните фильтр
+
+<img src="../../../../.gitbook/assets/Frame 2235 (2).png" alt="" data-size="original">
+
 * Введите имя фильтра.
 * Нажмите **Apply**.
 
-<img src="../../../../.gitbook/assets/Frame 2235 (2).png" alt="" data-size="original">
-{% endhint %}
-{% endstep %}
-{% endstepper %}
+### Доступные параметры
 
-### Сейчас доступны следующие переменные для фильтрации:
-
-{% hint style="info" %}
 * **Step** — шаг пользователя
 * **Flow** — текущий флоу
-* **Tags** — <a href="../../../bot-settings/crm-nastroiki/tags.md" class="button secondary" data-icon="hashtag">Tags</a>
-* **Custom Fields** — <a href="../../../bot-settings/custom-fields.md" class="button secondary" data-icon="braille">Custom Fields</a>
-* **Tracker Field** — <a href="../kartochka-klienta/chat-data/tracker-data.md" class="button secondary" data-icon="file-shield">Tracker Field</a>
-* **Assign** — <a href="../../../bot-settings/crm-nastroiki/assign-manager.md" class="button secondary" data-icon="person-circle-exclamation">Assign</a>
-* **Status** — <a href="../chat-status.md" class="button secondary" data-icon="chart-simple-horizontal">Chat status</a>
-* **Sale Stage** — <a href="../../../bot-settings/sale-status.md" class="button secondary" data-icon="calendar">Sale Status</a>
-* **Events** — <a href="../kartochka-klienta/events/" class="button secondary" data-icon="calendar-circle-exclamation">Events</a>
+* **Tags** — [Tags](../../../bot-settings/crm-nastroiki/tags.md)
+* **Custom Fields** — [Custom Fields](../../../bot-settings/custom-fields.md)
+* **Tracker Field** — [Tracker Data](../kartochka-klienta/chat-data/tracker-data.md)
+* **Assign** — [Assign Manager](../../../bot-settings/crm-nastroiki/assign-manager.md)
+* **Status** — [Chat status](../chat-status.md)
+* **Sale Stage** — [Sale Status](../../../bot-settings/sale-status.md)
+* **Events** — [Events](../kartochka-klienta/events/)
 * **Total Deposit** — сумма депозитов
 * **Created At** — дата создания чата
-{% endhint %}
+
+### Notes
 
 {% hint style="info" %}
-Через **Tracker Field** можно фильтровать по данным из Tracker:
+Через **Tracker Field** можно фильтровать по кампании, сорсу, домену, лендингу, типу залива и типу сорса.
 
-* кампания
-* сорс
-* домен
-* лендинг
-* тип залива
-* тип сорса
-
-Эти поля доступны в фильтрах, если у пользователя есть соответствующий доступ к Tracker.
+Эти поля доступны, если у пользователя есть доступ к Tracker.
 {% endhint %}
 
 {% include "../../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

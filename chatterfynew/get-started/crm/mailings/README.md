@@ -4,8 +4,32 @@ icon: envelope-open-text
 
 # Mailings
 
-> ### **Раздел «**&#x4D;ailing&#x73;**»** позволяет запускать массовую рассылку по выбранной группе пользователей, отслеживать её эффективность, а также вносить изменения.
+Раздел _Mailings_ позволяет запускать массовую рассылку по выбранной группе пользователей, отслеживать её эффективность и управлять отправками.
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td>МАССОВЫЕ РАССЫЛКИ</td><td><a href="../../../.gitbook/assets/Frame 2250 (33).png">Frame 2250 (33).png</a></td></tr><tr><td>КАК СОЗДАТЬ И НАСТРОИТЬ РАССЫЛКУ</td><td><a href="../../../.gitbook/assets/Frame 2250.png">Frame 2250.png</a></td></tr><tr><td>УПРАВЛЕНИЕ РАССЫЛКАМИ</td><td><a href="../../../.gitbook/assets/Frame 2250 (35).png">Frame 2250 (35).png</a></td></tr></tbody></table>
+### Как это работает
+
+Раздел состоит из трёх основных частей.
+
+Они помогают подготовить рассылку, запустить её и отслеживать результат.
+
+### Разделы
+
+#### Массовые рассылки
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2250 (33).png" alt=""><figcaption></figcaption></figure></div>
+
+* [Массовые рассылки](massovye-rassylki.md)
+
+#### Как создать и настроить рассылку
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2250.png" alt=""><figcaption></figcaption></figure></div>
+
+* [Как создать и настроить рассылку](kak-sozdat-i-nastroit-rassylku.md)
+
+#### Управление рассылками
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2250 (35).png" alt=""><figcaption></figcaption></figure></div>
+
+* [Управление рассылками](upravlenie-rassylkami.md)
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

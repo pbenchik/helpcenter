@@ -4,93 +4,55 @@ icon: right-left-large
 
 # Push Messages
 
-> ### Как работают push messages
+Push messages — это отложенные сообщения, которые отправляются, если пользователь не отвечает.
 
-{% hint style="info" %}
-* Каждый следующий пуш отправляется после предыдущего
-* Delay работает между пушами:
-* второй пуш отправится через указанное время после первого
-* третий - после второго
-* Пуши отправляются только если пользователь не отвечает
-{% endhint %}
+### Как это работает
 
-### Типы пушей:
+* каждый следующий пуш отправляется после предыдущего
+* `Delay` работает между пушами
+* пуши отправляются только если пользователь молчит
 
-{% hint style="info" %}
-Доступны те же типы, что и в Send Message:
+### Типы пушей
 
-* Text - текст
-* Media - изображения и видео
-* Document - файлы
-* Video note — кружочки
-* Voice - голосовые сообщения
-{% endhint %}
+* **Text** — текст
+* **Media** — изображения и видео
+* **Document** — файлы
+* **Video note** — видеокружки
+* **Voice** — голосовые сообщения
 
-### Push Messages (Пуши):
+### Push Messages
 
-{% hint style="info" %}
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (57).png" alt=""><figcaption></figcaption></figure></div>
+
 Здесь настраиваются сами пуши.
 
-*
+### Global push messages
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (57).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2256 (17).png" alt=""><figcaption></figcaption></figure></div>
 
-***
+* используются глобальные пуши из настроек бота
 
-### Global push messages:
+### Step push messages
 
-{% hint style="info" %}
-Использование глобальных пушей из настроек бота.
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (59).png" alt=""><figcaption></figcaption></figure></div>
 
-*
+* пуши настраиваются вручную внутри шага
+* добавляются через **Add push**
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2256 (17).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+### Пример
 
-***
+Сценарий: пользователь не ответил после первого сообщения.
 
-### Step push messages:
+* 1 пуш через `10` минут
+* 2 пуш через `1` час
+* 3 пуш через `1` день
 
-{% hint style="info" %}
-Пуши, которые настраиваются вручную внутри шага.
-
-Добавляются через кнопку Add push.
-
-*
-
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/Frame 2248 (59).png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-
-
-
-***
-
-### Пример использования:
-
-{% hint style="info" %}
-Сценарий: пользователь не ответил после первого сообщения
-
-1 пуш (через 10 минут):\
-"Вы еще с нами? 😊"
-
-2 пуш (через 1 час):\
-"Я могу помочь вам с регистрацией"
-
-3 пуш (через 1 день):\
-"Последнее напоминание - предложение еще актуально"
-{% endhint %}
-
-***
-
-### Важная логика работы:
+### Notes
 
 {% hint style="warning" %}
-* Если пользователь ответил → пуши прекращаются
-* Пуши не отправляются во время Delay
-* Шаг используется как отдельный блок для догрева
-{% endhint %}
+Если пользователь ответил, пуши прекращаются.
 
-***
+Пуши не отправляются во время `Delay`.
+{% endhint %}
 
 {% include "../../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

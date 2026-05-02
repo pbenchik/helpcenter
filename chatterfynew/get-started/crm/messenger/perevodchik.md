@@ -4,47 +4,33 @@ icon: earth-americas
 
 # Переводчик
 
-> ### Встроенный переводчик позволяет переводить:
->
-> * #### Входящие сообщения
-> * #### Исходящие сообщения
-> * #### Текст перед отправкой
+_Переводчик_ позволяет переводить входящие сообщения, исходящие сообщения и текст перед отправкой.
 
-### Как использовать:
+### Как это работает
 
-{% stepper %}
-{% step %}
-{% hint style="info" %}
-* #### Выберите язык перевода
-* Нажмите на значок 🌐 в правом верхнем углу.
-* Так вы выберете язык для перевода сообщений.
-*
+Перевод доступен прямо внутри диалога.
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Comp-1_1 (1).gif" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+Можно выбрать язык для всех сообщений или перевести отдельное сообщение вручную.
 
-{% step %}
-{% hint style="info" %}
-* #### Переведите конкретное сообщение
-* Нажмите на 🌐 рядом с нужным сообщением.
+### Как использовать
+
+#### 1. Выберите язык перевода
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Comp-1_1 (1).gif" alt=""><figcaption></figcaption></figure></div>
+
+* Нажмите на значок **перевода** в правом верхнем углу.
+* Выберите язык для перевода сообщений.
+
+#### 2. Переведите конкретное сообщение
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Comp-1.gif" alt=""><figcaption></figcaption></figure></div>
+
+* Нажмите на значок **перевода** рядом с нужным сообщением.
 * Так можно быстро перевести отдельное входящее или исходящее сообщение.
-*
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Comp-1.gif" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+#### 3. Переведите текст перед отправкой
 
-{% step %}
-{% hint style="info" %}
-* #### Переведите текст перед отправкой
-* Нажмите на кнопку перевода в поле ввода.
-* Так можно перевести сообщение до отправки пользователю.
-*
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Comp-1_8.gif" alt=""><figcaption></figcaption></figure></div>
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Comp-1_8.gif" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-
-
-{% endstep %}
-{% endstepper %}
+* Нажмите на кнопку **перевода** в поле ввода.
+* Переведите сообщение до отправки пользователю.

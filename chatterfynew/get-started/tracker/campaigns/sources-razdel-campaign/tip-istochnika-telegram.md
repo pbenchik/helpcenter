@@ -5,194 +5,58 @@ icon: telegram
 
 # Тип источника Telegram
 
-> ### Telegram - это тип источника в Tracker для запуска трафика прямо в Telegram.
+Источник _Telegram_ нужен для запуска трафика напрямую в Telegram.
 
-{% hint style="info" %}
-С его помощью можно:
+Он поддерживает канал, публичный канал и Telegram-бота.
 
-\- вести трафик сразу в Telegram
+<div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/image 32585.png" alt="Настройка источника Telegram"><figcaption></figcaption></figure></div>
 
-\- отправлять пользователя в закрытый или публичный канал
+### Как это работает
 
-\- направлять трафик прямо в Telegram-бота
+Источник используется, когда пользователь должен попасть в канал или сразу в бота.
 
-\- использовать auto redirect по логике кампании
+При включённом `Auto redirect` маршрут продолжается по логике кампании.
 
-*   Скриншот настройки источника Telegram:
+### Шаги
 
-    <div data-with-frame="true"><figure><img src="../../../../.gitbook/assets/image 32585.png" alt="Настройка источника Telegram"><figcaption></figcaption></figure></div>
-{% endhint %}
+1. создайте кампанию и откройте **Sources**
+2. добавьте источник с типом `Telegram`
+3. выберите формат перехода
+4. проверьте маршрут пользователя
 
-### Как работает источник Telegram:
+### Форматы
 
-{% hint style="info" %}
-Источник подходит для сценариев, где пользователь должен перейти в канал или сразу попасть в бота.
-{% endhint %}
+#### **Telegram channel**
 
-{% hint style="info" %}
-Источник поддерживает три варианта входа:
+<div align="left" data-with-frame="true"><figure><img src="../../../../.gitbook/assets/image 32585.png" alt="Блок Telegram channel"><figcaption></figcaption></figure></div>
 
-* закрытый канал
-* публичный канал
-* Telegram-бот
-{% endhint %}
+Подходит для закрытого или приватного канала.
 
-### Как настроить источник Telegram:
-
-{% stepper %}
-{% step %}
-{% hint style="info" %}
-**Создайте кампанию и откройте Sources**
-
-Сначала в Tracker создаётся кампания.
-
-Внутри неё определяется сценарий маршрутизации трафика.
-{% endhint %}
-{% endstep %}
-
-{% step %}
-{% hint style="info" %}
-**Выберите тип источника Telegram**
-
-После этого в источниках кампании добавляется тип `Telegram`.
-
-Он нужен для запуска пользователя сразу в нужный Telegram-сценарий.
-{% endhint %}
-{% endstep %}
-
-{% step %}
-{% hint style="info" %}
-**Выберите формат перехода**
-
-Дальше определяется один из трёх вариантов: закрытый канал, публичный канал или бот.
-
-От этого зависит, куда именно попадёт пользователь после клика.
-{% endhint %}
-{% endstep %}
-
-{% step %}
-{% hint style="info" %}
-**Проверьте маршрут пользователя**
-
-После перехода пользователь попадает в канал или бот.
-
-При включённом `Auto redirect` можно продолжить маршрут по логике кампании.
-{% endhint %}
-{% endstep %}
-{% endstepper %}
-
-### Подробнее:
-
-<details>
-
-<summary>Что управляется в Telegram</summary>
-
-{% hint style="info" %}
-В этом источнике обычно настраивают:
-
-* переход в закрытый канал по `Invite link`
-* переход в публичный Telegram-канал
-* перелив трафика сразу в Telegram-бота
-* выдачу внутреннего идентификатора для публичного канала
-* автоматический редирект после перехода
-{% endhint %}
-
-</details>
-
-<details>
-
-<summary>Telegram channel</summary>
-
-*   Скриншот блока `Telegram channel`:
-
-    <div align="left" data-with-frame="true"><figure><img src="../../../../.gitbook/assets/image 32585.png" alt="Блок Telegram channel"><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
-Этот вариант подходит для закрытого или приватного канала.
-{% endhint %}
-
-{% hint style="info" %}
-Что можно сделать:
+Можно:
 
 * вставить готовый `Invite link`
-* создать ссылку через `Create link`
-{% endhint %}
+* создать ссылку через **Create link**
 
-</details>
+#### **Public Telegram**
 
-<details>
+<div align="left" data-with-frame="true"><figure><img src="../../../../.gitbook/assets/image 32586.png" alt="Блок Public Telegram"><figcaption></figcaption></figure></div>
 
-<summary>Public Telegram</summary>
+Подходит для открытых каналов.
 
-*   Скриншот блока `Public Telegram`:
+После настройки система создаёт `Internal invite ID`.
 
-    <div align="left" data-with-frame="true"><figure><img src="../../../../.gitbook/assets/image 32586.png" alt="Блок Public Telegram"><figcaption></figcaption></figure></div>
+#### **Telegram Bot**
 
-{% hint style="info" %}
-Этот вариант подходит для открытых каналов.
-{% endhint %}
+<div align="left" data-with-frame="true"><figure><img src="../../../../.gitbook/assets/image 32587.png" alt="Блок Telegram Bot"><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-После настройки система автоматически создаёт `Internal invite ID`.
-{% endhint %}
+Подходит для перелива трафика сразу в бота.
 
-</details>
-
-<details>
-
-<summary>Telegram Bot</summary>
-
-*   Скриншот блока `Telegram Bot`:
-
-    <div align="left" data-with-frame="true"><figure><img src="../../../../.gitbook/assets/image 32587.png" alt="Блок Telegram Bot"><figcaption></figcaption></figure></div>
+### Notes
 
 {% hint style="info" %}
-Этот вариант подходит для перелива трафика сразу в Telegram-бота.
+Используйте `Telegram channel` для invite link, `Public Telegram` для открытого канала и `Telegram Bot` для прямого входа в бот.
 {% endhint %}
 
-{% hint style="info" %}
-Такой сценарий удобен, если пользователь должен сразу начать диалог.
-{% endhint %}
-
-</details>
-
-<details>
-
-<summary>Как выбрать вариант</summary>
-
-{% hint style="info" %}
-Используйте:
-
-* `Telegram channel`, если нужен доступ по invite link
-* `Public Telegram`, если канал открыт
-* `Telegram Bot`, если трафик ведётся сразу в бота
-{% endhint %}
-
-</details>
-
-<details>
-
-<summary>Auto redirect</summary>
-
-{% hint style="info" %}
-Опция `Auto redirect` автоматически перенаправляет пользователя после перехода по ссылке источника.
-{% endhint %}
-
-{% hint style="info" %}
-Направление редиректа зависит от настроек кампании.
-{% endhint %}
-
-</details>
-
-### Где удобно использовать источник Telegram:
-
-{% hint style="success" %}
-Источник Telegram удобно использовать, когда нужно:
-
-* вести трафик напрямую в Telegram
-* приглашать пользователей в канал по ссылке
-* сразу начинать диалог в Telegram-боте
-* использовать Telegram как основную точку входа
-{% endhint %}
+* `Auto redirect` перенаправляет пользователя по маршруту кампании
 
 {% include "../../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

@@ -4,81 +4,71 @@ icon: money-bills
 
 # Как пополнить
 
-> ### **Подробная инструкция, как пополнить счет компании.**&#x20;
+Подробная инструкция, как пополнить счёт компании.
 
 {% hint style="info" %}
-Обратите внимание: минимальная сумма для активации - <mark style="color:$success;">**100$**</mark>**.**&#x20;
-
-Также адрес для оплаты можно использовать только <mark style="color:$warning;">**один раз.**</mark>
+Минимальная сумма для активации — `100 USD`. Адрес для оплаты можно использовать только один раз.
 {% endhint %}
 
-### Как пополнить:
+### Как это работает
 
-{% stepper %}
-{% step %}
-{% hint style="info" %}
-* #### Перейдите в раздел Company → Billing
-*
+Пополнение выполняется в разделе **Company** → **Billing**.
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2050.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+После выбора сети система создаёт адрес кошелька для оплаты.
 
-{% step %}
-{% hint style="info" %}
-* Нажмите кнопку Top up balance
-*
+### Шаги
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image 32540.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+1. Перейдите в раздел **Company** → **Billing**
+2. Нажмите **Top up balance**
+3. Выберите сеть для пополнения
+4. Скопируйте адрес кошелька или используйте `QR`-код
+5. Отправьте нужную сумму на полученный адрес
 
-{% step %}
-{% hint style="info" %}
-* #### Выберите сеть для пополнения
-*
+### Открыть раздел Billing
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image 32541.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+Начните пополнение с раздела компании.
 
-{% hint style="success" icon="info" %}
-Поддерживаемые сети
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2050.png" alt=""><figcaption></figcaption></figure></div>
 
-* USDT (TRC20)
-* USDT (ERC20)
-{% endhint %}
-{% endstep %}
+#### Что сделать
 
-{% step %}
-{% hint style="info" %}
-* #### Скопируйте адрес кошелька или используйте QR-код для оплаты
-*
+* Откройте **Company** → **Billing**
+* Нажмите **Top up balance**
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2052.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image 32540.png" alt=""><figcaption></figcaption></figure></div>
 
-{% step %}
-{% hint style="info" %}
-* #### Отправьте необходимую сумму на полученный адрес
-{% endhint %}
-{% endstep %}
+### Выбрать сеть
 
-{% step %}
+На этом шаге нужно выбрать сеть для пополнения.
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image 32541.png" alt=""><figcaption></figcaption></figure></div>
+
+#### Доступные сети
+
+* `USDT (TRC20)`
+* `USDT (ERC20)`
+
+### Оплатить
+
+После выбора сети система покажет адрес кошелька и `QR`-код.
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2052.png" alt=""><figcaption></figcaption></figure></div>
+
+#### Что сделать
+
+* Скопируйте адрес кошелька или используйте `QR`-код
+* Отправьте необходимую сумму на полученный адрес
+
 ### Важно
 
-{% hint style="warning" %}
-После подтверждения транзакции баланс компании будет автоматически обновлен.
-{% endhint %}
+Критические условия пополнения.
 
 {% hint style="warning" %}
-Минимальная сумма пополнения - $100
+После подтверждения транзакции баланс компании обновляется автоматически.
 {% endhint %}
 
-{% hint style="danger" icon="location-arrow-up" %}
-Каждый адрес кошелька используется только один раз
+{% hint style="danger" %}
+Минимальная сумма пополнения — `100 USD`. Каждый адрес кошелька используется только один раз.
 {% endhint %}
-{% endstep %}
-{% endstepper %}
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

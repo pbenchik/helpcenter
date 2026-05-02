@@ -4,93 +4,88 @@ icon: clipboard-list-check
 
 # Типы ботов в Chatterfy
 
-> ### В Chatterfy доступны четыре типа подключений.
->
-> ### Выбор зависит от того, как вы хотите общаться с пользователем.
+В Chatterfy доступны четыре типа подключений.
 
-{% tabs %}
-{% tab title="Standard" %}
-{% hint style="info" %}
-*
+Выбор зависит от того, как вы хотите общаться с пользователем.
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2251.png" alt=""><figcaption></figcaption></figure></div>
+### Как это работает
+
+Тип подключения определяет, какие возможности будут доступны после подключения.
+
+#### Шаги
+
+1. Определите сценарий общения с пользователем
+2. Выберите подходящий тип подключения
+3. Подключите бота или аккаунт в Chatterfy
+
+### Standard
 
 Основной тип бота.
 
-Подходит для большинства сценариев.
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2251.png" alt=""><figcaption></figcaption></figure></div>
 
-Поддерживает:
+#### Подходит для
 
-* CRM-обработку
-* AI-обработку
-* работу как invite-бот
-{% endhint %}
-{% endtab %}
+* большинства сценариев
 
-{% tab title="Invite" %}
-{% hint style="info" %}
-*
+#### Поддерживает
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2251 (1).png" alt=""><figcaption></figcaption></figure></div>
+* `CRM`-обработку
+* `AI`-обработку
+* работу как `invite`-бот
+
+### Invite
 
 Используется как invite-бот для каналов.
 
-Поддерживает:
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2251 (1).png" alt=""><figcaption></figcaption></figure></div>
+
+#### Поддерживает
 
 * приём заявок в канал
 * приветственное сообщение после вступления
 
-Не поддерживает:
+#### Не поддерживает
 
-* CRM-обработку
-* AI-обработку
-{% endhint %}
-{% endtab %}
+* `CRM`-обработку
+* `AI`-обработку
 
-{% tab title="Personal" %}
-{% hint style="info" %}
-*
-
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2251 (2).png" alt=""><figcaption></figcaption></figure></div>
+### Personal
 
 Это подключённый личный Telegram-аккаунт.
 
-Подключение доступно по номеру телефона или через QR-код.
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2251 (2).png" alt=""><figcaption></figcaption></figure></div>
 
-Особенности:
+#### Особенности
 
-* все чаты автоматически попадают в CRM
-* по возможностям аналогичен Standard-боту
-{% endhint %}
-{% endtab %}
+* подключение доступно по номеру телефона или через `QR`-код
+* все чаты автоматически попадают в `CRM`
+* по возможностям аналогичен `Standard`-боту
 
-{% tab title="Business" %}
-{% hint style="info" %}
-*
-
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2251 (3).png" alt=""><figcaption></figcaption></figure></div>
+### Business
 
 Это бот, подключённый к личному аккаунту с Telegram Premium.
 
-Особенности:
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2251 (3).png" alt=""><figcaption></figcaption></figure></div>
+
+#### Особенности
 
 * общение идёт от лица личного аккаунта
 * доступны увеличенные лимиты сообщений
-{% endhint %}
 
 {% hint style="warning" %}
-Если пользователь не писал более 24 часов, новый исходящий message отправить нельзя.
-
-Сначала пользователь должен ответить снова.
+Если пользователь не писал более 24 часов, новый исходящий `message` отправить нельзя. Сначала пользователь должен ответить снова.
 {% endhint %}
-{% endtab %}
-{% endtabs %}
 
-### Что делать дальше:
+### Что делать дальше
 
-{% hint style="info" %}
-* <a href="kak-sozdat-bota-v-telegram.md" class="button secondary" data-icon="telegram">Как создать бота в Telegram</a><a href="podklyuchenie-bota-ili-lichnyi-akkaunt-k-chatterfy.md" class="button secondary" data-icon="plug">Подключение бота или личного аккаунта</a>
-* <a href="../bazovaya-nastroika-bota.md" class="button secondary" data-icon="sliders">Базовая настройка бота</a><a href="../../../dobro-pozhalovat/arkhitektura-sistemy/crm-rabota-s-klientami.md" class="button secondary" data-icon="comments">CRM — работа с клиентами</a>
-{% endhint %}
+Следующие шаги после выбора типа подключения.
+
+#### Связанные страницы
+
+* [Как создать бота в Telegram](kak-sozdat-bota-v-telegram.md)
+* [Подключение бота или личный аккаунт к Chatterfy](podklyuchenie-bota-ili-lichnyi-akkaunt-k-chatterfy.md)
+* [Базовая настройка бота](../bazovaya-nastroika-bota.md)
+* [CRM - работа с клиентами](../../../dobro-pozhalovat/arkhitektura-sistemy/crm-rabota-s-klientami.md)
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

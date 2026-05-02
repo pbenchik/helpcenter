@@ -4,72 +4,69 @@ icon: block
 
 # Templates
 
-> ### Templates - это быстрые шаблоны сообщений для ускорения работы операторов.
+_Templates_ — это быстрые шаблоны сообщений для ускорения работы операторов.
 
-{% hint style="info" %}
-* #### Используются через ввод <mark style="color:$warning;">#</mark> в чате.
-* Add Category - создать категорию. При этом, можно создавать неограниченное количество категорий
-{% endhint %}
+### Как это работает
 
-### **Категории можно**:
+Шаблоны вызываются через ввод `#` в чате.
 
-{% hint style="info" %}
-* переименовывать
-* удалять ( удаляются все шаблоны внутри)
-* менять местами (через Enable drag and drop)
-{% endhint %}
+**Add Category** создаёт категорию. Количество категорий не ограничено.
 
-### Кнопка Import Templates - импорт шаблонов из другого бота:
+### Категории
+
+С категориями можно:
+
+* переименовывать их
+* удалять их вместе со всеми шаблонами внутри
+* менять их порядок через **Enable drag and drop**
+
+### Импорт шаблонов
+
+Кнопка **Import Templates** импортирует шаблоны из другого бота.
 
 <figure><img src="../../../.gitbook/assets/Frame 2201.png" alt=""><figcaption></figcaption></figure>
 
-### **Создание шаблона**:
+### Как создать шаблон
 
-{% hint style="info" %}
-* #### Нажмите New Template и заполните:
-* Template ID - Используется для вызова через #
-*
+#### 1. Откройте форму
 
-    <figure><img src="../../../.gitbook/assets/Frame 2202.png" alt=""><figcaption></figcaption></figure>
-{% endhint %}
+<figure><img src="../../../.gitbook/assets/Frame 2202.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-* #### **Пример:**
-* 1 - #1
-* deposit - #deposit
-* oldacc - #oldacc
-*
+* Нажмите **New Template**.
+* Заполните поля шаблона.
+* **Template ID** используется для вызова через `#`.
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot_3.jpg" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
+#### 2. Используйте `Template ID`
 
-{% hint style="info" %}
-* #### **Content Type - тип сообщения:**
-* Text
-* Media
-* Document
-* Video note
-* Voice
-{% endhint %}
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Screenshot_3.jpg" alt=""><figcaption></figcaption></figure></div>
 
-### Важно
+* `1` — `#1`
+* `deposit` — `#deposit`
+* `oldacc` — `#oldacc`
 
-{% hint style="warning" %}
-**Важно:** Шаблоны (темплейты) создаются в рамках всего бота или личного чата (лички), а не привязываются к отдельному аккаунту сотрудника. Это означает, что доступ к созданным шаблонам будут иметь **все сотрудники**, у которых есть доступ к данному боту или личке. Другими словами, шаблоны являются общими для всей команды, работающей в этом пространстве.
-{% endhint %}
+### Типы контента
 
-### Содержание:
+* **Text**
+* **Media**
+* **Document**
+* **Video note**
+* **Voice**
 
-{% hint style="info" %}
-* #### **Content - текст или файл**
-{% endhint %}
+### Поля шаблона
+
+* **Content** — текст или файл
+* **Annotation** — описание шаблона для вас и команды
+
+### Notes
 
 {% hint style="warning" %}
-* #### **Annotation - описание шаблона для вас и команды**
+Шаблоны создаются в рамках всего бота или личного чата, а не отдельного аккаунта сотрудника.
+
+Доступ к ним получают все сотрудники, у которых есть доступ к этому боту или личке.
 {% endhint %}
 
 {% hint style="danger" %}
-* #### **После создания обязательно нажмите Save.**
+После создания обязательно нажмите **Save**.
 {% endhint %}
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

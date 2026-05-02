@@ -7,115 +7,84 @@ icon: telegram
 
 # Как создать бота в Telegram
 
-> ### Подробный гайд по созданию и подключению Telegram-бота к Chatterfy
+Подробный гайд по созданию Telegram-бота и получению токена для подключения к Chatterfy.
 
-### Что нужно до начала:
+### Что нужно до начала
 
-{% hint style="info" %}
 Перед созданием бота подготовьте:
 
 * аккаунт Telegram
 * название бота
-* уникальный username
+* уникальный `username`
 * описание и аватар, если хотите оформить бота сразу
-{% endhint %}
 
-### Видеоинструкция: полный цикл создания бота и подключение его r Chatterfy:
+### Видео
 
-{% hint style="info" %}
-Видео инструкция по созданию Telegram-бота и подключению его к Chatterfy.
+Полный цикл создания бота и подключения его к Chatterfy.
 
 {% embed url="https://www.youtube.com/watch?v=NSKgA5ngA1E" %}
 
-***
+#### Таймкоды
 
-00:09 — Создание бота в Telegram
-
-***
-
-00:18 — Подключение бота к Chatterfy
-
-***
-{% endhint %}
+* `00:09` — Создание бота в Telegram
+* `00:18` — Подключение бота к Chatterfy
 
 {% hint style="danger" %}
-Не передавайте токен бота другим людям.
-
-Токен даёт полный доступ к управлению ботом.
+Не передавайте токен бота другим людям. Токен даёт полный доступ к управлению ботом.
 {% endhint %}
 
-### Как создать Telegram бота:
+### Как создать Telegram-бота
 
-{% stepper %}
-{% step %}
-{% hint style="info" %}
-* #### Откройте BotFather
-* Перейдите в Telegram и откройте **@BotFather**.
-*
+Создание выполняется через **@BotFather**.
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image 32605.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+#### Шаги
 
-{% step %}
-{% hint style="info" %}
-* #### Запустите создание бота
-* Введите команду `/newbot`.
-*
+1. Откройте **@BotFather** в Telegram
+2. Введите команду `/newbot`
+3. Укажите основные данные бота
+4. Введите имя бота
+5. Придумайте уникальный `username`, который заканчивается на `bot`
+6. Скопируйте токен и сохраните его в безопасном месте
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image 32606.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+### Открыть BotFather
 
-{% step %}
-{% hint style="info" %}
-* #### Укажите основные данные
-* BotFather попросит заполнить данные бота.
-*
+Перейдите в Telegram и откройте **@BotFather**.
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image 32607.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image 32605.png" alt=""><figcaption></figcaption></figure></div>
 
-{% step %}
-{% hint style="info" %}
-* #### Укажите:
-* Введите имя. Оно будет отображаться в чате и списке ботов.
-*
+### Запустить создание бота
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2131.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+Введите команду `/newbot`.
 
-{% step %}
-{% hint style="info" %}
-* #### Придумайте уникальное имя. Только латиница, цифры и нижнее подчеркивание. Обязательно заканчивается на `bot`.
-* _Пример: my\_test\_bot, Superbot_
-*
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image 32606.png" alt=""><figcaption></figcaption></figure></div>
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2132.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
+### Указать основные данные
 
-{% step %}
-{% hint style="info" %}
-* #### Скопируйте токен
-* После создания BotFather выдаст токен бота.
-* Скопируйте его и сохраните в безопасном месте.
-*
+BotFather попросит заполнить данные бота.
 
-    <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2133.png" alt=""><figcaption></figcaption></figure></div>
-{% endhint %}
-{% endstep %}
-{% endstepper %}
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/image 32607.png" alt=""><figcaption></figcaption></figure></div>
 
-### Что делать дальше?
+#### Что указать
 
-{% hint style="info" %}
-После получения токена вы можете:
+* **Имя** — отображается в чате и списке ботов
 
-* <a href="tipy-botov-v-chatterfy.md" class="button secondary" data-icon="robot">Выбрать подходящий тип бота в Chatterfy</a>
-* <a href="podklyuchenie-bota-ili-lichnyi-akkaunt-k-chatterfy.md" class="button secondary" data-icon="plug">Перейти к подключению бота или личного аккаунта к Chatterfy</a>
-{% endhint %}
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2131.png" alt=""><figcaption></figcaption></figure></div>
+
+* **Username** — только латиница, цифры и нижнее подчёркивание
+* `Username` должен заканчиваться на `bot`
+* Пример: `my_test_bot`, `Superbot`
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2132.png" alt=""><figcaption></figcaption></figure></div>
+
+### Скопировать токен
+
+После создания BotFather выдаст токен бота.
+
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/Frame 2133.png" alt=""><figcaption></figcaption></figure></div>
+
+#### Что дальше
+
+* [Типы ботов в Chatterfy](tipy-botov-v-chatterfy.md)
+* [Подключение бота или личный аккаунт к Chatterfy](podklyuchenie-bota-ili-lichnyi-akkaunt-k-chatterfy.md)
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

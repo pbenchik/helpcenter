@@ -4,85 +4,66 @@ icon: sliders
 
 # Создание Space
 
-> ### В этом разделе Вы сможете узнать, что такое Space и как его создать внутри компании.
+В этом разделе показано, что такое _Space_ и как создать его внутри компании.
 
-### Что важно знать до создания:
+### Что важно знать до создания
 
-{% hint style="info" %}
-Один **Space** обычно используют для:
+Один **Space** обычно используют для отдельной группы ботов.
 
-* <kbd>Отдельной группы ботов</kbd>
-
-Внутри каждого Space можно настраивать свой состав участников и свои доступы.
-{% endhint %}
+Внутри каждого **Space** можно настраивать свой состав участников и свои доступы.
 
 {% hint style="info" %}
-Создавайте отдельный Space, если хотите разделить команды, проекты или источники трафика.
+Создавайте отдельный **Space**, если хотите разделить команды, проекты или источники трафика.
 {% endhint %}
 
-### Как создать Space:
+### Как создать Space
 
-{% stepper %}
-{% step %}
-{% hint style="info" %}
-* #### Откройте раздел Company.
+Базовая последовательность создания нового пространства.
 
-Перейдите в **Company** через боковое меню.
-{% endhint %}
-{% endstep %}
+#### Шаги
 
-{% step %}
-{% hint style="info" %}
-* #### Откройте вкладку Spaces
+1. Откройте **Company** через боковое меню
+2. Перейдите в раздел **Spaces**
+3. Нажмите **New Space**
+4. Укажите название и описание
+5. Сохраните новый **Space**
 
-Внутри Company перейдите в раздел **Spaces**.
-{% endhint %}
-{% endstep %}
+### Открыть раздел Spaces
 
-{% step %}
-{% hint style="info" %}
-* #### Нажмите New Space
-* Кнопка находится в правом верхнем углу.
-*
+Сначала нужно перейти к списку рабочих пространств.
 
-    <figure><img src="../../.gitbook/assets/Frame 2145.png" alt=""><figcaption></figcaption></figure>
-{% endhint %}
-{% endstep %}
+<figure><img src="../../.gitbook/assets/Frame 2145.png" alt=""><figcaption></figcaption></figure>
 
-{% step %}
-{% hint style="info" %}
-* #### Заполните данные
+#### Что сделать
 
-Укажите:
+* Откройте **Company**
+* Перейдите в раздел **Spaces**
+* Нажмите **New Space**
 
-* **название Space**
-* **описание**, если оно нужно
-*
+### Заполнить данные
 
-    <figure><img src="../../.gitbook/assets/Frame 2146.png" alt=""><figcaption></figcaption></figure>
-{% endhint %}
-{% endstep %}
+После открытия формы укажите основные данные нового пространства.
 
-{% step %}
-### Сохраните Space
+<figure><img src="../../.gitbook/assets/Frame 2146.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-После сохранения новый Space появится в списке и будет готов к работе.
-{% endhint %}
-{% endstep %}
-{% endstepper %}
+#### Что указать
 
-### Что сделать после создания:
+* **Название Space** — обязательное поле
+* **Описание** — по необходимости
 
-{% hint style="info" %}
-После создания Space обычно:
+### Что сделать после создания
 
-* <a href="priglashenie-sotrudnikov/" class="button secondary" data-icon="users">Добавляют сотрудников</a><a href="../administrirovanie-company/spaces/upravlenie-polzovatelyami-vnutri-space.md" class="button secondary" data-icon="user-lock">Выдают доступы</a><a href="sozdanie-i-podklyuchenie-bota/" class="button secondary" data-icon="robot">Подключают ботов</a>
-* <a href="../../dobro-pozhalovat/arkhitektura-sistemy/spaces-rabochie-prostranstva.md" class="button secondary" data-icon="layer-group">Распределяют проекты по рабочим пространствам</a>
-{% endhint %}
+После сохранения новый **Space** появится в списке и будет готов к работе.
+
+#### Следующие шаги
+
+* [Приглашение сотрудников](priglashenie-sotrudnikov/)
+* [Управление пользователями внутри Space](../administrirovanie-company/spaces/upravlenie-polzovatelyami-vnutri-space.md)
+* [Создание и подключение бота](sozdanie-i-podklyuchenie-bota/)
+* [Spaces - рабочие пространства](../../dobro-pozhalovat/arkhitektura-sistemy/spaces-rabochie-prostranstva.md)
 
 {% hint style="warning" %}
-Новый пользователь не получает доступ к Space автоматически. Его нужно выдать отдельно.
+Новый пользователь не получает доступ к **Space** автоматически. Его нужно выдать отдельно.
 {% endhint %}
 
 {% include "../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}
