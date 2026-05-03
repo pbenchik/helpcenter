@@ -9,8 +9,8 @@ title: Старт и обзорО продуктеАрхи...
 {% hint style="info" %}
 **Старт и обзор**
 
-* <a href="../../chatterfynew/dobro-pozhalovat/o-produkte/" class="button secondary" data-icon="table">О продукте</a>
-* <a href="../../chatterfynew/dobro-pozhalovat/arkhitektura-sistemy/" class="button secondary" data-icon="sitemap">Архитектура системы</a>
+* <a href="/broken/spaces/AxluUgdTFxFU08qksWVa/pages/1xNei7LePsm01Rfc1hTA" class="button secondary" data-icon="table">О продукте</a>
+* <a href="/broken/spaces/AxluUgdTFxFU08qksWVa/pages/VC3YIHxc3YeutRwIqXPg" class="button secondary" data-icon="sitemap">Архитектура системы</a>
 * <a href="../../chatterfynew/get-started/bystryi-start/" class="button secondary" data-icon="rocket">Быстрый старт</a>
 {% endhint %}
 

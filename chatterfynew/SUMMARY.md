@@ -1,16 +1,34 @@
 # Table of contents
 
-* [Добро пожаловать](README.md)
-  * [О продукте](dobro-pozhalovat/o-produkte/README.md)
-    * [Что такое Chatterfy](dobro-pozhalovat/o-produkte/chto-takoe-chatterfy.md)
-    * [Как создать аккаунт](dobro-pozhalovat/o-produkte/kak-sozdat-akkaunt/README.md)
-      * [Тестовый период](dobro-pozhalovat/o-produkte/kak-sozdat-akkaunt/testovyi-period.md)
-      * [Как пополнить](dobro-pozhalovat/o-produkte/kak-sozdat-akkaunt/kak-popolnit.md)
-  * [Архитектура системы](dobro-pozhalovat/arkhitektura-sistemy/README.md)
-    * [Company - управление компанией](dobro-pozhalovat/arkhitektura-sistemy/company-upravlenie-kompaniei.md)
-    * [Spaces - рабочие пространства](dobro-pozhalovat/arkhitektura-sistemy/spaces-rabochie-prostranstva.md)
-    * [CRM - работа с клиентами](dobro-pozhalovat/arkhitektura-sistemy/crm-rabota-s-klientami.md)
-    * [Tracker - отслеживание трафика](dobro-pozhalovat/arkhitektura-sistemy/tracker-otslezhivanie-trafika.md)
+## О продукте
+
+* [Page 2](README.md)
+
+## FAQ и решение проблем
+
+* [Типы ошибок](faq-i-reshenie-problem/tipy-oshibok/README.md)
+  * [Ошибка: fbclid is empty в логах источников](faq-i-reshenie-problem/tipy-oshibok/oshibka-fbclid-is-empty-v-logakh-istochnikov.md)
+  * [Ошибка: Post "https://graph.facebook.com/ ..." в логах источников](faq-i-reshenie-problem/tipy-oshibok/oshibka-post-https-graph.facebook.com-...-v-logakh-istochnikov.md)
+  * [Ошибка 400](faq-i-reshenie-problem/tipy-oshibok/oshibka-400.md)
+  * [Ошибка 403](faq-i-reshenie-problem/tipy-oshibok/oshibka-403.md)
+* [Частые вопросы](faq-i-reshenie-problem/chastye-voprosy/README.md)
+  * [Бот перестал принимать заявки в канал — в чём причина?](faq-i-reshenie-problem/chastye-voprosy/bot-perestal-prinimat-zayavki-v-kanal-v-chyom-prichina.md)
+  * [Обязательно ли держать баланс выше $100?](faq-i-reshenie-problem/chastye-voprosy/obyazatelno-li-derzhat-balans-vyshe-usd100.md)
+  * [AI долго отвечает / медленно работает](faq-i-reshenie-problem/chastye-voprosy/ai-dolgo-otvechaet-medlenno-rabotaet.md)
+  * [Не видит канал при создании кампании с типом залива "На канал", как исправить ?](faq-i-reshenie-problem/chastye-voprosy/ne-vidit-kanal-pri-sozdanii-kampanii-s-tipom-zaliva-na-kanal-kak-ispravit.md)
+  * [Сделал импорт флоу, поменял часть шагов, но бот все равно ведет по старой воронке](faq-i-reshenie-problem/chastye-voprosy/sdelal-import-flou-pomenyal-chast-shagov-no-bot-vse-ravno-vedet-po-staroi-voronke.md)
+  * [Почему ИИ не пропускает если лид дал ответ](faq-i-reshenie-problem/chastye-voprosy/pochemu-ii-ne-propuskaet-esli-lid-dal-otvet.md)
+  * [Как сделать так чтобы бот ждал ответа лида](faq-i-reshenie-problem/chastye-voprosy/kak-sdelat-tak-chtoby-bot-zhdal-otveta-lida.md)
+  * [Как убрать клавиатуру](faq-i-reshenie-problem/chastye-voprosy/kak-ubrat-klaviaturu.md)
+  * [Как перезапустить воронку?](faq-i-reshenie-problem/chastye-voprosy/kak-perezapustit-voronku.md)
+  * [Требования к загрузке кастомного ленда](faq-i-reshenie-problem/chastye-voprosy/trebovaniya-k-zagruzke-kastomnogo-lenda.md)
+  * [Неравномерное A/B тестирование: в чём причина](faq-i-reshenie-problem/chastye-voprosy/neravnomernoe-a-b-testirovanie-v-chyom-prichina.md)
+  * [Нет визуализации в голосовых сообщениях](faq-i-reshenie-problem/chastye-voprosy/net-vizualizacii-v-golosovykh-soobsheniyakh.md)
+  * [Почему не трекаются диалоги и события](faq-i-reshenie-problem/chastye-voprosy/pochemu-ne-trekayutsya-dialogi-i-sobytiya.md)
+  * [Как правильно отправить видео-кружок](faq-i-reshenie-problem/chastye-voprosy/kak-pravilno-otpravit-video-kruzhok.md)
+  * [Как избежать сжатия видео](faq-i-reshenie-problem/chastye-voprosy/kak-izbezhat-szhatiya-video.md)
+  * [Как скрыть чаты между операторами](faq-i-reshenie-problem/chastye-voprosy/kak-skryt-chaty-mezhdu-operatorami.md)
+* [Update log](faq-i-reshenie-problem/update-log.md)
 
 ## GET STARTED
 
@@ -158,29 +176,3 @@
   * [Logs](get-started/administrirovanie-company/logs/README.md)
     * [Как фильтровать Logs](get-started/administrirovanie-company/logs/kak-filtrovat-logs.md)
     * [Как выгрузить Logs](get-started/administrirovanie-company/logs/kak-vygruzit-logs.md)
-
-## FAQ и решение проблем
-
-* [Типы ошибок](faq-i-reshenie-problem/tipy-oshibok/README.md)
-  * [Ошибка: fbclid is empty в логах источников](faq-i-reshenie-problem/tipy-oshibok/oshibka-fbclid-is-empty-v-logakh-istochnikov.md)
-  * [Ошибка: Post "https://graph.facebook.com/ ..." в логах источников](faq-i-reshenie-problem/tipy-oshibok/oshibka-post-https-graph.facebook.com-...-v-logakh-istochnikov.md)
-  * [Ошибка 400](faq-i-reshenie-problem/tipy-oshibok/oshibka-400.md)
-  * [Ошибка 403](faq-i-reshenie-problem/tipy-oshibok/oshibka-403.md)
-* [Частые вопросы](faq-i-reshenie-problem/chastye-voprosy/README.md)
-  * [Бот перестал принимать заявки в канал — в чём причина?](faq-i-reshenie-problem/chastye-voprosy/bot-perestal-prinimat-zayavki-v-kanal-v-chyom-prichina.md)
-  * [Обязательно ли держать баланс выше $100?](faq-i-reshenie-problem/chastye-voprosy/obyazatelno-li-derzhat-balans-vyshe-usd100.md)
-  * [AI долго отвечает / медленно работает](faq-i-reshenie-problem/chastye-voprosy/ai-dolgo-otvechaet-medlenno-rabotaet.md)
-  * [Не видит канал при создании кампании с типом залива "На канал", как исправить ?](faq-i-reshenie-problem/chastye-voprosy/ne-vidit-kanal-pri-sozdanii-kampanii-s-tipom-zaliva-na-kanal-kak-ispravit.md)
-  * [Сделал импорт флоу, поменял часть шагов, но бот все равно ведет по старой воронке](faq-i-reshenie-problem/chastye-voprosy/sdelal-import-flou-pomenyal-chast-shagov-no-bot-vse-ravno-vedet-po-staroi-voronke.md)
-  * [Почему ИИ не пропускает если лид дал ответ](faq-i-reshenie-problem/chastye-voprosy/pochemu-ii-ne-propuskaet-esli-lid-dal-otvet.md)
-  * [Как сделать так чтобы бот ждал ответа лида](faq-i-reshenie-problem/chastye-voprosy/kak-sdelat-tak-chtoby-bot-zhdal-otveta-lida.md)
-  * [Как убрать клавиатуру](faq-i-reshenie-problem/chastye-voprosy/kak-ubrat-klaviaturu.md)
-  * [Как перезапустить воронку?](faq-i-reshenie-problem/chastye-voprosy/kak-perezapustit-voronku.md)
-  * [Требования к загрузке кастомного ленда](faq-i-reshenie-problem/chastye-voprosy/trebovaniya-k-zagruzke-kastomnogo-lenda.md)
-  * [Неравномерное A/B тестирование: в чём причина](faq-i-reshenie-problem/chastye-voprosy/neravnomernoe-a-b-testirovanie-v-chyom-prichina.md)
-  * [Нет визуализации в голосовых сообщениях](faq-i-reshenie-problem/chastye-voprosy/net-vizualizacii-v-golosovykh-soobsheniyakh.md)
-  * [Почему не трекаются диалоги и события](faq-i-reshenie-problem/chastye-voprosy/pochemu-ne-trekayutsya-dialogi-i-sobytiya.md)
-  * [Как правильно отправить видео-кружок](faq-i-reshenie-problem/chastye-voprosy/kak-pravilno-otpravit-video-kruzhok.md)
-  * [Как избежать сжатия видео](faq-i-reshenie-problem/chastye-voprosy/kak-izbezhat-szhatiya-video.md)
-  * [Как скрыть чаты между операторами](faq-i-reshenie-problem/chastye-voprosy/kak-skryt-chaty-mezhdu-operatorami.md)
-* [Update log](faq-i-reshenie-problem/update-log.md)

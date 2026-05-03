@@ -60,7 +60,7 @@ icon: sliders
 * [Приглашение сотрудников](priglashenie-sotrudnikov/)
 * [Управление пользователями внутри Space](../administrirovanie-company/spaces/upravlenie-polzovatelyami-vnutri-space.md)
 * [Создание и подключение бота](sozdanie-i-podklyuchenie-bota/)
-* [Spaces - рабочие пространства](../../dobro-pozhalovat/arkhitektura-sistemy/spaces-rabochie-prostranstva.md)
+* [Spaces - рабочие пространства](/broken/spaces/AxluUgdTFxFU08qksWVa/pages/Qn7OSTdUqPAZbOZMr5CS)
 
 {% hint style="warning" %}
 Новый пользователь не получает доступ к **Space** автоматически. Его нужно выдать отдельно.

@@ -86,6 +86,6 @@ icon: clipboard-list-check
 * [Как создать бота в Telegram](kak-sozdat-bota-v-telegram.md)
 * [Подключение бота или личный аккаунт к Chatterfy](podklyuchenie-bota-ili-lichnyi-akkaunt-k-chatterfy.md)
 * [Базовая настройка бота](../bazovaya-nastroika-bota.md)
-* [CRM - работа с клиентами](../../../dobro-pozhalovat/arkhitektura-sistemy/crm-rabota-s-klientami.md)
+* [CRM - работа с клиентами](/broken/spaces/AxluUgdTFxFU08qksWVa/pages/B9M897MIh5Z3ewielyBp)
 
 {% include "../../../../.gitbook/includes/start-i-obzoro-produktearkhi....md" %}

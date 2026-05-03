@@ -89,8 +89,8 @@ Delay всегда работает с учётом таймзоны бота.
 
 #### Start and overview
 
-* [О продукте](../../../../dobro-pozhalovat/o-produkte/)
-* [Архитектура системы](../../../../dobro-pozhalovat/arkhitektura-sistemy/)
+* [О продукте](/broken/spaces/AxluUgdTFxFU08qksWVa/pages/1xNei7LePsm01Rfc1hTA)
+* [Архитектура системы](/broken/spaces/AxluUgdTFxFU08qksWVa/pages/VC3YIHxc3YeutRwIqXPg)
 * [Быстрый старт](../../../bystryi-start/)
 
 #### Analytics and management
